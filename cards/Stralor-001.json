@@ -47,7 +47,7 @@
     {
       "slug": "did-donald-trump-have-sex-with-bill",
       "question": "Did Donald Trump have sex with Bill Clinton?",
-      "prob": 0.010362508371233595,
+      "prob": 0.010000000000000002,
       "resolved": null,
       "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
     },
@@ -152,7 +152,7 @@
     {
       "slug": "opus-45s-metr-time-horizon-beats-ge",
       "question": "Opus 4.5's METR time horizon beats Gemini 3.0 Pro's?",
-      "prob": 0.8526281176560082,
+      "prob": 0.8577210214171831,
       "resolved": null,
       "url": "https://manifold.markets/BenAybar/opus-45s-metr-time-horizon-beats-ge"
     },
