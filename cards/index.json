@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768380738544,
+  "updated_at": 1768380800473,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1540,7 +1540,7 @@
         {
           "slug": "will-california-billionaires-have-t",
           "question": "Will the California billionaire wealth tax pass?",
-          "prob": 0.2799999999999999,
+          "prob": 0.34261579218975874,
           "resolved": null,
           "url": "https://manifold.markets/JohnDavidPressman/will-california-billionaires-have-t"
         },
@@ -2278,7 +2278,7 @@
         {
           "slug": "will-california-billionaires-have-t",
           "question": "Will the California billionaire wealth tax pass?",
-          "prob": 0.2799999999999999,
+          "prob": 0.34261579218975874,
           "resolved": null,
           "url": "https://manifold.markets/JohnDavidPressman/will-california-billionaires-have-t"
         },
