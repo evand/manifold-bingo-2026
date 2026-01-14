@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768408787699,
+  "updated_at": 1768409148233,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -3006,6 +3006,194 @@
           "prob": 0.8972901288640915,
           "resolved": null,
           "url": "https://manifold.markets/kenakofer/will-lula-finish-his-term-as-presid"
+        }
+      ]
+    },
+    {
+      "card_id": "Cy-001",
+      "user_handle": "Cy",
+      "answer_id": "UZuslq5AQt",
+      "status": "active",
+      "win_probability": 0.4395153034421142,
+      "target_win_prob": 0.44,
+      "purchase_price": 104.58673514541056,
+      "purchase_prob": 0.49002438299633666,
+      "created_time": 1768408730860,
+      "grid": [
+        {
+          "slug": "will-chris-hipkins-lead-the-nz-labo",
+          "question": "Will Chris Hipkins lead the NZ Labour Party to the next election (probably 2026)?",
+          "prob": 0.7531582938008315,
+          "resolved": null,
+          "url": "https://manifold.markets/NcyRocks/will-chris-hipkins-lead-the-nz-labo"
+        },
+        {
+          "slug": "will-trump-and-mamdani-openly-feud",
+          "question": "Will Trump and Mamdani openly feud before February 21?",
+          "prob": 0.7093836341276185,
+          "resolved": null,
+          "url": "https://manifold.markets/Conflux/will-trump-and-mamdani-openly-feud"
+        },
+        {
+          "slug": "government-is-shutdown-in-february",
+          "question": "Government is shutdown in February 2026?",
+          "prob": 0.2494437644770062,
+          "resolved": null,
+          "url": "https://manifold.markets/robert/government-is-shutdown-in-february"
+        },
+        {
+          "slug": "soai8-a-chinese-lab-overtakes-the-u",
+          "question": "SOAI#8: A Chinese lab overtakes the US lab dominated frontier on a major leaderboard (e.g. LMArena/Artificial Analysis)",
+          "prob": 0.44947106008025245,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/soai8-a-chinese-lab-overtakes-the-u"
+        },
+        {
+          "slug": "pierre-poilievre-wins-q1-2026-leade",
+          "question": "Pierre Poilievre wins Q1 2026 leadership review?",
+          "prob": 0.8704128247817259,
+          "resolved": null,
+          "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
+        },
+        {
+          "slug": "will-the-killer-of-brian-thompson-b-Ul8zqnIndS",
+          "question": "Will the killer of Brian Thompson be found guilty of 1st degree murder by the end of 2026?",
+          "prob": 0.7319954858308507,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-the-killer-of-brian-thompson-b-Ul8zqnIndS"
+        },
+        {
+          "slug": "if-trump-is-elected-will-there-be-a-40ca39e5dcec",
+          "question": "If Trump is elected, will there be a ceasefire in Ukraine before the 2026 midterms?",
+          "prob": 0.34241787260843787,
+          "resolved": null,
+          "url": "https://manifold.markets/Arky/if-trump-is-elected-will-there-be-a-40ca39e5dcec"
+        },
+        {
+          "slug": "on-january-1-2027-a-transformerlike",
+          "question": "On January 1, 2027, a Transformer-like model will continue to hold the state-of-the-art position in most benchmark",
+          "prob": 0.8719942823799803,
+          "resolved": null,
+          "url": "https://manifold.markets/ICRainbow/on-january-1-2027-a-transformerlike"
+        },
+        {
+          "slug": "soai10-trump-issues-an-unconstituti",
+          "question": "SOAI#10: Trump issues an unconstitutional executive order to ban state AI legislation.",
+          "prob": 0.8124974812319486,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/soai10-trump-issues-an-unconstituti"
+        },
+        {
+          "slug": "did-israel-bomb-the-evacuation-rout",
+          "question": "$300M subsidy: Did Israel bomb an evacuation route?",
+          "prob": 0.49524103861185853,
+          "resolved": null,
+          "url": "https://manifold.markets/Daniel_MC/did-israel-bomb-the-evacuation-rout"
+        },
+        {
+          "slug": "will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh",
+          "question": "Will X.com be accessible in the UK on 30th June?",
+          "prob": 0.8126556916578029,
+          "resolved": null,
+          "url": "https://manifold.markets/Noit/will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh"
+        },
+        {
+          "slug": "will-the-best-public-llm-at-the-end",
+          "question": "Will the best public LLM at the end of 2025 solve more than 5 of the first 10 Project Euler problems published in 2026?",
+          "prob": 0.710668183871333,
+          "resolved": null,
+          "url": "https://manifold.markets/MatthewBarnett/will-the-best-public-llm-at-the-end"
+        },
+        {
+          "slug": "will-daniel-litt-win-his-25000-bet",
+          "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+          "prob": 0.9905686529497086,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
+        },
+        {
+          "slug": "acx-2026-will-keir-starmer-cease-to",
+          "question": "[ACX 2026] Will Keir Starmer cease to be Prime Minister of the UK during 2026?",
+          "prob": 0.4499999999999999,
+          "resolved": null,
+          "url": "https://manifold.markets/WalterMartin/acx-2026-will-keir-starmer-cease-to"
+        },
+        {
+          "slug": "will-60-minutes-run-the-postponed-i",
+          "question": "Will 60 Minutes run the postponed \"Inside CECOT\" report by June 2026?",
+          "prob": 0.5100319512766858,
+          "resolved": null,
+          "url": "https://manifold.markets/bens/will-60-minutes-run-the-postponed-i"
+        },
+        {
+          "slug": "openai-agent-continue-refusing-to-d",
+          "question": "OpenAI Agent continue refusing to do captchas by mid-2026?",
+          "prob": 0.6238856645947023,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/openai-agent-continue-refusing-to-d"
+        },
+        {
+          "slug": "will-polymarket-get-investigated-by",
+          "question": "Will Polymarket get investigated by the CFTC again before 2027?",
+          "prob": 0.248125309713153,
+          "resolved": null,
+          "url": "https://manifold.markets/NathanpmYoung/will-polymarket-get-investigated-by"
+        },
+        {
+          "slug": "kash-patel-remains-fbi-director-on",
+          "question": "Kash Patel remains FBI Director on June 30, 2026",
+          "prob": 0.41656410537673094,
+          "resolved": null,
+          "url": "https://manifold.markets/PGdCIN9/kash-patel-remains-fbi-director-on"
+        },
+        {
+          "slug": "will-ai-write-75-of-social-media-vi",
+          "question": "Will AI write 75%+ of social media view-generating posts (default to Twitter)  by EOY 2026?",
+          "prob": 0.11999999999999987,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/will-ai-write-75-of-social-media-vi"
+        },
+        {
+          "slug": "will-the-catholic-church-train-a-po",
+          "question": "Will the Catholic Church train a PopeGPT and endorse it as doctrinally sound by end of 2027?",
+          "prob": 0.05000000000000003,
+          "resolved": null,
+          "url": "https://manifold.markets/PaulHan/will-the-catholic-church-train-a-po"
+        },
+        {
+          "slug": "will-the-percentage-of-us-adults-id",
+          "question": "Will the percentage of U.S. adults identifying as Christian in the U.S. drop below 60% by the end of 2026?",
+          "prob": 0.38287192637155537,
+          "resolved": null,
+          "url": "https://manifold.markets/Dauur/will-the-percentage-of-us-adults-id"
+        },
+        {
+          "slug": "if-tiktok-is-removed-from-the-app-s",
+          "question": "If TikTok is removed from the app store, will an iPhone with TikTok installed sell for $10,000+ on eBay within 1yr?",
+          "prob": 0.05668937126818037,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/if-tiktok-is-removed-from-the-app-s"
+        },
+        {
+          "slug": "will-the-flexport-internal-predicti",
+          "question": "Will the Flexport internal prediction market on freight rates have alpha (as per their CEO)?",
+          "prob": 0.8049339997771993,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/will-the-flexport-internal-predicti"
+        },
+        {
+          "slug": "will-donald-trump-turn-80",
+          "question": "Will Donald Trump turn 80?",
+          "prob": 0.9168257572288884,
+          "resolved": null,
+          "url": "https://manifold.markets/Predictor/will-donald-trump-turn-80"
+        },
+        {
+          "slug": "biden-ranked-below-w-bush-in-next-c",
+          "question": "Biden ranked below W Bush in next C-SPAN Presidential Historians Survey",
+          "prob": 0.2,
+          "resolved": null,
+          "url": "https://manifold.markets/MartinRandall/biden-ranked-below-w-bush-in-next-c"
         }
       ]
     }
