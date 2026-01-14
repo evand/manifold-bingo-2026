@@ -1,97 +1,97 @@
 {
   "card_id": "Jack1-001",
   "user_handle": "Jack1",
-  "answer_id": "gCgz9p0Oyc",
+  "answer_id": "u9tA6LLtPZ",
   "status": "active",
-  "win_probability": 0.39978207268856447,
-  "target_win_prob": 0.4,
-  "purchase_price": 124.86076635760332,
-  "purchase_prob": 0.45055144420529436,
-  "created_time": 1768369823592,
+  "win_probability": 0.5417811998957647,
+  "target_win_prob": 0.5499999999999999,
+  "purchase_price": 67.58758488614129,
+  "purchase_prob": 0.6,
+  "created_time": 1768370161540,
   "grid": [
     {
-      "slug": "will-openais-gpt6-release-before-ro",
-      "question": "Will GPT6 release before GTA6?",
-      "prob": 0.5690233359614909,
+      "slug": "pope-leo-xiv-mentions-prediction-ma",
+      "question": "Pope Leo XIV mentions prediction markets before 2027?",
+      "prob": 0.20072084963071463,
       "resolved": null,
-      "url": "https://manifold.markets/strutheo/will-openais-gpt6-release-before-ro"
+      "url": "https://manifold.markets/shankypanky/pope-leo-xiv-mentions-prediction-ma"
     },
     {
-      "slug": "will-global-approval-of-russia-decl-0aa92b67467e",
-      "question": "Will global approval of Russia decline in 2024, according to Gallup?",
-      "prob": 0.4873807742550892,
+      "slug": "biden-ranked-below-w-bush-in-next-c",
+      "question": "Biden ranked below W Bush in next C-SPAN Presidential Historians Survey",
+      "prob": 0.2,
       "resolved": null,
-      "url": "https://manifold.markets/cash/will-global-approval-of-russia-decl-0aa92b67467e"
+      "url": "https://manifold.markets/MartinRandall/biden-ranked-below-w-bush-in-next-c"
     },
     {
-      "slug": "will-tesla-provide-an-autonomous-dr",
-      "question": "Will Tesla provide (or be included in) an autonomous ride-hailing service before the end of 2026",
-      "prob": 0.47121929625290615,
+      "slug": "workinprogress-if-either-happens-wi",
+      "question": "Will Ukraine control any of Crimea before it takes back most of Luhansk or Donetsk?",
+      "prob": 0.5649315102042866,
       "resolved": null,
-      "url": "https://manifold.markets/makoyass/will-tesla-provide-an-autonomous-dr"
+      "url": "https://manifold.markets/NathanpmYoung/workinprogress-if-either-happens-wi"
     },
     {
-      "slug": "will-twitter-lose-more-than-100-mil",
-      "question": "Will Twitter lose more than 100 million dollars on labor law-related lawsuits from Musk's Twitter tenure, before 2026?",
-      "prob": 0.6881855940086383,
+      "slug": "will-starlink-ipo-by-the-end-2026",
+      "question": "Will Starlink IPO by the end 2026?",
+      "prob": 0.12667917268587886,
       "resolved": null,
-      "url": "https://manifold.markets/ValentinGolev/will-twitter-lose-more-than-100-mil"
+      "url": "https://manifold.markets/JiaobeiMandos/will-starlink-ipo-by-the-end-2026"
     },
     {
-      "slug": "will-the-percent-of-pakistanis-in-e",
-      "question": "Will the percent of Pakistanis in extreme poverty be above 5 percent in 2023?",
-      "prob": 0.6862139189491895,
+      "slug": "will-there-be-fresh-fruitvegetables",
+      "question": "Will there be fresh fruit/vegetables advertised+verified as being sold \"microplastics-free\" in any supermarket by 2026?",
+      "prob": 0.29782164760579755,
       "resolved": null,
-      "url": "https://manifold.markets/DismalScientist/will-the-percent-of-pakistanis-in-e"
+      "url": "https://manifold.markets/AutopoieticErgodicity/will-there-be-fresh-fruitvegetables"
     },
     {
-      "slug": "if-trump-wins-will-he-appoint-anoth",
-      "question": "If Trump wins, will he appoint another SCOTUS Justice before 2027?",
-      "prob": 0.674420094044899,
+      "slug": "will-there-be-a-singleperson-unicor",
+      "question": "Will there be a single-person unicorn before 2027?",
+      "prob": 0.10792302893196108,
       "resolved": null,
-      "url": "https://manifold.markets/cantankerous/if-trump-wins-will-he-appoint-anoth"
+      "url": "https://manifold.markets/louis/will-there-be-a-singleperson-unicor"
     },
     {
-      "slug": "will-agi-be-achieved-before-ais-are",
-      "question": "Will AGI be achieved before AIs are able to smell?",
-      "prob": 0.6703087620371774,
+      "slug": "will-volodomyr-zelenskyy-be-in-powe",
+      "question": "Will Volodomyr Zelenskyy be in power at the conclusion of the Russia-Ukraine war?",
+      "prob": 0.7176114650535556,
       "resolved": null,
-      "url": "https://manifold.markets/Soli/will-agi-be-achieved-before-ais-are"
+      "url": "https://manifold.markets/njmkw/will-volodomyr-zelenskyy-be-in-powe"
     },
     {
-      "slug": "will-artificial-superintelligence-e",
-      "question": "Will artificial superintelligence exist by 2030?  [resolves N/A in 2027]",
-      "prob": 0.31382677581989504,
+      "slug": "gta-vi-released-by-may-31-2026",
+      "question": "GTA VI released by May 31, 2026?",
+      "prob": 0.014987078237549375,
       "resolved": null,
-      "url": "https://manifold.markets/EliezerYudkowsky/will-artificial-superintelligence-e"
+      "url": "https://manifold.markets/predyx_markets/gta-vi-released-by-may-31-2026"
     },
     {
-      "slug": "will-mark-meadows-change-his-plea-t",
-      "question": "Will Mark Meadows  change his plea to guilty in Fulton County?",
-      "prob": 0.09989093499240531,
+      "slug": "does-the-one-piece-treasure-binks-s",
+      "question": "Is the One Piece Treasure actually Binks' Sake?",
+      "prob": 0.2606474663490498,
       "resolved": null,
-      "url": "https://manifold.markets/BTE/will-mark-meadows-change-his-plea-t"
+      "url": "https://manifold.markets/Joshua/does-the-one-piece-treasure-binks-s"
     },
     {
-      "slug": "if-the-leftright-culture-war-comes-1cc8384e933c",
-      "question": "If the left/right culture war comes for AI before US elections, will the right be the pro-AI side?",
-      "prob": 0.6813788804036636,
+      "slug": "will-the-idf-fully-withdraw-from-ga",
+      "question": "Will the IDF fully withdraw from Gaza by EOY 2026?",
+      "prob": 0.08000000000000004,
       "resolved": null,
-      "url": "https://manifold.markets/MGG/if-the-leftright-culture-war-comes-1cc8384e933c"
+      "url": "https://manifold.markets/UnspecifiedPerson/will-the-idf-fully-withdraw-from-ga"
     },
     {
-      "slug": "1-anthropic-will-go-public-openai-w",
-      "question": "1. Anthropic will go public. OpenAI will not.",
-      "prob": 0.36716797828069114,
+      "slug": "will-norway-reach-95-electric-vehic",
+      "question": "Will Norway reach 95% electric vehicle sales in new passenger car before 2026 ?",
+      "prob": 0.7052954295662431,
       "resolved": null,
-      "url": "https://manifold.markets/HenriThunberg/1-anthropic-will-go-public-openai-w"
+      "url": "https://manifold.markets/Guillaume/will-norway-reach-95-electric-vehic"
     },
     {
-      "slug": "in-mid-2026-will-an-ai-be-able-to-g",
-      "question": "In mid 2026, will an AI be able to generate a full high-quality short film to a prompt?",
-      "prob": 0.1244462767123006,
+      "slug": "if-trump-wins-will-his-approval-rat-1j9mh20fwd",
+      "question": "If Trump wins, will his approval rating be above 40% after one year in office?",
+      "prob": 0.5,
       "resolved": null,
-      "url": "https://manifold.markets/JoshSnider/in-mid-2026-will-an-ai-be-able-to-g"
+      "url": "https://manifold.markets/Balasar/if-trump-wins-will-his-approval-rat-1j9mh20fwd"
     },
     {
       "slug": "will-daniel-litt-win-his-25000-bet",
@@ -101,88 +101,88 @@
       "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
     },
     {
-      "slug": "russian-attacks-or-invades-latvia-b",
-      "question": "Russian attacks or invades Latvia by mid 2026",
-      "prob": 0.06310241797919196,
+      "slug": "should-a-programmer-in-2027-learn-t",
+      "question": "Should a programmer in 2027 learn to touch type on a keyboard?",
+      "prob": 0.899965944624053,
       "resolved": null,
-      "url": "https://manifold.markets/Ernie/russian-attacks-or-invades-latvia-b"
+      "url": "https://manifold.markets/kenakofer/should-a-programmer-in-2027-learn-t"
     },
     {
-      "slug": "us-acquires-part-of-greenland-in-20",
-      "question": "US acquires part of Greenland in 2026?",
-      "prob": 0.24409991384147278,
+      "slug": "will-congress-pass-sweeping-deregul",
+      "question": "Will Congress pass sweeping deregulatory measures by the end of 2026?",
+      "prob": 0.6224657979371633,
       "resolved": null,
-      "url": "https://manifold.markets/predyx_markets/us-acquires-part-of-greenland-in-20"
+      "url": "https://manifold.markets/bens/will-congress-pass-sweeping-deregul"
     },
     {
-      "slug": "will-ai-doomers-turn-to-violence-by",
-      "question": "Will an AI Doomer turn to violence by the end of 2026?",
-      "prob": 0.3058135439829255,
+      "slug": "by-2027-will-it-ever-become-media-c",
+      "question": "By 2027, will it ever become media consensus that a Boeing Whistleblower died by foul play?",
+      "prob": 0.07000000000000006,
       "resolved": null,
-      "url": "https://manifold.markets/AlexanderLeCampbell/will-ai-doomers-turn-to-violence-by"
+      "url": "https://manifold.markets/LarsDoucet/by-2027-will-it-ever-become-media-c"
     },
     {
-      "slug": "will-as-many-or-more-countries-reco",
-      "question": "Will as many or more countries recognize Palestine than Israel by 2027?",
-      "prob": 0.41,
+      "slug": "will-all-previous-champions-of-the",
+      "question": "Will all previous champions of the World Cup qualify for the 2026 FIFA World Cup?",
+      "prob": 0.7401732000466863,
       "resolved": null,
-      "url": "https://manifold.markets/adssx/will-as-many-or-more-countries-reco"
+      "url": "https://manifold.markets/egroj/will-all-previous-champions-of-the"
     },
     {
-      "slug": "will-teslas-first-robotaxi-fare-be-e7f34f1d3c31",
-      "question": "Will Tesla's first robotaxi fare be sold by the end of 2026?",
-      "prob": 0.7000000000000001,
+      "slug": "will-tsla-close-above-1000-per-shar",
+      "question": "Will $TSLA close above $1000 per share by December 31 2026?",
+      "prob": 0.04091775769261922,
       "resolved": null,
-      "url": "https://manifold.markets/ZZZZZZ/will-teslas-first-robotaxi-fare-be-e7f34f1d3c31"
+      "url": "https://manifold.markets/ZZZZZZ/will-tsla-close-above-1000-per-shar"
     },
     {
-      "slug": "will-a-previous-winner-of-the-world-0c2e4c1fa9ca",
-      "question": "Will a previous winner of the World Cup win the 2026 FIFA World Cup?",
-      "prob": 0.8100000000000002,
+      "slug": "will-the-total-user-count-for-ai-ch",
+      "question": "Will the total user count for AI chatbots decline by more than a factor of 7 between now and the end of 2026?",
+      "prob": 0.09935297431981245,
       "resolved": null,
-      "url": "https://manifold.markets/egroj/will-a-previous-winner-of-the-world-0c2e4c1fa9ca"
+      "url": "https://manifold.markets/jacksonpolack/will-the-total-user-count-for-ai-ch"
     },
     {
-      "slug": "will-epic-vs-google-hold-up-on-appe",
-      "question": "Will Epic vs Google hold up on appeal?",
-      "prob": 0.8600359209676459,
+      "slug": "will-the-new-york-times-nyt-achieve",
+      "question": "Will the New York Times (NYT) achieve a favorable outcome in its copyright lawsuit against OpenAI and Microsoft?",
+      "prob": 0.78741451819573,
       "resolved": null,
-      "url": "https://manifold.markets/aashiq/will-epic-vs-google-hold-up-on-appe"
+      "url": "https://manifold.markets/Soli/will-the-new-york-times-nyt-achieve"
     },
     {
-      "slug": "biden-ranked-below-carter-in-next-c",
-      "question": "Biden ranked below Carter in next C-SPAN Presidential Historians Survey",
-      "prob": 0.58,
+      "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
+      "question": "Will Manifold solve my puzzle? (Round 3)",
+      "prob": 0.3900000000000003,
       "resolved": null,
-      "url": "https://manifold.markets/MartinRandall/biden-ranked-below-carter-in-next-c"
+      "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
     },
     {
-      "slug": "will-viktor-orban-win-the-2026-elec",
-      "question": "Will Viktor Orban remain Hungary's prime minister after the 2026 elections?",
-      "prob": 0.5817414830745895,
+      "slug": "bitcoin-below-80k-in-2026",
+      "question": "Bitcoin below $80K in 2026?",
+      "prob": 0.7899999999999999,
       "resolved": null,
-      "url": "https://manifold.markets/miklosme/will-viktor-orban-win-the-2026-elec"
+      "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
     },
     {
-      "slug": "will-chris-hipkins-lead-the-nz-labo",
-      "question": "Will Chris Hipkins lead the NZ Labour Party to the next election (probably 2026)?",
-      "prob": 0.7531582938008315,
+      "slug": "will-sam-altman-still-be-ceo-of-ope",
+      "question": "Will Sam Altman still be CEO of OpenAI at the end of 2026?",
+      "prob": 0.8896297297521029,
       "resolved": null,
-      "url": "https://manifold.markets/NcyRocks/will-chris-hipkins-lead-the-nz-labo"
+      "url": "https://manifold.markets/strutheo/will-sam-altman-still-be-ceo-of-ope"
     },
     {
-      "slug": "will-polymarket-get-investigated-by",
-      "question": "Will Polymarket get investigated by the CFTC again before 2027?",
-      "prob": 0.248125309713153,
+      "slug": "will-there-be-self-driving-taxis-in-5f5ad7fbb169",
+      "question": "Will there be self driving taxis in London, UK by the end of 2026?",
+      "prob": 0.7060173451406787,
       "resolved": null,
-      "url": "https://manifold.markets/NathanpmYoung/will-polymarket-get-investigated-by"
+      "url": "https://manifold.markets/DanEllis/will-there-be-self-driving-taxis-in-5f5ad7fbb169"
     },
     {
-      "slug": "will-60-minutes-run-the-postponed-i",
-      "question": "Will 60 Minutes run the postponed \"Inside CECOT\" report by June 2026?",
-      "prob": 0.5100319512766858,
+      "slug": "will-i-qualify-for-mop-2026",
+      "question": "Will I Qualify for MOP 2026?",
+      "prob": 0.7282908115858078,
       "resolved": null,
-      "url": "https://manifold.markets/bens/will-60-minutes-run-the-postponed-i"
+      "url": "https://manifold.markets/bjump/will-i-qualify-for-mop-2026"
     }
   ]
 }
