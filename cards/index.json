@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768394449910,
+  "updated_at": 1768394626814,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -155,7 +155,7 @@
         {
           "slug": "did-donald-trump-have-sex-with-bill",
           "question": "Did Donald Trump have sex with Bill Clinton?",
-          "prob": 0.010362508371233595,
+          "prob": 0.010000000000000002,
           "resolved": null,
           "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
         },
@@ -524,7 +524,7 @@
         {
           "slug": "did-donald-trump-have-sex-with-bill",
           "question": "Did Donald Trump have sex with Bill Clinton?",
-          "prob": 0.010362508371233595,
+          "prob": 0.010000000000000002,
           "resolved": null,
           "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
         },
