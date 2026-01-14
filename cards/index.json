@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768399722068,
+  "updated_at": 1768399744412,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2738,7 +2738,7 @@
         {
           "slug": "tesla-serves-more-fully-autonomous",
           "question": "Tesla has more fully autonomous rides than Waymo in 2026?",
-          "prob": 0.3289797312711378,
+          "prob": 0.32590805400277484,
           "resolved": null,
           "url": "https://manifold.markets/JamesGrugett/tesla-serves-more-fully-autonomous"
         },
