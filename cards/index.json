@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768398022448,
+  "updated_at": 1768398113004,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -113,7 +113,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4300000000000001,
+          "prob": 0.4276454185056376,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -426,7 +426,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4300000000000001,
+          "prob": 0.4276454185056376,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -698,7 +698,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4300000000000001,
+          "prob": 0.4276454185056376,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -1311,7 +1311,7 @@
         {
           "slug": "will-israel-or-the-united-states-la",
           "question": "Will Israel or the United States launch airstrikes against Iran before the next Israeli election?",
-          "prob": 0.7,
+          "prob": 0.7133445863361186,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-israel-or-the-united-states-la"
         }
@@ -2271,7 +2271,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4300000000000001,
+          "prob": 0.4276454185056376,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
