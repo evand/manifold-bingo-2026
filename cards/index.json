@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768374994029,
+  "updated_at": 1768375171129,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2557,7 +2557,7 @@
         {
           "slug": "us-acquires-part-of-greenland-in-20",
           "question": "US acquires part of Greenland in 2026?",
-          "prob": 0.24409991384147278,
+          "prob": 0.2339139948534867,
           "resolved": null,
           "url": "https://manifold.markets/predyx_markets/us-acquires-part-of-greenland-in-20"
         },
@@ -2947,7 +2947,7 @@
         {
           "slug": "us-acquires-part-of-greenland-in-20",
           "question": "US acquires part of Greenland in 2026?",
-          "prob": 0.24409991384147278,
+          "prob": 0.2339139948534867,
           "resolved": null,
           "url": "https://manifold.markets/predyx_markets/us-acquires-part-of-greenland-in-20"
         },
