@@ -3,7 +3,7 @@
   "user_handle": "jcb",
   "answer_id": "RZIELc2Qy8",
   "status": "active",
-  "win_probability": 0.45650990671193903,
+  "win_probability": 0.4556440915857014,
   "target_win_prob": 0.5,
   "purchase_price": 406.93210356494126,
   "purchase_prob": 0.55,
@@ -31,11 +31,11 @@
       "url": "https://manifold.markets/ManifoldPolitics/if-trump-becomes-president-will-gas-1c526c9c6b65"
     },
     {
-      "slug": "will-ai-wipe-out-humanity-by-2030-r",
-      "question": "Will AI wipe out humanity by 2030? [resolves N/A in 2027]",
-      "prob": 0.5,
+      "slug": "will-ww3-happen-before-gta6",
+      "question": "Will WW3 happen before GTA6?",
+      "prob": 0.08953206241748977,
       "resolved": null,
-      "url": "https://manifold.markets/EliezerYudkowsky/will-ai-wipe-out-humanity-by-2030-r"
+      "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
     },
     {
       "slug": "i-can-buy-a-dog-poop-picking-up-rob",
@@ -45,11 +45,11 @@
       "url": "https://manifold.markets/Ernie/i-can-buy-a-dog-poop-picking-up-rob"
     },
     {
-      "slug": "will-keir-starmers-net-favourabilit",
-      "question": "Will Keir Starmer's net favourability rating be higher at the end of 2025 than it was at the end of 2024?",
-      "prob": 0.03193548278238546,
+      "slug": "will-irans-regime-fall-in-2026",
+      "question": "Will Iran's regime fall in 2026?",
+      "prob": 0.40320302210089476,
       "resolved": null,
-      "url": "https://manifold.markets/legal_eagle/will-keir-starmers-net-favourabilit"
+      "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
     },
     {
       "slug": "will-lukashenko-still-be-the-presid-f8b990c08892",
