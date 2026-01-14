@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768395516119,
+  "updated_at": 1768395655126,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1053,7 +1053,7 @@
         {
           "slug": "will-apple-announce-a-foldable-ipho",
           "question": "Will Apple announce a foldable iPhone by the end of 2026?",
-          "prob": 0.7511156675895678,
+          "prob": 0.7590309759258099,
           "resolved": null,
           "url": "https://manifold.markets/BrunoClawfeld/will-apple-announce-a-foldable-ipho"
         },
@@ -2418,7 +2418,7 @@
         {
           "slug": "will-viktor-orban-win-the-2026-elec",
           "question": "Will Viktor Orban remain Hungary's prime minister after the 2026 elections?",
-          "prob": 0.49000000000000005,
+          "prob": 0.48000000000000004,
           "resolved": null,
           "url": "https://manifold.markets/miklosme/will-viktor-orban-win-the-2026-elec"
         },
