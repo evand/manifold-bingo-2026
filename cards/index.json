@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768398816966,
+  "updated_at": 1768398893338,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1687,7 +1687,7 @@
         {
           "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
           "question": "Will Manifold solve my puzzle? (Round 3)",
-          "prob": 0.43889966707116596,
+          "prob": 0.4600000000000001,
           "resolved": null,
           "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
         }
@@ -2125,7 +2125,7 @@
         {
           "slug": "us-government-shutdown-by-january-3",
           "question": "US government shutdown by January 31st 2026?",
-          "prob": 0.2781456140971294,
+          "prob": 0.27879214608639014,
           "resolved": null,
           "url": "https://manifold.markets/brod/us-government-shutdown-by-january-3"
         },
@@ -2599,7 +2599,7 @@
         {
           "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
           "question": "Will Manifold solve my puzzle? (Round 3)",
-          "prob": 0.43889966707116596,
+          "prob": 0.4600000000000001,
           "resolved": null,
           "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
         },
