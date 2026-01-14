@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768410248729,
+  "updated_at": 1768410611191,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -3014,7 +3014,7 @@
       "user_handle": "Cy",
       "answer_id": "UZuslq5AQt",
       "status": "active",
-      "win_probability": 0.4395153034421142,
+      "win_probability": 0.43971435598532704,
       "target_win_prob": 0.44,
       "purchase_price": 104.58673514541056,
       "purchase_prob": 0.49002438299633666,
@@ -3168,11 +3168,11 @@
           "url": "https://manifold.markets/Dauur/will-the-percentage-of-us-adults-id"
         },
         {
-          "slug": "if-tiktok-is-removed-from-the-app-s",
-          "question": "If TikTok is removed from the app store, will an iPhone with TikTok installed sell for $10,000+ on eBay within 1yr?",
-          "prob": 0.05668937126818037,
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.08953206241748977,
           "resolved": null,
-          "url": "https://manifold.markets/strutheo/if-tiktok-is-removed-from-the-app-s"
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
         },
         {
           "slug": "will-the-flexport-internal-predicti",
