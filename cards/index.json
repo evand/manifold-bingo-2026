@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768398642179,
+  "updated_at": 1768398721720,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1540,7 +1540,7 @@
         {
           "slug": "will-california-billionaires-have-t",
           "question": "Will the California billionaire wealth tax pass?",
-          "prob": 0.27999999999999997,
+          "prob": 0.24999999999999983,
           "resolved": null,
           "url": "https://manifold.markets/JohnDavidPressman/will-california-billionaires-have-t"
         },
@@ -2125,7 +2125,7 @@
         {
           "slug": "us-government-shutdown-by-january-3",
           "question": "US government shutdown by January 31st 2026?",
-          "prob": 0.2809796701091866,
+          "prob": 0.2781456140971294,
           "resolved": null,
           "url": "https://manifold.markets/brod/us-government-shutdown-by-january-3"
         },
@@ -2278,7 +2278,7 @@
         {
           "slug": "will-california-billionaires-have-t",
           "question": "Will the California billionaire wealth tax pass?",
-          "prob": 0.27999999999999997,
+          "prob": 0.24999999999999983,
           "resolved": null,
           "url": "https://manifold.markets/JohnDavidPressman/will-california-billionaires-have-t"
         },
