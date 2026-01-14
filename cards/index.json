@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768374061043,
+  "updated_at": 1768374319219,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -113,7 +113,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.424939109399371,
+          "prob": 0.4299999999999996,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -698,7 +698,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.424939109399371,
+          "prob": 0.4299999999999996,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
