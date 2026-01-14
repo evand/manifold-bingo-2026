@@ -54,7 +54,7 @@
     {
       "slug": "us-government-shutdown-by-january-3",
       "question": "US government shutdown by January 31st 2026?",
-      "prob": 0.2899999999999998,
+      "prob": 0.2809796701091866,
       "resolved": null,
       "url": "https://manifold.markets/brod/us-government-shutdown-by-january-3"
     },
@@ -166,7 +166,7 @@
     {
       "slug": "acx-2026-will-an-ai-model-reach-a-3",
       "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
-      "prob": 0.6061133269911863,
+      "prob": 0.6001536530326947,
       "resolved": null,
       "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
     },
