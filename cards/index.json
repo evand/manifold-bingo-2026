@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768402414826,
+  "updated_at": 1768402486527,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1673,7 +1673,7 @@
         {
           "slug": "sp-500-up-100-in-2026",
           "question": "S&P 500 up 100% in 2026?",
-          "prob": 0.018670972805617095,
+          "prob": 0.01806977160312846,
           "resolved": null,
           "url": "https://manifold.markets/Bayesian/sp-500-up-100-in-2026"
         },
