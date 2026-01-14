@@ -134,7 +134,7 @@ function displayCard(card) {
     document.getElementById('card-status').className =
         `status-badge ${getStatusClass(card.status)}`;
     document.getElementById('card-prob').textContent =
-        `Win Probability: ${(card.win_probability * 100).toFixed(1)}%`;
+        `Win Prob (at creation): ${(card.win_probability * 100).toFixed(1)}%`;
 
     // Bingo grid
     const gridEl = document.getElementById('bingo-grid');
