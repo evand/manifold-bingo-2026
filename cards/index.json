@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768375534550,
+  "updated_at": 1768375710856,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -113,7 +113,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4299999999999996,
+          "prob": 0.4161348082631561,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -382,7 +382,7 @@
       "user_handle": "jcb",
       "answer_id": "RZIELc2Qy8",
       "status": "active",
-      "win_probability": 0.49923230225080384,
+      "win_probability": 0.4547274266090252,
       "target_win_prob": 0.5,
       "purchase_price": 406.93210356494126,
       "purchase_prob": 0.55,
@@ -410,11 +410,11 @@
           "url": "https://manifold.markets/ManifoldPolitics/if-trump-becomes-president-will-gas-1c526c9c6b65"
         },
         {
-          "slug": "will-it-be-revealed-that-mihawk-pos",
-          "question": "Will it be revealed that Mihawk possesses Conqueror's Haki?",
-          "prob": 0.8456307310566766,
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.08953206241748977,
           "resolved": null,
-          "url": "https://manifold.markets/Disaster/will-it-be-revealed-that-mihawk-pos"
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
         },
         {
           "slug": "i-can-buy-a-dog-poop-picking-up-rob",
@@ -698,7 +698,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.4299999999999996,
+          "prob": 0.4161348082631561,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
