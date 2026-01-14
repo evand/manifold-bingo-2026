@@ -1,12 +1,12 @@
 {
-  "updated_at": 1768373702851,
+  "updated_at": 1768374061043,
   "cards": [
     {
       "card_id": "evandaniel-001",
       "user_handle": "evandaniel",
       "answer_id": "RQ55t8dcqR",
       "status": "active",
-      "win_probability": 0.4493447907731605,
+      "win_probability": 0.43771438074078384,
       "target_win_prob": 0.45,
       "purchase_price": 100,
       "purchase_prob": 0.5,
@@ -34,11 +34,11 @@
           "url": "https://manifold.markets/stratosphere/will-i-get-into-mit-dLztRELhc2"
         },
         {
-          "slug": "did-israel-bomb-the-evacuation-rout",
-          "question": "$300M subsidy: Did Israel bomb an evacuation route?",
-          "prob": 0.49524103861185853,
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.08953206241748977,
           "resolved": null,
-          "url": "https://manifold.markets/Daniel_MC/did-israel-bomb-the-evacuation-rout"
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
         },
         {
           "slug": "will-manifold-look-positively-at-th",
@@ -48,11 +48,11 @@
           "url": "https://manifold.markets/AlexanderTheGreater/will-manifold-look-positively-at-th"
         },
         {
-          "slug": "will-trump-pardon-luigi-mangione-pr",
-          "question": "Will Trump pardon Luigi Mangione prior to Jan 20, 2029?",
-          "prob": 0.010054290248910115,
+          "slug": "will-ai-wipe-out-humanity-by-2030-r",
+          "question": "Will AI wipe out humanity by 2030? [resolves N/A in 2027]",
+          "prob": 0.5,
           "resolved": null,
-          "url": "https://manifold.markets/GregRoberts/will-trump-pardon-luigi-mangione-pr"
+          "url": "https://manifold.markets/EliezerYudkowsky/will-ai-wipe-out-humanity-by-2030-r"
         },
         {
           "slug": "will-the-vla15-lyme-disease-vaccine",
@@ -113,7 +113,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.41862881181314715,
+          "prob": 0.424939109399371,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
@@ -153,11 +153,11 @@
           "url": "https://manifold.markets/BenjaminDarnell/will-the-next-justice-to-leave-the"
         },
         {
-          "slug": "will-trump-die-on-or-before-februar",
-          "question": "Will trump die on or before February 7, 2026",
-          "prob": 0.013719597329881802,
+          "slug": "did-donald-trump-have-sex-with-bill",
+          "question": "Did Donald Trump have sex with Bill Clinton?",
+          "prob": 0.010362508371233595,
           "resolved": null,
-          "url": "https://manifold.markets/PoliticalEconomyPK/will-trump-die-on-or-before-februar"
+          "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
         },
         {
           "slug": "will-russia-control-any-formerly-uk-b073e4d23255",
@@ -698,7 +698,7 @@
         {
           "slug": "will-irans-regime-fall-in-2026",
           "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.41862881181314715,
+          "prob": 0.424939109399371,
           "resolved": null,
           "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
