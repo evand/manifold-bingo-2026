@@ -3,7 +3,7 @@
   "user_handle": "JussiVilleHeiskanen",
   "answer_id": "0nhpclLPgg",
   "status": "active",
-  "win_probability": 0.5497401960590383,
+  "win_probability": 0.5387722749065313,
   "target_win_prob": 0.5499999999999999,
   "purchase_price": 329.5875832330403,
   "purchase_prob": 0.5999999999999999,
@@ -38,11 +38,11 @@
       "url": "https://manifold.markets/_deleted_/will-i-be-able-to-use-an-llm-to-bru"
     },
     {
-      "slug": "will-ai-wipe-out-humanity-by-2030-r",
-      "question": "Will AI wipe out humanity by 2030? [resolves N/A in 2027]",
-      "prob": 0.5,
+      "slug": "will-ww3-happen-before-gta6",
+      "question": "Will WW3 happen before GTA6?",
+      "prob": 0.08953206241748977,
       "resolved": null,
-      "url": "https://manifold.markets/EliezerYudkowsky/will-ai-wipe-out-humanity-by-2030-r"
+      "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
     },
     {
       "slug": "will-any-model-pass-an-undergrad-pr",
