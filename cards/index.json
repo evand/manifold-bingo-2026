@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768412066585,
+  "updated_at": 1768412433487,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2826,7 +2826,7 @@
       "user_handle": "Ziddletwix",
       "answer_id": "ll9qO99lLh",
       "status": "active",
-      "win_probability": 0.4498798063767353,
+      "win_probability": 0.4495435712437543,
       "target_win_prob": 0.45,
       "purchase_price": 500,
       "purchase_prob": 0.5,
@@ -2889,18 +2889,18 @@
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
-          "slug": "did-israel-execute-unarmed-gaza-civ",
-          "question": "Did Israel execute unarmed Gazans on December 19th for no good reason?",
-          "prob": 0.47911180879941573,
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.08953206241748977,
           "resolved": null,
-          "url": "https://manifold.markets/IsaacKing/did-israel-execute-unarmed-gaza-civ"
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
         },
         {
-          "slug": "will-israeli-lgbt-rights-be-discern",
-          "question": "Will Israeli LGBT rights be discernibly eroded by 2026?",
-          "prob": 0.2544940953499914,
+          "slug": "will-cristiano-ronaldo-ever-play-in",
+          "question": "Will Cristiano Ronaldo ever play in the UEFA Champions League again?",
+          "prob": 0.04574454155476026,
           "resolved": null,
-          "url": "https://manifold.markets/xyz/will-israeli-lgbt-rights-be-discern"
+          "url": "https://manifold.markets/itsTomekK/will-cristiano-ronaldo-ever-play-in"
         },
         {
           "slug": "will-there-be-over-10000-optimus-ro",
@@ -2959,11 +2959,11 @@
           "url": "https://manifold.markets/Ziddletwix/one-battle-after-another-wins-best"
         },
         {
-          "slug": "will-openai-pay-scientific-publishe",
-          "question": "Will OpenAI pay scientific publishers for content by EOY 2025?",
-          "prob": 0.12240422320501963,
+          "slug": "will-an-aigenerated-song-reach-1-on",
+          "question": "Will an AI-generated song reach #1 on the Billboard Hot 100 before 2027?",
+          "prob": 0.4082501843577271,
           "resolved": null,
-          "url": "https://manifold.markets/EliezerYudkowsky/will-openai-pay-scientific-publishe"
+          "url": "https://manifold.markets/Peter1169/will-an-aigenerated-song-reach-1-on"
         },
         {
           "slug": "did-donald-trump-have-sex-with-bill",
@@ -2994,11 +2994,11 @@
           "url": "https://manifold.markets/BlueDragon/if-trump-wins-will-the-us-homicide"
         },
         {
-          "slug": "will-epic-vs-google-hold-up-on-appe",
-          "question": "Will Epic vs Google hold up on appeal?",
-          "prob": 0.8600359209676459,
+          "slug": "will-this-yudkowsky-tweet-hold-up",
+          "question": "Will this Yudkowsky tweet hold up?",
+          "prob": 0.9616902390320777,
           "resolved": null,
-          "url": "https://manifold.markets/aashiq/will-epic-vs-google-hold-up-on-appe"
+          "url": "https://manifold.markets/journcy/will-this-yudkowsky-tweet-hold-up"
         },
         {
           "slug": "will-lula-finish-his-term-as-presid",
