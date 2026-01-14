@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768381592432,
+  "updated_at": 1768381613449,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2090,7 +2090,7 @@
         {
           "slug": "will-republicans-win-the-senate-in-738388924521",
           "question": "Will Republicans win the Senate in the 2026 elections?",
-          "prob": 0.65,
+          "prob": 0.6500000000000001,
           "resolved": null,
           "url": "https://manifold.markets/AndrewG/will-republicans-win-the-senate-in-738388924521"
         },
