@@ -1,0 +1,188 @@
+{
+  "card_id": "nikki-001",
+  "user_handle": "nikki",
+  "answer_id": "cuzgAS8u2p",
+  "status": "active",
+  "win_probability": 0.4539624113004481,
+  "target_win_prob": 0.45,
+  "purchase_price": 500,
+  "purchase_prob": 0.5,
+  "created_time": 1768424380907,
+  "grid": [
+    {
+      "slug": "will-johnny-depp-return-to-pirates",
+      "question": "Will Johnny Depp return to Pirates of the Caribbean 6?",
+      "prob": 0.3800000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/Base/will-johnny-depp-return-to-pirates"
+    },
+    {
+      "slug": "by-march-2026-will-3-prominent-us-p",
+      "question": "By March 2026, will 3+ prominent US politicians advocate for banning open-weight AI models?",
+      "prob": 0.19419855131764707,
+      "resolved": null,
+      "url": "https://manifold.markets/CharlesFoster/by-march-2026-will-3-prominent-us-p"
+    },
+    {
+      "slug": "if-trump-wins-will-marijuana-be-fed",
+      "question": "If Trump wins, will marijuana be federally rescheduled before the 2026 midterms?",
+      "prob": 0.7196001730807932,
+      "resolved": null,
+      "url": "https://manifold.markets/BlueDragon/if-trump-wins-will-marijuana-be-fed"
+    },
+    {
+      "slug": "will-elon-musk-successfully-defeat",
+      "question": "Will Elon Musk successfully defeat at least 5 Republicans in 2026?",
+      "prob": 0.09732551283022656,
+      "resolved": null,
+      "url": "https://manifold.markets/nikki/will-elon-musk-successfully-defeat"
+    },
+    {
+      "slug": "will-the-russiaukraine-war-end-befo-NN0qZO8E6t",
+      "question": "Will the Russia-Ukraine war end before the end of 2026?",
+      "prob": 0.4486200546779515,
+      "resolved": null,
+      "url": "https://manifold.markets/spider/will-the-russiaukraine-war-end-befo-NN0qZO8E6t"
+    },
+    {
+      "slug": "by-eoy-2026-will-iphones-have-an-ai",
+      "question": "By EOY 2026, will iPhones have an AI that has access to and remembers everything you did on your phone?",
+      "prob": 0.3125734399955845,
+      "resolved": null,
+      "url": "https://manifold.markets/ZviMowshowitz/by-eoy-2026-will-iphones-have-an-ai"
+    },
+    {
+      "slug": "will-manifold-users-feel-that-their",
+      "question": "Will Manifold users \"feel that their life is better for using Sora\" in 6 months?",
+      "prob": 0.3656035741737573,
+      "resolved": null,
+      "url": "https://manifold.markets/CDBiddulph/will-manifold-users-feel-that-their"
+    },
+    {
+      "slug": "at-least-one-of-the-most-powerful-n-07fd4c20e75f",
+      "question": "At least one of the most powerful neural nets at end of 2026 will be trained using 10^27 FLOPs",
+      "prob": 0.8352465195767573,
+      "resolved": null,
+      "url": "https://manifold.markets/Amaryllis/at-least-one-of-the-most-powerful-n-07fd4c20e75f"
+    },
+    {
+      "slug": "will-starship-make-orbit-on-first-a",
+      "question": "Will Starship make orbit on first attempt?",
+      "prob": 0.8937405382519353,
+      "resolved": null,
+      "url": "https://manifold.markets/BrianOlson/will-starship-make-orbit-on-first-a"
+    },
+    {
+      "slug": "acx-2026-will-an-ai-model-reach-a-3",
+      "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
+      "prob": 0.6362765713752897,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
+    },
+    {
+      "slug": "will-the-war-in-ukraine-end-before-0b0a5ac6c165",
+      "question": "Will the war in Ukraine end before 2027?",
+      "prob": 0.41938483015681394,
+      "resolved": null,
+      "url": "https://manifold.markets/asmith/will-the-war-in-ukraine-end-before-0b0a5ac6c165"
+    },
+    {
+      "slug": "will-i-drop-out-from-minerva-univer",
+      "question": "Will I drop out of Minerva University by 2027?",
+      "prob": 0.593967366337527,
+      "resolved": null,
+      "url": "https://manifold.markets/iatskar/will-i-drop-out-from-minerva-univer"
+    },
+    {
+      "slug": "will-daniel-litt-win-his-25000-bet",
+      "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+      "prob": 0.9905686529497086,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
+    },
+    {
+      "slug": "will-i-get-married-by-2027",
+      "question": "Will I get married by 2027?",
+      "prob": 0.5124962205681848,
+      "resolved": null,
+      "url": "https://manifold.markets/NcyRocks/will-i-get-married-by-2027"
+    },
+    {
+      "slug": "will-the-idf-fully-withdraw-from-ga",
+      "question": "Will the IDF fully withdraw from Gaza by EOY 2026?",
+      "prob": 0.08000000000000004,
+      "resolved": null,
+      "url": "https://manifold.markets/UnspecifiedPerson/will-the-idf-fully-withdraw-from-ga"
+    },
+    {
+      "slug": "will-ai-wipe-out-humanity-before-th-f80d307a152f",
+      "question": "Will AI wipe out humanity before the year 2027?",
+      "prob": 0.010000000000000012,
+      "resolved": null,
+      "url": "https://manifold.markets/Teddy/will-ai-wipe-out-humanity-before-th-f80d307a152f"
+    },
+    {
+      "slug": "will-xi-jinping-cease-to-be-chinas",
+      "question": "Will Xi Jinping cease to be China's leader before the end of 2026?",
+      "prob": 0.06854292599259937,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-xi-jinping-cease-to-be-chinas"
+    },
+    {
+      "slug": "one-battle-after-another-wins-best",
+      "question": "\"One Battle After Another\" wins Best Picture?",
+      "prob": 0.8050485822178862,
+      "resolved": null,
+      "url": "https://manifold.markets/Ziddletwix/one-battle-after-another-wins-best"
+    },
+    {
+      "slug": "will-ai-beat-top-magic-the-gatherin",
+      "question": "Will AI beat top Magic the Gathering human player before the end of 2026?",
+      "prob": 0.14740926878633606,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/will-ai-beat-top-magic-the-gatherin"
+    },
+    {
+      "slug": "will-trump-significantly-expand-hig",
+      "question": "Will Trump significantly expand high-skill immigration by the end of 2026?",
+      "prob": 0.1698651584756839,
+      "resolved": null,
+      "url": "https://manifold.markets/JamesGrugett/will-trump-significantly-expand-hig"
+    },
+    {
+      "slug": "will-kalshi-beat-polymarket",
+      "question": "Will Kalshi beat Polymarket?",
+      "prob": 0.4615013680726879,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/will-kalshi-beat-polymarket"
+    },
+    {
+      "slug": "will-this-tweet-hold-up-starship-wi",
+      "question": "will this tweet hold up: Starship will fly to Mars in 24 months [27 Oct, 2026]",
+      "prob": 0.06713627851404466,
+      "resolved": null,
+      "url": "https://manifold.markets/shankypanky/will-this-tweet-hold-up-starship-wi"
+    },
+    {
+      "slug": "will-vladimir-putin-be-in-power-at",
+      "question": "Will Vladimir Putin be in power at the conclusion of the Russia-Ukraine war?",
+      "prob": 0.8228553239403644,
+      "resolved": null,
+      "url": "https://manifold.markets/njmkw/will-vladimir-putin-be-in-power-at"
+    },
+    {
+      "slug": "will-a-gpt4-level-efficient-hrm-bas",
+      "question": "Will a GPT-4 level efficient HRM based language model be released before Feb 2026? [Details in description]",
+      "prob": 0.05000000000000005,
+      "resolved": null,
+      "url": "https://manifold.markets/Jasonb/will-a-gpt4-level-efficient-hrm-bas"
+    },
+    {
+      "slug": "will-we-have-an-ai-generated-resear-80b9af6cfd09",
+      "question": "Will we have an AI generated research paper accepted to > 1 top ML conference by 2027?",
+      "prob": 0.5972396820960791,
+      "resolved": null,
+      "url": "https://manifold.markets/_deleted_/will-we-have-an-ai-generated-resear-80b9af6cfd09"
+    }
+  ]
+}

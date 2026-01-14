@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768424319109,
+  "updated_at": 1768431668258,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -382,7 +382,7 @@
       "user_handle": "jcb",
       "answer_id": "RZIELc2Qy8",
       "status": "active",
-      "win_probability": 0.4556440915857014,
+      "win_probability": 0.5073297444078299,
       "target_win_prob": 0.5,
       "purchase_price": 406.93210356494126,
       "purchase_prob": 0.55,
@@ -396,11 +396,11 @@
           "url": "https://manifold.markets/NathanpmYoung/will-tesla-have-more-autonomous-veh"
         },
         {
-          "slug": "bitcoin-below-80k-in-2026",
-          "question": "Bitcoin below $80K in 2026?",
-          "prob": 0.7899999999999999,
+          "slug": "will-germanys-real-gdp-grow-in-2025",
+          "question": "Will Germany\u2018s economy (real GDP) grow in 2025?",
+          "prob": 0.7882087588180545,
           "resolved": null,
-          "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
+          "url": "https://manifold.markets/Gideon37/will-germanys-real-gdp-grow-in-2025"
         },
         {
           "slug": "if-trump-becomes-president-will-gas-1c526c9c6b65",
@@ -410,25 +410,25 @@
           "url": "https://manifold.markets/ManifoldPolitics/if-trump-becomes-president-will-gas-1c526c9c6b65"
         },
         {
-          "slug": "will-ww3-happen-before-gta6",
-          "question": "Will WW3 happen before GTA6?",
-          "prob": 0.08953206241748977,
+          "slug": "will-minecraft-still-be-the-bestsel",
+          "question": "Will Minecraft still be the best-selling video game by the end of 2026?",
+          "prob": 0.8872538417842107,
           "resolved": null,
-          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
+          "url": "https://manifold.markets/vberlier/will-minecraft-still-be-the-bestsel"
         },
         {
-          "slug": "i-can-buy-a-dog-poop-picking-up-rob",
-          "question": "I can buy a dog poop picking up robot on Amazon before 2028",
-          "prob": 0.6926967111283018,
+          "slug": "will-the-us-government-conduct-mili",
+          "question": "Will the US Government conduct military operations against 8 or more countries in 2026?",
+          "prob": 0.6808176780831379,
           "resolved": null,
-          "url": "https://manifold.markets/Ernie/i-can-buy-a-dog-poop-picking-up-rob"
+          "url": "https://manifold.markets/CivilizedGuy/will-the-us-government-conduct-mili"
         },
         {
-          "slug": "will-irans-regime-fall-in-2026",
-          "question": "Will Iran's regime fall in 2026?",
-          "prob": 0.3822043655494363,
+          "slug": "will-kendu-inu-reach-100b-mc-in-nex",
+          "question": "Will $Kendu reach 100B MC in next bull run?",
+          "prob": 0.03110172469913894,
           "resolved": null,
-          "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
+          "url": "https://manifold.markets/KenduJeremy123/will-kendu-inu-reach-100b-mc-in-nex"
         },
         {
           "slug": "will-lukashenko-still-be-the-presid-f8b990c08892",
@@ -438,32 +438,32 @@
           "url": "https://manifold.markets/asmith/will-lukashenko-still-be-the-presid-f8b990c08892"
         },
         {
-          "slug": "will-there-be-official-peace-talks",
-          "question": "Will there be official peace talks involving both Putin and Zelenskyy before Aug 2026?",
-          "prob": 0.35868500053680336,
+          "slug": "will-russia-conduct-a-nuclear-weapo-5194a1fded40",
+          "question": "Will Russia conduct a nuclear weapon test on Novaya Zemlya archipelago by 2027?",
+          "prob": 0.48468305751049745,
           "resolved": null,
-          "url": "https://manifold.markets/GregF/will-there-be-official-peace-talks"
+          "url": "https://manifold.markets/KongoLandwalker/will-russia-conduct-a-nuclear-weapo-5194a1fded40"
         },
         {
-          "slug": "russian-crewed-aircraft-shot-down-i",
-          "question": "Russian crewed aircraft shot down in NATO airspace by 2026-03-19?",
-          "prob": 0.09685586959760874,
+          "slug": "will-a-movie-or-tv-series-based-on",
+          "question": "Will a movie or TV series based on a book by Brandon Sanderson be released prior to 2027?",
+          "prob": 0.04241208146203497,
           "resolved": null,
-          "url": "https://manifold.markets/EvanDaniel/russian-crewed-aircraft-shot-down-i"
+          "url": "https://manifold.markets/sortwie/will-a-movie-or-tv-series-based-on"
         },
         {
-          "slug": "will-12-of-people-in-a-representati",
-          "question": "will >=1/2 of people in a representative study be found to have no or minimal internal monologue?",
-          "prob": 0.1961489146809399,
+          "slug": "conditional-on-republican-trifecta-db9c74952cc9",
+          "question": "Conditional on Republican trifecta: will prescribing abortion pills be a US federal felony at the end of December 2026?",
+          "prob": 0.08989199634721347,
           "resolved": null,
-          "url": "https://manifold.markets/alok/will-12-of-people-in-a-representati"
+          "url": "https://manifold.markets/MattLashofSullivan/conditional-on-republican-trifecta-db9c74952cc9"
         },
         {
-          "slug": "by-the-end-of-the-ukraine-war-crime",
-          "question": "By the end of the Ukraine war Crimea will be a part of Ukraine again?",
-          "prob": 0.09534718894449427,
+          "slug": "will-openai-employ-more-people-on-8",
+          "question": "Will OpenAI employ more people on 8/1/26 than it does on 8/1/24?",
+          "prob": 0.8336587524800192,
           "resolved": null,
-          "url": "https://manifold.markets/tobid/by-the-end-of-the-ukraine-war-crime"
+          "url": "https://manifold.markets/ZviMowshowitz/will-openai-employ-more-people-on-8"
         },
         {
           "slug": "will-kompany-coach-bayern-munich-fo",
@@ -480,11 +480,11 @@
           "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
         },
         {
-          "slug": "will-we-have-end-to-end-ai-generate-3bc444228941",
-          "question": "Will we have end to end AI generated anime series by the end of 2026?",
-          "prob": 0.6618772010270982,
+          "slug": "will-russia-control-any-formerly-uk-b073e4d23255",
+          "question": "At the end of the war, will Russia control any formerly Ukrainian territory they didn\u2019t control at the start?",
+          "prob": 0.896263572378623,
           "resolved": null,
-          "url": "https://manifold.markets/_deleted_/will-we-have-end-to-end-ai-generate-3bc444228941"
+          "url": "https://manifold.markets/njmkw/will-russia-control-any-formerly-uk-b073e4d23255"
         },
         {
           "slug": "will-deepseeks-next-reasoning-model",
@@ -508,32 +508,32 @@
           "url": "https://manifold.markets/itsTomekK/will-cristiano-ronaldo-or-leo-messi"
         },
         {
-          "slug": "will-much-ai-research-be-nationaliz",
-          "question": "Will much AI research be nationalized by 2027?",
-          "prob": 0.16038901160700988,
+          "slug": "does-the-one-piece-treasure-binks-s",
+          "question": "Is the One Piece Treasure actually Binks' Sake?",
+          "prob": 0.2606474663490498,
           "resolved": null,
-          "url": "https://manifold.markets/JamieWahls/will-much-ai-research-be-nationaliz"
+          "url": "https://manifold.markets/Joshua/does-the-one-piece-treasure-binks-s"
         },
         {
-          "slug": "will-k218b-be-generally-agreed-to-h",
-          "question": "Will K2-18b be generally agreed to harbor alien life by 2027?",
-          "prob": 0.060599366990060174,
+          "slug": "will-an-aigenerated-song-reach-1-on",
+          "question": "Will an AI-generated song reach #1 on the Billboard Hot 100 before 2027?",
+          "prob": 0.4082501843577271,
           "resolved": null,
-          "url": "https://manifold.markets/jonsimon/will-k218b-be-generally-agreed-to-h"
+          "url": "https://manifold.markets/Peter1169/will-an-aigenerated-song-reach-1-on"
         },
         {
-          "slug": "did-donald-trump-have-sex-with-bill",
-          "question": "Did Donald Trump have sex with Bill Clinton?",
-          "prob": 0.010000000000000002,
+          "slug": "will-trump-wins-the-nobel-peace-pri",
+          "question": "Will Trump wins the Nobel Peace Prize in 2026? [High Liquidity]",
+          "prob": 0.06930560780801577,
           "resolved": null,
-          "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
+          "url": "https://manifold.markets/AmmonLam/will-trump-wins-the-nobel-peace-pri"
         },
         {
-          "slug": "will-the-dome-of-the-rock-in-jerusa",
-          "question": "Will the Dome of the Rock in Jerusalem be destroyed by the end of Netanyahu's current term?",
-          "prob": 0.025797344135331312,
+          "slug": "will-gwern-publish-a-standalone-boo",
+          "question": "Will Gwern publish a standalone book in print form by December 31, 2026?",
+          "prob": 0.18915653969632554,
           "resolved": null,
-          "url": "https://manifold.markets/MattF/will-the-dome-of-the-rock-in-jerusa"
+          "url": "https://manifold.markets/MattF/will-gwern-publish-a-standalone-boo"
         },
         {
           "slug": "will-the-democrats-win-a-majority-i-ClQ6g6lntn",
@@ -550,18 +550,18 @@
           "url": "https://manifold.markets/JoshuaWilkes/will-nigel-farage-become-leader-of"
         },
         {
-          "slug": "will-openai-reach-a-valuation-of-60",
-          "question": "Will OpenAI be valued at $600B by mid-2026?",
-          "prob": 0.8681984550865779,
+          "slug": "will-my-startup-spike-intelligence",
+          "question": "Will my startup RESMP.DEV become a unicorn, over 1 billion USD market cap, before the the end of 2026?",
+          "prob": 0.03276569988364485,
           "resolved": null,
-          "url": "https://manifold.markets/JoshYou/will-openai-reach-a-valuation-of-60"
+          "url": "https://manifold.markets/Kearm20/will-my-startup-spike-intelligence"
         },
         {
-          "slug": "us-defaults-on-debt-held-by-china-b",
-          "question": "US defaults on debt held by China before 2027?",
-          "prob": 0.02445300570387052,
+          "slug": "will-cristiano-ronaldo-ever-play-in",
+          "question": "Will Cristiano Ronaldo ever play in the UEFA Champions League again?",
+          "prob": 0.04574454155476026,
           "resolved": null,
-          "url": "https://manifold.markets/SG/us-defaults-on-debt-held-by-china-b"
+          "url": "https://manifold.markets/itsTomekK/will-cristiano-ronaldo-ever-play-in"
         }
       ]
     },
@@ -3194,6 +3194,570 @@
           "prob": 0.2,
           "resolved": null,
           "url": "https://manifold.markets/MartinRandall/biden-ranked-below-w-bush-in-next-c"
+        }
+      ]
+    },
+    {
+      "card_id": "nikki-001",
+      "user_handle": "nikki",
+      "answer_id": "cuzgAS8u2p",
+      "status": "active",
+      "win_probability": 0.4539624113004481,
+      "target_win_prob": 0.45,
+      "purchase_price": 500,
+      "purchase_prob": 0.5,
+      "created_time": 1768424380907,
+      "grid": [
+        {
+          "slug": "will-johnny-depp-return-to-pirates",
+          "question": "Will Johnny Depp return to Pirates of the Caribbean 6?",
+          "prob": 0.3800000000000001,
+          "resolved": null,
+          "url": "https://manifold.markets/Base/will-johnny-depp-return-to-pirates"
+        },
+        {
+          "slug": "by-march-2026-will-3-prominent-us-p",
+          "question": "By March 2026, will 3+ prominent US politicians advocate for banning open-weight AI models?",
+          "prob": 0.19419855131764707,
+          "resolved": null,
+          "url": "https://manifold.markets/CharlesFoster/by-march-2026-will-3-prominent-us-p"
+        },
+        {
+          "slug": "if-trump-wins-will-marijuana-be-fed",
+          "question": "If Trump wins, will marijuana be federally rescheduled before the 2026 midterms?",
+          "prob": 0.7196001730807932,
+          "resolved": null,
+          "url": "https://manifold.markets/BlueDragon/if-trump-wins-will-marijuana-be-fed"
+        },
+        {
+          "slug": "will-elon-musk-successfully-defeat",
+          "question": "Will Elon Musk successfully defeat at least 5 Republicans in 2026?",
+          "prob": 0.09732551283022656,
+          "resolved": null,
+          "url": "https://manifold.markets/nikki/will-elon-musk-successfully-defeat"
+        },
+        {
+          "slug": "will-the-russiaukraine-war-end-befo-NN0qZO8E6t",
+          "question": "Will the Russia-Ukraine war end before the end of 2026?",
+          "prob": 0.4486200546779515,
+          "resolved": null,
+          "url": "https://manifold.markets/spider/will-the-russiaukraine-war-end-befo-NN0qZO8E6t"
+        },
+        {
+          "slug": "by-eoy-2026-will-iphones-have-an-ai",
+          "question": "By EOY 2026, will iPhones have an AI that has access to and remembers everything you did on your phone?",
+          "prob": 0.3125734399955845,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/by-eoy-2026-will-iphones-have-an-ai"
+        },
+        {
+          "slug": "will-manifold-users-feel-that-their",
+          "question": "Will Manifold users \"feel that their life is better for using Sora\" in 6 months?",
+          "prob": 0.3656035741737573,
+          "resolved": null,
+          "url": "https://manifold.markets/CDBiddulph/will-manifold-users-feel-that-their"
+        },
+        {
+          "slug": "at-least-one-of-the-most-powerful-n-07fd4c20e75f",
+          "question": "At least one of the most powerful neural nets at end of 2026 will be trained using 10^27 FLOPs",
+          "prob": 0.8352465195767573,
+          "resolved": null,
+          "url": "https://manifold.markets/Amaryllis/at-least-one-of-the-most-powerful-n-07fd4c20e75f"
+        },
+        {
+          "slug": "will-starship-make-orbit-on-first-a",
+          "question": "Will Starship make orbit on first attempt?",
+          "prob": 0.8937405382519353,
+          "resolved": null,
+          "url": "https://manifold.markets/BrianOlson/will-starship-make-orbit-on-first-a"
+        },
+        {
+          "slug": "acx-2026-will-an-ai-model-reach-a-3",
+          "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
+          "prob": 0.6362765713752897,
+          "resolved": null,
+          "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
+        },
+        {
+          "slug": "will-the-war-in-ukraine-end-before-0b0a5ac6c165",
+          "question": "Will the war in Ukraine end before 2027?",
+          "prob": 0.41938483015681394,
+          "resolved": null,
+          "url": "https://manifold.markets/asmith/will-the-war-in-ukraine-end-before-0b0a5ac6c165"
+        },
+        {
+          "slug": "will-i-drop-out-from-minerva-univer",
+          "question": "Will I drop out of Minerva University by 2027?",
+          "prob": 0.593967366337527,
+          "resolved": null,
+          "url": "https://manifold.markets/iatskar/will-i-drop-out-from-minerva-univer"
+        },
+        {
+          "slug": "will-daniel-litt-win-his-25000-bet",
+          "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+          "prob": 0.9905686529497086,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
+        },
+        {
+          "slug": "will-i-get-married-by-2027",
+          "question": "Will I get married by 2027?",
+          "prob": 0.5124962205681848,
+          "resolved": null,
+          "url": "https://manifold.markets/NcyRocks/will-i-get-married-by-2027"
+        },
+        {
+          "slug": "will-the-idf-fully-withdraw-from-ga",
+          "question": "Will the IDF fully withdraw from Gaza by EOY 2026?",
+          "prob": 0.08000000000000004,
+          "resolved": null,
+          "url": "https://manifold.markets/UnspecifiedPerson/will-the-idf-fully-withdraw-from-ga"
+        },
+        {
+          "slug": "will-ai-wipe-out-humanity-before-th-f80d307a152f",
+          "question": "Will AI wipe out humanity before the year 2027?",
+          "prob": 0.010000000000000012,
+          "resolved": null,
+          "url": "https://manifold.markets/Teddy/will-ai-wipe-out-humanity-before-th-f80d307a152f"
+        },
+        {
+          "slug": "will-xi-jinping-cease-to-be-chinas",
+          "question": "Will Xi Jinping cease to be China's leader before the end of 2026?",
+          "prob": 0.06854292599259937,
+          "resolved": null,
+          "url": "https://manifold.markets/cash/will-xi-jinping-cease-to-be-chinas"
+        },
+        {
+          "slug": "one-battle-after-another-wins-best",
+          "question": "\"One Battle After Another\" wins Best Picture?",
+          "prob": 0.8050485822178862,
+          "resolved": null,
+          "url": "https://manifold.markets/Ziddletwix/one-battle-after-another-wins-best"
+        },
+        {
+          "slug": "will-ai-beat-top-magic-the-gatherin",
+          "question": "Will AI beat top Magic the Gathering human player before the end of 2026?",
+          "prob": 0.14740926878633606,
+          "resolved": null,
+          "url": "https://manifold.markets/AmmonLam/will-ai-beat-top-magic-the-gatherin"
+        },
+        {
+          "slug": "will-trump-significantly-expand-hig",
+          "question": "Will Trump significantly expand high-skill immigration by the end of 2026?",
+          "prob": 0.1698651584756839,
+          "resolved": null,
+          "url": "https://manifold.markets/JamesGrugett/will-trump-significantly-expand-hig"
+        },
+        {
+          "slug": "will-kalshi-beat-polymarket",
+          "question": "Will Kalshi beat Polymarket?",
+          "prob": 0.4615013680726879,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-kalshi-beat-polymarket"
+        },
+        {
+          "slug": "will-this-tweet-hold-up-starship-wi",
+          "question": "will this tweet hold up: Starship will fly to Mars in 24 months [27 Oct, 2026]",
+          "prob": 0.06713627851404466,
+          "resolved": null,
+          "url": "https://manifold.markets/shankypanky/will-this-tweet-hold-up-starship-wi"
+        },
+        {
+          "slug": "will-vladimir-putin-be-in-power-at",
+          "question": "Will Vladimir Putin be in power at the conclusion of the Russia-Ukraine war?",
+          "prob": 0.8228553239403644,
+          "resolved": null,
+          "url": "https://manifold.markets/njmkw/will-vladimir-putin-be-in-power-at"
+        },
+        {
+          "slug": "will-a-gpt4-level-efficient-hrm-bas",
+          "question": "Will a GPT-4 level efficient HRM based language model be released before Feb 2026? [Details in description]",
+          "prob": 0.05000000000000005,
+          "resolved": null,
+          "url": "https://manifold.markets/Jasonb/will-a-gpt4-level-efficient-hrm-bas"
+        },
+        {
+          "slug": "will-we-have-an-ai-generated-resear-80b9af6cfd09",
+          "question": "Will we have an AI generated research paper accepted to > 1 top ML conference by 2027?",
+          "prob": 0.5972396820960791,
+          "resolved": null,
+          "url": "https://manifold.markets/_deleted_/will-we-have-an-ai-generated-resear-80b9af6cfd09"
+        }
+      ]
+    },
+    {
+      "card_id": "121-002",
+      "user_handle": "121",
+      "answer_id": "8OUNdsPhhC",
+      "status": "active",
+      "win_probability": 0.5498683834612517,
+      "target_win_prob": 0.5499999999999999,
+      "purchase_price": 329.58757178682066,
+      "purchase_prob": 0.6,
+      "created_time": 1768424380929,
+      "grid": [
+        {
+          "slug": "will-we-have-a-popular-llm-finetune-5ca89a8e945a",
+          "question": "Will we have a popular LLM fine-tuned on people's personal texts by June 1, 2026?",
+          "prob": 0.4734766378904419,
+          "resolved": null,
+          "url": "https://manifold.markets/_deleted_/will-we-have-a-popular-llm-finetune-5ca89a8e945a"
+        },
+        {
+          "slug": "will-putin-still-be-in-power-by-the",
+          "question": "Will Putin still be in power by the end of 2026?",
+          "prob": 0.9133764714488695,
+          "resolved": null,
+          "url": "https://manifold.markets/NADZOR/will-putin-still-be-in-power-by-the"
+        },
+        {
+          "slug": "will-chat-gpt-6-release-before-the",
+          "question": "Will Chat GPT 6 release before the end of 2026?",
+          "prob": 0.5455370184002213,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-chat-gpt-6-release-before-the"
+        },
+        {
+          "slug": "chinas-rebar-failure-rate-below-20",
+          "question": "China's rebar failure rate below 20% in 2025 national quality check?",
+          "prob": 0.9427917903538701,
+          "resolved": null,
+          "url": "https://manifold.markets/MikhailTal/chinas-rebar-failure-rate-below-20"
+        },
+        {
+          "slug": "biden-ranked-below-carter-in-next-c",
+          "question": "Biden ranked below Carter in next C-SPAN Presidential Historians Survey",
+          "prob": 0.58,
+          "resolved": null,
+          "url": "https://manifold.markets/MartinRandall/biden-ranked-below-carter-in-next-c"
+        },
+        {
+          "slug": "us-recession-in-2026",
+          "question": "US recession in 2026?",
+          "prob": 0.23422267051525963,
+          "resolved": null,
+          "url": "https://manifold.markets/brod/us-recession-in-2026"
+        },
+        {
+          "slug": "has-israel-used-recordings-of-cryin",
+          "question": "Has Israel used recordings of crying children or distressed women to lure Palestinians out of hiding?",
+          "prob": 0.14420838033850047,
+          "resolved": null,
+          "url": "https://manifold.markets/Panfilo/has-israel-used-recordings-of-cryin"
+        },
+        {
+          "slug": "will-mitch-mcconnell-complete-his-t",
+          "question": "Will Mitch McConnell complete his current term as Senator from Kentucky?",
+          "prob": 0.7461451633296562,
+          "resolved": null,
+          "url": "https://manifold.markets/vgnsh/will-mitch-mcconnell-complete-his-t"
+        },
+        {
+          "slug": "movietv-show-about-sam-altmans-firi",
+          "question": "Movie/TV show about Sam Altman's Firing from OpenAI / Battle of the Board, before 2027?",
+          "prob": 0.7600045433852157,
+          "resolved": null,
+          "url": "https://manifold.markets/Bayesian/movietv-show-about-sam-altmans-firi"
+        },
+        {
+          "slug": "will-the-first-ai-model-that-satura",
+          "question": "Will the first AI model that saturates Humanity's Last Exam be employable as a software engineer?",
+          "prob": 0.44999999999999984,
+          "resolved": null,
+          "url": "https://manifold.markets/MilfordHammerschmidt/will-the-first-ai-model-that-satura"
+        },
+        {
+          "slug": "will-minecraft-still-be-the-bestsel",
+          "question": "Will Minecraft still be the best-selling video game by the end of 2026?",
+          "prob": 0.8872538417842107,
+          "resolved": null,
+          "url": "https://manifold.markets/vberlier/will-minecraft-still-be-the-bestsel"
+        },
+        {
+          "slug": "will-hugh-jackman-appear-in-avenger",
+          "question": "Will Hugh Jackman appear in \"Avengers: Secret Wars\"?",
+          "prob": 0.5543376916375284,
+          "resolved": null,
+          "url": "https://manifold.markets/NcyRocks/will-hugh-jackman-appear-in-avenger"
+        },
+        {
+          "slug": "will-daniel-litt-win-his-25000-bet",
+          "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+          "prob": 0.9905686529497086,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
+        },
+        {
+          "slug": "will-governor-kathy-hochul-complete",
+          "question": "Will Kathy Hochul complete her current term in office as Governor of NY?",
+          "prob": 0.9512428145522547,
+          "resolved": null,
+          "url": "https://manifold.markets/AndyMartin/will-governor-kathy-hochul-complete"
+        },
+        {
+          "slug": "will-the-us-government-declare-a-ne-dPpsg0lgER",
+          "question": "Will the US government declare a new holiday in memory of Charlie Kirk?",
+          "prob": 0.025117097940677693,
+          "resolved": null,
+          "url": "https://manifold.markets/Panfilo/will-the-us-government-declare-a-ne-dPpsg0lgER"
+        },
+        {
+          "slug": "will-costcos-in-us-raise-the-price-19039ae96bcc",
+          "question": "Will Costcos in US raise the price of their hot dog and soda combo above $1.50 before the end of 2026?",
+          "prob": 0.05560401900478189,
+          "resolved": null,
+          "url": "https://manifold.markets/benjaminIkuta/will-costcos-in-us-raise-the-price-19039ae96bcc"
+        },
+        {
+          "slug": "will-a-republican-win-the-florida-g",
+          "question": "Will a Republican win the Florida governorship in 2026?",
+          "prob": 0.8604002081265799,
+          "resolved": null,
+          "url": "https://manifold.markets/Gabrielle/will-a-republican-win-the-florida-g"
+        },
+        {
+          "slug": "will-tesla-offer-a-robotaxi-service-hld91s7u3r",
+          "question": "Will Tesla offer a Robo-Taxi service in California by the end of 2026?",
+          "prob": 0.3300000000000001,
+          "resolved": null,
+          "url": "https://manifold.markets/DavidFWatson/will-tesla-offer-a-robotaxi-service-hld91s7u3r"
+        },
+        {
+          "slug": "will-spacex-ipo-before-the-end-of-2",
+          "question": "Will SpaceX IPO before the end of 2026?",
+          "prob": 0.5842947114970994,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-spacex-ipo-before-the-end-of-2"
+        },
+        {
+          "slug": "will-rocket-lab-successfully-send-a",
+          "question": "Will Rocket Lab successfully send an atmospheric probe to Venus by the end of 2026?",
+          "prob": 0.15957581914711427,
+          "resolved": null,
+          "url": "https://manifold.markets/Anthem/will-rocket-lab-successfully-send-a"
+        },
+        {
+          "slug": "will-the-us-refuse-entry-to-nonimmi",
+          "question": "Will the US refuse entry to nonimmigrant travellers at at least three times the rate in 2025 than it did in 2024?",
+          "prob": 0.4180748084446108,
+          "resolved": null,
+          "url": "https://manifold.markets/chrisjbillington/will-the-us-refuse-entry-to-nonimmi"
+        },
+        {
+          "slug": "will-donald-trumps-approval-drop-be",
+          "question": "Will Donald Trump\u2018s approval drop below 40% before US midterm election",
+          "prob": 0.7078496799088687,
+          "resolved": null,
+          "url": "https://manifold.markets/Dleamer/will-donald-trumps-approval-drop-be"
+        },
+        {
+          "slug": "will-the-next-starliner-crewed-flig",
+          "question": "Will the next Starliner crewed flight be a complete Success?",
+          "prob": 0.4725458958157905,
+          "resolved": null,
+          "url": "https://manifold.markets/notarealuser/will-the-next-starliner-crewed-flig"
+        },
+        {
+          "slug": "acx-2026-will-an-ai-model-reach-a-3",
+          "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
+          "prob": 0.6362765713752897,
+          "resolved": null,
+          "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
+        },
+        {
+          "slug": "will-lula-win-the-2026-brazilian-pr",
+          "question": "Will Lula win the 2026 Brazilian presidential election?",
+          "prob": 0.4534955437478526,
+          "resolved": null,
+          "url": "https://manifold.markets/GustavoMafra/will-lula-win-the-2026-brazilian-pr"
+        }
+      ]
+    },
+    {
+      "card_id": "121-003",
+      "user_handle": "121",
+      "answer_id": "sAEPAq959C",
+      "status": "active",
+      "win_probability": 0.5514029067054874,
+      "target_win_prob": 0.5499999999999999,
+      "purchase_price": 329.5875852402389,
+      "purchase_prob": 0.6,
+      "created_time": 1768424380935,
+      "grid": [
+        {
+          "slug": "will-us-tariffs-go-up-in-2025-iff-t",
+          "question": "Will US tariffs go up in 2025 iff Trump wins? (Up if Trump wins, or down if not.)",
+          "prob": 0.9893885282761582,
+          "resolved": null,
+          "url": "https://manifold.markets/EvanDaniel/will-us-tariffs-go-up-in-2025-iff-t"
+        },
+        {
+          "slug": "will-us-tariffs-be-higher-in-2025-t",
+          "question": "Will US tariffs be higher in 2025 than 2024?",
+          "prob": 0.99,
+          "resolved": null,
+          "url": "https://manifold.markets/EvanDaniel/will-us-tariffs-be-higher-in-2025-t"
+        },
+        {
+          "slug": "will-a-previous-winner-of-the-world-0c2e4c1fa9ca",
+          "question": "Will a previous winner of the World Cup win the 2026 FIFA World Cup?",
+          "prob": 0.8100000000000002,
+          "resolved": null,
+          "url": "https://manifold.markets/egroj/will-a-previous-winner-of-the-world-0c2e4c1fa9ca"
+        },
+        {
+          "slug": "will-we-get-agi-before-2027",
+          "question": "Will we get AGI before 2027?",
+          "prob": 0.09074787473589249,
+          "resolved": null,
+          "url": "https://manifold.markets/MarioCannistra/will-we-get-agi-before-2027"
+        },
+        {
+          "slug": "will-the-us-government-conduct-mili",
+          "question": "Will the US Government conduct military operations against 8 or more countries in 2026?",
+          "prob": 0.6808176780831379,
+          "resolved": null,
+          "url": "https://manifold.markets/CivilizedGuy/will-the-us-government-conduct-mili"
+        },
+        {
+          "slug": "will-sam-altman-be-convicted-of-a-f",
+          "question": "Will Sam Altman be convicted of a felony by 2027?",
+          "prob": 0.0807435213440727,
+          "resolved": null,
+          "url": "https://manifold.markets/Devansh/will-sam-altman-be-convicted-of-a-f"
+        },
+        {
+          "slug": "will-sonia-sotomayor-still-be-on-th",
+          "question": "Will Sonia Sotomayor still be on the Supreme Court at the end of 2026?",
+          "prob": 0.8513835682710924,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-sonia-sotomayor-still-be-on-th"
+        },
+        {
+          "slug": "has-elon-musk-been-bought-by-russia",
+          "question": "Has Elon Musk been bought by Russia?",
+          "prob": 0.1943981507426061,
+          "resolved": null,
+          "url": "https://manifold.markets/Lorelai/has-elon-musk-been-bought-by-russia"
+        },
+        {
+          "slug": "does-lantern-bioworks-product-to-pr",
+          "question": "Does Lantern Bioworks' product to prevent cavities also eliminate \"morning breath\"?",
+          "prob": 0.3140156586484508,
+          "resolved": null,
+          "url": "https://manifold.markets/Bayesian/does-lantern-bioworks-product-to-pr"
+        },
+        {
+          "slug": "will-the-us-enter-a-recession-by-th",
+          "question": "Will the US enter a recession by the end of 2025?",
+          "prob": 0.008122996096051572,
+          "resolved": null,
+          "url": "https://manifold.markets/EternalSunrise/will-the-us-enter-a-recession-by-th"
+        },
+        {
+          "slug": "will-a-quantum-computer-factor-a-6b",
+          "question": "Will a quantum computer factor a 6-bit number by 2026?",
+          "prob": 0.8782964785785131,
+          "resolved": null,
+          "url": "https://manifold.markets/xyz/will-a-quantum-computer-factor-a-6b"
+        },
+        {
+          "slug": "will-we-have-highquality-realtime-a",
+          "question": "Will we have high-quality real-time age transitions for video calls before 2026 ends?",
+          "prob": 0.7422609917601959,
+          "resolved": null,
+          "url": "https://manifold.markets/_deleted_/will-we-have-highquality-realtime-a"
+        },
+        {
+          "slug": "will-daniel-litt-win-his-25000-bet",
+          "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+          "prob": 0.9905686529497086,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
+        },
+        {
+          "slug": "i-will-resolve-this-however-i-want-84178daa9be0",
+          "question": "I will resolve this however I want to",
+          "prob": 0.5983595064165605,
+          "resolved": null,
+          "url": "https://manifold.markets/Marsteralex/i-will-resolve-this-however-i-want-84178daa9be0"
+        },
+        {
+          "slug": "will-vladimir-putin-be-in-power-at",
+          "question": "Will Vladimir Putin be in power at the conclusion of the Russia-Ukraine war?",
+          "prob": 0.8228553239403644,
+          "resolved": null,
+          "url": "https://manifold.markets/njmkw/will-vladimir-putin-be-in-power-at"
+        },
+        {
+          "slug": "ai-market-crash-by-2026",
+          "question": "AI market crash by the end of 2026?",
+          "prob": 0.015645743124744777,
+          "resolved": null,
+          "url": "https://manifold.markets/palcu/ai-market-crash-by-2026"
+        },
+        {
+          "slug": "will-roons-tweet-about-various-grea",
+          "question": "Will Roon's Tweet about various great minds discussing flops age well by 2027?",
+          "prob": 0.46203430569338416,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/will-roons-tweet-about-various-grea"
+        },
+        {
+          "slug": "is-manifold-monitoring-the-situatio",
+          "question": "Is Manifold Monitoring the Situation in 2026?",
+          "prob": 0.47,
+          "resolved": null,
+          "url": "https://manifold.markets/EvanDaniel/is-manifold-monitoring-the-situatio"
+        },
+        {
+          "slug": "will-tailcalled-think-that-the-shar",
+          "question": "Will tailcalled think that the Shard Theory alignment research program has achieved something important by October 20th, 2026?",
+          "prob": 0.14467209685769816,
+          "resolved": null,
+          "url": "https://manifold.markets/tailcalled/will-tailcalled-think-that-the-shar"
+        },
+        {
+          "slug": "will-something-happen-in-2026",
+          "question": "Will something happen in 2026?",
+          "prob": 0.6814113546515529,
+          "resolved": null,
+          "url": "https://manifold.markets/Bandors/will-something-happen-in-2026"
+        },
+        {
+          "slug": "will-the-trump-administration-milit-AlRshOuSpp",
+          "question": "Will the Trump administration militarize New York City before the 2026 Midterms?",
+          "prob": 0.1760947076574651,
+          "resolved": null,
+          "url": "https://manifold.markets/Panfilo/will-the-trump-administration-milit-AlRshOuSpp"
+        },
+        {
+          "slug": "will-openai-exist-in-jan-2027",
+          "question": "Will OpenAI exist in Jan 2027?",
+          "prob": 0.9540684649381063,
+          "resolved": null,
+          "url": "https://manifold.markets/NathanpmYoung/will-openai-exist-in-jan-2027"
+        },
+        {
+          "slug": "will-the-united-states-of-america-a",
+          "question": "Will the United States of America abduct another head of state in 2026?",
+          "prob": 0.1461227790068761,
+          "resolved": null,
+          "url": "https://manifold.markets/Noit/will-the-united-states-of-america-a"
+        },
+        {
+          "slug": "republicans-have-house-majority-aft",
+          "question": "Republicans have a House majority after 2026 midterms?",
+          "prob": 0.12770224057326116,
+          "resolved": null,
+          "url": "https://manifold.markets/JeromeHPowell/republicans-have-house-majority-aft"
+        },
+        {
+          "slug": "will-india-be-renamed-to-bharat-bef-2acaebec7b96",
+          "question": "Will India be renamed to Bharat before 2027?",
+          "prob": 0.09544339666379145,
+          "resolved": null,
+          "url": "https://manifold.markets/benjaminIkuta/will-india-be-renamed-to-bharat-bef-2acaebec7b96"
         }
       ]
     }
