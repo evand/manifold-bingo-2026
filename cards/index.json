@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768407705582,
+  "updated_at": 1768408066735,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2826,7 +2826,7 @@
       "user_handle": "Ziddletwix",
       "answer_id": "ll9qO99lLh",
       "status": "active",
-      "win_probability": 0.45003403031737343,
+      "win_probability": 0.4498798063767353,
       "target_win_prob": 0.45,
       "purchase_price": 500,
       "purchase_prob": 0.5,
@@ -2840,18 +2840,18 @@
           "url": "https://manifold.markets/a2bb/will-scihub-or-a-successor-organisa-3ea1041cf741"
         },
         {
-          "slug": "russian-crewed-aircraft-shot-down-i",
-          "question": "Russian crewed aircraft shot down in NATO airspace by 2026-03-19?",
-          "prob": 0.09685586959760874,
+          "slug": "will-the-arc-agi-grand-prize-be-cla-svtrhb42tx",
+          "question": "Will the ARC AGI Grand Prize be claimed before January 2027?",
+          "prob": 0.5220611397966222,
           "resolved": null,
-          "url": "https://manifold.markets/EvanDaniel/russian-crewed-aircraft-shot-down-i"
+          "url": "https://manifold.markets/AlanTuring/will-the-arc-agi-grand-prize-be-cla-svtrhb42tx"
         },
         {
-          "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
-          "question": "Will Manifold solve my puzzle? (Round 3)",
-          "prob": 0.3900000000000003,
+          "slug": "will-russia-conduct-a-nuclear-weapo-5194a1fded40",
+          "question": "Will Russia conduct a nuclear weapon test on Novaya Zemlya archipelago by 2027?",
+          "prob": 0.48468305751049745,
           "resolved": null,
-          "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
+          "url": "https://manifold.markets/KongoLandwalker/will-russia-conduct-a-nuclear-weapo-5194a1fded40"
         },
         {
           "slug": "will-the-sagrada-familia-church-be",
@@ -2868,11 +2868,11 @@
           "url": "https://manifold.markets/jacksonpolack/will-chatgpt-have-ads-before-the-en"
         },
         {
-          "slug": "will-kamala-harris-run-for-governor",
-          "question": "Will Kamala Harris run for governor of California?",
-          "prob": 0.06256785207192196,
+          "slug": "will-a-major-dating-app-use-llms-to",
+          "question": "Will a major dating app use LLMs to simulate conversations by Valentine's Day 2026?",
+          "prob": 0.09493059928377412,
           "resolved": null,
-          "url": "https://manifold.markets/DylanSlagh/will-kamala-harris-run-for-governor"
+          "url": "https://manifold.markets/CDBiddulph/will-a-major-dating-app-use-llms-to"
         },
         {
           "slug": "major-internet-outage-due-to-unders",
@@ -2889,18 +2889,18 @@
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
-          "slug": "elon-musk-endorses-a-democratic-can",
-          "question": "Elon Musk endorses a Democratic candidate for primary elections in 2026?",
-          "prob": 0.19999999999999993,
+          "slug": "did-israel-execute-unarmed-gaza-civ",
+          "question": "Did Israel execute unarmed Gazans on December 19th for no good reason?",
+          "prob": 0.47911180879941573,
           "resolved": null,
-          "url": "https://manifold.markets/PoliticalEconomyPK/elon-musk-endorses-a-democratic-can"
+          "url": "https://manifold.markets/IsaacKing/did-israel-execute-unarmed-gaza-civ"
         },
         {
-          "slug": "will-elon-musk-spend-a-night-in-pri",
-          "question": "Will Elon Musk spend a night in prison / jail by EOY 2026?",
-          "prob": 0.05999999999999993,
+          "slug": "will-israeli-lgbt-rights-be-discern",
+          "question": "Will Israeli LGBT rights be discernibly eroded by 2026?",
+          "prob": 0.2544940953499914,
           "resolved": null,
-          "url": "https://manifold.markets/EvanDaniel/will-elon-musk-spend-a-night-in-pri"
+          "url": "https://manifold.markets/xyz/will-israeli-lgbt-rights-be-discern"
         },
         {
           "slug": "will-there-be-over-10000-optimus-ro",
@@ -2938,11 +2938,11 @@
           "url": "https://manifold.markets/DavidFWatson/will-tesla-offer-a-robotaxi-service-hld91s7u3r"
         },
         {
-          "slug": "will-luigi-mangione-be-convicted-of-CQRuROP528",
-          "question": "Will Luigi Mangione be convicted of murder, before 2027?",
-          "prob": 0.44999713887739545,
+          "slug": "by-eoy-2026-will-iphones-have-an-ai",
+          "question": "By EOY 2026, will iPhones have an AI that has access to and remembers everything you did on your phone?",
+          "prob": 0.3125734399955845,
           "resolved": null,
-          "url": "https://manifold.markets/Arcmage7000/will-luigi-mangione-be-convicted-of-CQRuROP528"
+          "url": "https://manifold.markets/ZviMowshowitz/by-eoy-2026-will-iphones-have-an-ai"
         },
         {
           "slug": "will-elon-spend-a-night-in-jail-by",
@@ -2966,11 +2966,11 @@
           "url": "https://manifold.markets/EliezerYudkowsky/will-openai-pay-scientific-publishe"
         },
         {
-          "slug": "will-5000-gazans-starve-to-death-as",
-          "question": "Will 5,000+ Gazans starve to death as a result of the current conflict?",
-          "prob": 0.16000000000000006,
+          "slug": "did-donald-trump-have-sex-with-bill",
+          "question": "Did Donald Trump have sex with Bill Clinton?",
+          "prob": 0.019999999999999997,
           "resolved": null,
-          "url": "https://manifold.markets/Panfilo/will-5000-gazans-starve-to-death-as"
+          "url": "https://manifold.markets/Slazac/did-donald-trump-have-sex-with-bill"
         },
         {
           "slug": "will-you-be-able-to-use-ai-tools-to",
@@ -2994,11 +2994,11 @@
           "url": "https://manifold.markets/BlueDragon/if-trump-wins-will-the-us-homicide"
         },
         {
-          "slug": "will-tyler-robinson-be-alive-on-dec",
-          "question": "Will Tyler Robinson be alive on December 31st, 2026?",
-          "prob": 0.8915466068951945,
+          "slug": "will-epic-vs-google-hold-up-on-appe",
+          "question": "Will Epic vs Google hold up on appeal?",
+          "prob": 0.8600359209676459,
           "resolved": null,
-          "url": "https://manifold.markets/Panfilo/will-tyler-robinson-be-alive-on-dec"
+          "url": "https://manifold.markets/aashiq/will-epic-vs-google-hold-up-on-appe"
         },
         {
           "slug": "will-lula-finish-his-term-as-presid",
