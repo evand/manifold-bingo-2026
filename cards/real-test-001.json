@@ -1,0 +1,163 @@
+{
+  "card_id": "real-test-001",
+  "user_handle": "evandaniel",
+  "answer_id": "test",
+  "status": "active",
+  "win_probability": 0.39274568987372893,
+  "target_win_prob": 0.4,
+  "purchase_price": 100.0,
+  "purchase_prob": 0.45,
+  "created_time": 1768352635017,
+  "grid": [
+    {
+      "slug": "will-elon-musk-successfully-defeat",
+      "question": "Will Elon Musk successfully defeat at least 5 Republicans in 2026?",
+      "prob": 0.09732551283022656,
+      "resolved": null
+    },
+    {
+      "slug": "will-silence-be-the-first-sport-cli",
+      "question": "Will Silence be the first sport climb confirmed 9c?",
+      "prob": 0.6950166379192829,
+      "resolved": null
+    },
+    {
+      "slug": "will-the-us-refuse-entry-to-nonimmi",
+      "question": "Will the US refuse entry to nonimmigrant travellers at at least three times the rate in 2025 than it did in 2024?",
+      "prob": 0.4180748084446108,
+      "resolved": null
+    },
+    {
+      "slug": "will-tesla-count-as-a-waymo-competi",
+      "question": "Will we conclude Tesla launched level 4 robotaxis in summer 2025?",
+      "prob": 0.055183382804403776,
+      "resolved": null
+    },
+    {
+      "slug": "will-i-make-mop-2026-nu0hyzsgRn",
+      "question": "Will I make MOP 2026?",
+      "prob": 0.52,
+      "resolved": null
+    },
+    {
+      "slug": "in-mid-2026-will-an-ai-be-able-to-g",
+      "question": "In mid 2026, will an AI be able to generate a full high-quality short film to a prompt?",
+      "prob": 0.1244462767123006,
+      "resolved": null
+    },
+    {
+      "slug": "will-a-mainstream-ai-model-pass-the-Syg0c6zA6Z",
+      "question": "Will a mainstream AI model pass the stick figure arrow name test in 2026?",
+      "prob": 0.6293098064738947,
+      "resolved": null
+    },
+    {
+      "slug": "will-ai-wipe-out-humanity-before-th-f80d307a152f",
+      "question": "Will AI wipe out humanity before the year 2027?",
+      "prob": 0.010000000000000012,
+      "resolved": null
+    },
+    {
+      "slug": "conditional-on-republican-trifecta-db9c74952cc9",
+      "question": "Conditional on Republican trifecta: will prescribing abortion pills be a US federal felony at the end of December 2026?",
+      "prob": 0.08989199634721347,
+      "resolved": null
+    },
+    {
+      "slug": "israel-participates-in-eurovision-2",
+      "question": "Israel participates in Eurovision 2026?",
+      "prob": 0.9761264975134083,
+      "resolved": null
+    },
+    {
+      "slug": "will-tailcalled-think-that-the-infr",
+      "question": "Will tailcalled think that the Infrabayesianism alignment research program has achieved something important by October 20th, 2026?",
+      "prob": 0.10290142529261671,
+      "resolved": null
+    },
+    {
+      "slug": "will-retrievalaugmentedgeneration-r",
+      "question": "Will retrieval-augmented-generation (RAG) still be used in 2026?",
+      "prob": 0.8444763119445272,
+      "resolved": null
+    },
+    {
+      "slug": "will-daniel-litt-win-his-25000-bet",
+      "question": "Will Daniel Litt win his $25,000 bet that David Budden will not solve the Hodge conjecture?",
+      "prob": 1.0,
+      "resolved": null
+    },
+    {
+      "slug": "will-a-glp1-agonist-diabetes-weight-1a38792fd7bb",
+      "question": "Will a GLP-1 agonist diabetes / weight loss drug be the top bestselling drug in 2025?",
+      "prob": 0.29999999999999993,
+      "resolved": null
+    },
+    {
+      "slug": "major-internet-outage-due-to-unders",
+      "question": "Major internet outage due to undersea cables breaking by end of 2026?",
+      "prob": 0.3663145662319138,
+      "resolved": null
+    },
+    {
+      "slug": "will-i-drop-out-from-minerva-univer",
+      "question": "Will I drop out of Minerva University by 2027?",
+      "prob": 0.593967366337527,
+      "resolved": null
+    },
+    {
+      "slug": "-if-trump-wins-will-the-us-electora",
+      "question": "\ud83c\uddfa\ud83c\uddf8 If Trump wins, will the US electoral democracy index fall below 0.80 by 2025?",
+      "prob": 0.7968483805634546,
+      "resolved": null
+    },
+    {
+      "slug": "will-the-first-aigenerated-song-win",
+      "question": "Will the first AI-generated song win a major music award (like a Grammy, MTV VMA, or similar) by the end of 2026?",
+      "prob": 0.20216526513866845,
+      "resolved": null
+    },
+    {
+      "slug": "will-anyone-solve-my-partners-depre",
+      "question": "Will anyone solve my partner's depression before 2027? [M$1,000,000 bounty]",
+      "prob": 0.2423491711607186,
+      "resolved": null
+    },
+    {
+      "slug": "will-tesla-have-more-autonomous-veh",
+      "question": "Will Tesla have more autonomous vehicles providing ridehailing than  Waymo on Jan 2nd 2027",
+      "prob": 0.41632645861951095,
+      "resolved": null
+    },
+    {
+      "slug": "will-twitter-still-be-called-x-at-t",
+      "question": "Will twitter still be called X at the end of 2026",
+      "prob": 0.9160836988204244,
+      "resolved": null
+    },
+    {
+      "slug": "will-ftx-creditors-get-back-more-th",
+      "question": "Will FTX creditors get back more than 100%?",
+      "prob": 0.9714573281101427,
+      "resolved": null
+    },
+    {
+      "slug": "will-it-become-practically-impossib",
+      "question": "Will it become practically impossible to verify the authenticity of humans using the internet by 2026?",
+      "prob": 0.5520657963376685,
+      "resolved": null
+    },
+    {
+      "slug": "will-there-be-5-thought-leaders-tha",
+      "question": "Will there be 5+ \"thought leaders\" that became so due in part to trading success on prediction markets by end of 2026?",
+      "prob": 0.3852753062971377,
+      "resolved": null
+    },
+    {
+      "slug": "will-manifold-users-feel-that-their",
+      "question": "Will Manifold users \"feel that their life is better for using Sora\" in 6 months?",
+      "prob": 0.3656035741737573,
+      "resolved": null
+    }
+  ]
+}

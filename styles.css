@@ -1,0 +1,348 @@
+/* Manifold Bingo 2026 - Viewer Styles */
+
+:root {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-card: #0f3460;
+    --text-primary: #eee;
+    --text-secondary: #aaa;
+    --accent: #e94560;
+    --success: #4ade80;
+    --warning: #facc15;
+    --danger: #f87171;
+    --border: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+/* Stats Section */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Cards List */
+.cards-list h2 {
+    margin-bottom: 1rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.card-preview {
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-preview:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-preview h3 {
+    margin-bottom: 0.5rem;
+}
+
+.card-preview .mini-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    margin: 0.5rem 0;
+}
+
+.card-preview .mini-cell {
+    aspect-ratio: 1;
+    border-radius: 2px;
+    background: var(--bg-card);
+}
+
+.card-preview .mini-cell.yes {
+    background: var(--success);
+}
+
+.card-preview .mini-cell.no {
+    background: var(--danger);
+}
+
+.card-preview .mini-cell.free {
+    background: var(--warning);
+}
+
+.card-preview .status-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.status-badge.active {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+.status-badge.winner {
+    background: var(--success);
+    color: #000;
+}
+
+.status-badge.loser {
+    background: var(--danger);
+    color: #fff;
+}
+
+/* Bingo Grid */
+.bingo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    max-width: 600px;
+    margin: 1.5rem auto;
+}
+
+.bingo-cell {
+    aspect-ratio: 1;
+    background: var(--bg-card);
+    border-radius: 4px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    overflow: hidden;
+    transition: background 0.2s;
+}
+
+.bingo-cell:hover {
+    background: #1a4a7a;
+}
+
+.bingo-cell.yes {
+    background: rgba(74, 222, 128, 0.2);
+    border: 2px solid var(--success);
+}
+
+.bingo-cell.no {
+    background: rgba(248, 113, 113, 0.2);
+    border: 2px solid var(--danger);
+}
+
+.bingo-cell.free {
+    background: rgba(250, 204, 21, 0.3);
+    border: 2px solid var(--warning);
+}
+
+.bingo-cell .question {
+    font-size: 0.7rem;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.bingo-cell .prob {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Card Details */
+.card-detail {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-meta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card-info {
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card-info h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.details-table {
+    width: 100%;
+}
+
+.details-table td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.details-table td:first-child {
+    color: var(--text-secondary);
+    width: 40%;
+}
+
+/* Lines Progress */
+.lines-progress {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
+
+.line-item {
+    background: var(--bg-card);
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.line-item.complete {
+    background: rgba(74, 222, 128, 0.2);
+    border: 1px solid var(--success);
+}
+
+.line-item.blocked {
+    background: rgba(248, 113, 113, 0.1);
+    color: var(--text-secondary);
+}
+
+.line-item .line-name {
+    font-weight: 500;
+}
+
+.line-item .line-progress {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .bingo-cell {
+        padding: 0.25rem;
+    }
+
+    .bingo-cell .question {
+        font-size: 0.6rem;
+        -webkit-line-clamp: 2;
+    }
+
+    .bingo-cell .prob {
+        font-size: 0.9rem;
+    }
+}

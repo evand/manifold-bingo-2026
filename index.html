@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifold Bingo 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manifold Bingo 2026</h1>
+            <p class="subtitle">Prediction Market Bingo Cards</p>
+        </header>
+
+        <main>
+            <section class="stats" id="stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-cards">-</div>
+                    <div class="stat-label">Total Cards</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="active-cards">-</div>
+                    <div class="stat-label">Active</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="winners">-</div>
+                    <div class="stat-label">Winners</div>
+                </div>
+            </section>
+
+            <section class="cards-list" id="cards-list">
+                <h2>All Cards</h2>
+                <div class="card-grid" id="card-grid">
+                    <!-- Cards will be loaded here -->
+                    <p class="loading">Loading cards...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                <a href="https://manifold.markets" target="_blank">Manifold Markets</a>
+                |
+                <a href="https://github.com/your-repo/bingo" target="_blank">Source Code</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

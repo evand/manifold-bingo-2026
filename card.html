@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo Card - Manifold Bingo 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">Manifold Bingo 2026</a></h1>
+        </header>
+
+        <main>
+            <section class="card-detail" id="card-detail">
+                <div class="card-header">
+                    <h2 id="card-title">Loading...</h2>
+                    <div class="card-meta">
+                        <span id="card-status" class="status-badge">-</span>
+                        <span id="card-prob">Win Probability: -%</span>
+                    </div>
+                </div>
+
+                <div class="bingo-grid" id="bingo-grid">
+                    <!-- Grid will be rendered here -->
+                </div>
+
+                <div class="card-info">
+                    <h3>Lines Progress</h3>
+                    <div id="lines-progress" class="lines-progress">
+                        <!-- Line status will be shown here -->
+                    </div>
+                </div>
+
+                <div class="card-info">
+                    <h3>Card Details</h3>
+                    <table class="details-table">
+                        <tr>
+                            <td>Owner</td>
+                            <td id="card-owner">-</td>
+                        </tr>
+                        <tr>
+                            <td>Created</td>
+                            <td id="card-created">-</td>
+                        </tr>
+                        <tr>
+                            <td>Purchase Price</td>
+                            <td id="card-price">-</td>
+                        </tr>
+                        <tr>
+                            <td>Target Win %</td>
+                            <td id="card-target">-</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                <a href="index.html">← Back to all cards</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Load card from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const cardId = urlParams.get('id');
+        if (cardId) {
+            loadCard(cardId);
+        } else {
+            document.getElementById('card-title').textContent = 'No card ID specified';
+        }
+    </script>
+</body>
+</html>
