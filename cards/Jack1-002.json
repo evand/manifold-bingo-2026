@@ -3,7 +3,7 @@
   "user_handle": "Jack1",
   "answer_id": "gCgz9p0Oyc",
   "status": "active",
-  "win_probability": 0.305335032914104,
+  "win_probability": 0.5868286479887612,
   "target_win_prob": 0.4,
   "purchase_price": 124.86076635760332,
   "purchase_prob": 0.45055144420529436,
@@ -12,7 +12,7 @@
     {
       "slug": "will-irans-regime-fall-in-2026",
       "question": "Will Iran's regime fall in 2026?",
-      "prob": 0.4161348082631561,
+      "prob": 0.41568653128280786,
       "resolved": null,
       "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
     },
@@ -66,11 +66,11 @@
       "url": "https://manifold.markets/EliezerYudkowsky/will-artificial-superintelligence-e"
     },
     {
-      "slug": "will-mark-meadows-change-his-plea-t",
-      "question": "Will Mark Meadows  change his plea to guilty in Fulton County?",
-      "prob": 0.09989093499240531,
+      "slug": "israel-participates-in-eurovision-2",
+      "question": "Israel participates in Eurovision 2026?",
+      "prob": 0.9761264975134083,
       "resolved": null,
-      "url": "https://manifold.markets/BTE/will-mark-meadows-change-his-plea-t"
+      "url": "https://manifold.markets/Transparent/israel-participates-in-eurovision-2"
     },
     {
       "slug": "if-the-leftright-culture-war-comes-1cc8384e933c",
@@ -87,11 +87,11 @@
       "url": "https://manifold.markets/HenriThunberg/1-anthropic-will-go-public-openai-w"
     },
     {
-      "slug": "in-mid-2026-will-an-ai-be-able-to-g",
-      "question": "In mid 2026, will an AI be able to generate a full high-quality short film to a prompt?",
-      "prob": 0.1244462767123006,
+      "slug": "will-any-2026-fifa-world-cup-matche",
+      "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+      "prob": 0.9660664588878306,
       "resolved": null,
-      "url": "https://manifold.markets/JoshSnider/in-mid-2026-will-an-ai-be-able-to-g"
+      "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
     },
     {
       "slug": "will-daniel-litt-win-his-25000-bet",
@@ -101,11 +101,11 @@
       "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
     },
     {
-      "slug": "russian-attacks-or-invades-latvia-b",
-      "question": "Russian attacks or invades Latvia by mid 2026",
-      "prob": 0.06310241797919196,
+      "slug": "will-us-tariffs-be-higher-in-2025-t",
+      "question": "Will US tariffs be higher in 2025 than 2024?",
+      "prob": 0.99,
       "resolved": null,
-      "url": "https://manifold.markets/Ernie/russian-attacks-or-invades-latvia-b"
+      "url": "https://manifold.markets/EvanDaniel/will-us-tariffs-be-higher-in-2025-t"
     },
     {
       "slug": "us-acquires-part-of-greenland-in-20",
