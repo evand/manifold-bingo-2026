@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768396190612,
+  "updated_at": 1768396364854,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -865,7 +865,7 @@
         {
           "slug": "acx-2026-will-an-ai-model-reach-a-3",
           "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
-          "prob": 0.6001536530326947,
+          "prob": 0.6155824048303363,
           "resolved": null,
           "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
         },
@@ -1666,7 +1666,7 @@
         {
           "slug": "will-anthropic-surpass-openai-valua",
           "question": "Will Anthropic surpass OpenAI valuation in 2026?",
-          "prob": 0.19305121700641797,
+          "prob": 0.19515437133663482,
           "resolved": null,
           "url": "https://manifold.markets/sama/will-anthropic-surpass-openai-valua"
         },
@@ -2237,7 +2237,7 @@
         {
           "slug": "acx-2026-will-an-ai-model-reach-a-3",
           "question": "[ACX 2026] Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?",
-          "prob": 0.6001536530326947,
+          "prob": 0.6155824048303363,
           "resolved": null,
           "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
         },
