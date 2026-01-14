@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768403088695,
+  "updated_at": 1768403121061,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2125,7 +2125,7 @@
         {
           "slug": "us-government-shutdown-by-january-3",
           "question": "US government shutdown by January 31st 2026?",
-          "prob": 0.2800000000000001,
+          "prob": 0.29,
           "resolved": null,
           "url": "https://manifold.markets/brod/us-government-shutdown-by-january-3"
         },
