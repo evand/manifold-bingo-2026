@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768395655126,
+  "updated_at": 1768395842046,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1053,7 +1053,7 @@
         {
           "slug": "will-apple-announce-a-foldable-ipho",
           "question": "Will Apple announce a foldable iPhone by the end of 2026?",
-          "prob": 0.7590309759258099,
+          "prob": 0.7550705136009722,
           "resolved": null,
           "url": "https://manifold.markets/BrunoClawfeld/will-apple-announce-a-foldable-ipho"
         },
