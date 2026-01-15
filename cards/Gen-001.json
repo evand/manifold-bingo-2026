@@ -1,0 +1,188 @@
+{
+  "card_id": "Gen-001",
+  "user_handle": "Gen",
+  "answer_id": "E9y2IPyNZ2",
+  "status": "active",
+  "win_probability": 0.24997797417896395,
+  "target_win_prob": 0.25,
+  "purchase_price": 363.18847376909787,
+  "purchase_prob": 0.30399978225908275,
+  "created_time": 1768459936437,
+  "grid": [
+    {
+      "slug": "will-kalshi-beat-polymarket",
+      "question": "Will Kalshi beat Polymarket?",
+      "prob": 0.4615013680726879,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/will-kalshi-beat-polymarket"
+    },
+    {
+      "slug": "openai-agent-continue-refusing-to-d",
+      "question": "OpenAI Agent continue refusing to do captchas by mid-2026?",
+      "prob": 0.6238856645947023,
+      "resolved": null,
+      "url": "https://manifold.markets/ZviMowshowitz/openai-agent-continue-refusing-to-d"
+    },
+    {
+      "slug": "will-openai-reach-a-valuation-of-60",
+      "question": "Will OpenAI be valued at $600B by mid-2026?",
+      "prob": 0.8681984550865779,
+      "resolved": null,
+      "url": "https://manifold.markets/JoshYou/will-openai-reach-a-valuation-of-60"
+    },
+    {
+      "slug": "will-openai-buy-chrome-by-the-end-o",
+      "question": "Will OpenAI buy Chrome by the end of 2026?",
+      "prob": 0.08061823696293198,
+      "resolved": null,
+      "url": "https://manifold.markets/TimothyJohnson5c16/will-openai-buy-chrome-by-the-end-o"
+    },
+    {
+      "slug": "will-i-still-be-using-claude-code-b",
+      "question": "Will I still be using Claude Code by the end of March 2026",
+      "prob": 0.8049312540792636,
+      "resolved": null,
+      "url": "https://manifold.markets/Soli/will-i-still-be-using-claude-code-b"
+    },
+    {
+      "slug": "will-the-vatican-state-stop-its-dip",
+      "question": "Will the Vatican State stop its diplomatic relationship with Taiwan and establish one with China before 2027?",
+      "prob": 0.2989950115126497,
+      "resolved": null,
+      "url": "https://manifold.markets/alby/will-the-vatican-state-stop-its-dip"
+    },
+    {
+      "slug": "will-claude-beat-pokemon-before-my",
+      "question": "Will Claude beat Pokemon before my 4-year old?",
+      "prob": 0.8820361100664958,
+      "resolved": null,
+      "url": "https://manifold.markets/MichaelWheatley/will-claude-beat-pokemon-before-my"
+    },
+    {
+      "slug": "will-putin-die-in-office",
+      "question": "Will Putin die in office?",
+      "prob": 0.7534410802892348,
+      "resolved": null,
+      "url": "https://manifold.markets/ElmerFudd/will-putin-die-in-office"
+    },
+    {
+      "slug": "will-fujitora-join-the-straw-hats",
+      "question": "Will Fujitora join the Straw Hats?",
+      "prob": 0.09537723151000325,
+      "resolved": null,
+      "url": "https://manifold.markets/XeniR6/will-fujitora-join-the-straw-hats"
+    },
+    {
+      "slug": "will-i-make-mop-2026-nu0hyzsgRn",
+      "question": "Will I make MOP 2026?",
+      "prob": 0.52,
+      "resolved": null,
+      "url": "https://manifold.markets/Pengu/will-i-make-mop-2026-nu0hyzsgRn"
+    },
+    {
+      "slug": "will-vladimir-putin-be-in-power-at",
+      "question": "Will Vladimir Putin be in power at the conclusion of the Russia-Ukraine war?",
+      "prob": 0.8228553239403644,
+      "resolved": null,
+      "url": "https://manifold.markets/njmkw/will-vladimir-putin-be-in-power-at"
+    },
+    {
+      "slug": "government-is-shutdown-in-february",
+      "question": "Government is shutdown in February 2026?",
+      "prob": 0.2691131066530479,
+      "resolved": null,
+      "url": "https://manifold.markets/robert/government-is-shutdown-in-february"
+    },
+    {
+      "slug": "israel-participates-in-eurovision-2",
+      "question": "Israel participates in Eurovision 2026?",
+      "prob": 0.9761264975134083,
+      "resolved": null,
+      "url": "https://manifold.markets/Transparent/israel-participates-in-eurovision-2"
+    },
+    {
+      "slug": "by-the-end-of-2027-will-there-be-a-64ca5caf73c1",
+      "question": "By the end of 2027 will there be a mostly AI generated game with $1 million or more in revenue?",
+      "prob": 0.7151549836273705,
+      "resolved": null,
+      "url": "https://manifold.markets/SneakySly/by-the-end-of-2027-will-there-be-a-64ca5caf73c1"
+    },
+    {
+      "slug": "will-the-arcagi-grand-prize-be-clai-hguqtn9ddd",
+      "question": "Will the ARC-AGI grand prize be claimed by end of 2026?",
+      "prob": 0.4928158475377814,
+      "resolved": null,
+      "url": "https://manifold.markets/LCBOB/will-the-arcagi-grand-prize-be-clai-hguqtn9ddd"
+    },
+    {
+      "slug": "elon-musk-faces-a-credible-assassin",
+      "question": "Will there be a Assassination attempt on Elon Musks life between now and the mid terms of 2026.",
+      "prob": 0.20590826351678662,
+      "resolved": null,
+      "url": "https://manifold.markets/DSalomon/elon-musk-faces-a-credible-assassin"
+    },
+    {
+      "slug": "will-luigi-magiones-defense-claim-m",
+      "question": "Will Luigi Magione\u2019s defense claim mental health or substance impairment in court?",
+      "prob": 0.4120629038569171,
+      "resolved": null,
+      "url": "https://manifold.markets/SirSalty/will-luigi-magiones-defense-claim-m"
+    },
+    {
+      "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
+      "question": "Will there be a US government shutdown in 2026?",
+      "prob": 0.5778957908717173,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
+    },
+    {
+      "slug": "chinas-rebar-failure-rate-below-20",
+      "question": "China's rebar failure rate below 20% in 2025 national quality check?",
+      "prob": 0.9427917903538701,
+      "resolved": null,
+      "url": "https://manifold.markets/MikhailTal/chinas-rebar-failure-rate-below-20"
+    },
+    {
+      "slug": "will-artemis-ii-launch-before-2027",
+      "question": "Will Artemis II launch before 2027?",
+      "prob": 0.8881511751714533,
+      "resolved": null,
+      "url": "https://manifold.markets/Mqrius/will-artemis-ii-launch-before-2027"
+    },
+    {
+      "slug": "supreme-court-rules-in-favor-of-tru",
+      "question": "Supreme Court rules in favor of Trump's tariffs?",
+      "prob": 0.28999999999999976,
+      "resolved": null,
+      "url": "https://manifold.markets/HillaryClinton/supreme-court-rules-in-favor-of-tru"
+    },
+    {
+      "slug": "will-venezuela-enter-a-new-hot-war",
+      "question": "Will Venezuela enter a new hot war with anyone by the end of 2026?",
+      "prob": 0.15953931063746118,
+      "resolved": null,
+      "url": "https://manifold.markets/Panfilo/will-venezuela-enter-a-new-hot-war"
+    },
+    {
+      "slug": "an-ai-will-bindingly-arbitrate-a-di",
+      "question": "An AI will bindingly arbitrate a dispute in the United States before 2027",
+      "prob": 0.1747148759463559,
+      "resolved": null,
+      "url": "https://manifold.markets/RealityQuotient/an-ai-will-bindingly-arbitrate-a-di"
+    },
+    {
+      "slug": "will-the-new-york-times-win-its-cop",
+      "question": "Will The New York Times win its copyright infringement suit against OpenAI and Microsoft?",
+      "prob": 0.5528211955012541,
+      "resolved": null,
+      "url": "https://manifold.markets/michelangelo/will-the-new-york-times-win-its-cop"
+    },
+    {
+      "slug": "will-2025-be-referred-to-as-the-sta",
+      "question": "Will 2025 be referred to as the start of the second Great Depression?",
+      "prob": 0.07129912600349063,
+      "resolved": null,
+      "url": "https://manifold.markets/SteveSokolowski/will-2025-be-referred-to-as-the-sta"
+    }
+  ]
+}
