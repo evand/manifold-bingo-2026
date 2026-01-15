@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768477403419,
+  "updated_at": 1768477708489,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -4886,6 +4886,194 @@
           "prob": 0.8915466068951945,
           "resolved": null,
           "url": "https://manifold.markets/Panfilo/will-tyler-robinson-be-alive-on-dec"
+        }
+      ]
+    },
+    {
+      "card_id": "121-006",
+      "user_handle": "121",
+      "answer_id": "LLg0Ntln9O",
+      "status": "active",
+      "win_probability": 0.5498917499616098,
+      "target_win_prob": 0.5499999999999999,
+      "purchase_price": 62.92091708956198,
+      "purchase_prob": 0.6,
+      "created_time": 1768477615003,
+      "grid": [
+        {
+          "slug": "will-angus-the-cow-be-saved-by-preo",
+          "question": "Will pre-order cancellations save the life of Angus the cow?",
+          "prob": 0.3600342102867215,
+          "resolved": null,
+          "url": "https://manifold.markets/bence/will-angus-the-cow-be-saved-by-preo"
+        },
+        {
+          "slug": "will-there-be-realworld-protests-in",
+          "question": "Will there be real-world protests in the US of at least 1,000 people against AI art by the end of 2026?",
+          "prob": 0.30464756106860297,
+          "resolved": null,
+          "url": "https://manifold.markets/DAL59/will-there-be-realworld-protests-in"
+        },
+        {
+          "slug": "anthropic-flips-openai-before-2027",
+          "question": "Anthropic flips OpenAI before 2027?",
+          "prob": 0.38666494119304473,
+          "resolved": null,
+          "url": "https://manifold.markets/duck_master/anthropic-flips-openai-before-2027"
+        },
+        {
+          "slug": "will-taylor-swift-and-travis-kelce-1d43fd00be3f",
+          "question": "Will Taylor Swift and Travis Kelce still be in a relationship of some kind at EOY 2026?",
+          "prob": 0.9391908309239836,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-taylor-swift-and-travis-kelce-1d43fd00be3f"
+        },
+        {
+          "slug": "will-i-kiss-someone-on-the-lips-bef",
+          "question": "Will I kiss someone on the lips before the end of 2026?",
+          "prob": 0.7310915751883377,
+          "resolved": null,
+          "url": "https://manifold.markets/TheBorys/will-i-kiss-someone-on-the-lips-bef"
+        },
+        {
+          "slug": "will-5-of-an-ftx-grant-be-clawed-ba",
+          "question": "Will >5% of an FTX grant be clawed back, from >2 individual workers, by end of 2026?",
+          "prob": 0.6213227342405429,
+          "resolved": null,
+          "url": "https://manifold.markets/EliezerYudkowsky/will-5-of-an-ftx-grant-be-clawed-ba"
+        },
+        {
+          "slug": "will-i-cry-emotionally-to-written-w",
+          "question": "How many times will I cry emotionally to written work made entirely by an LLM before July 2026?",
+          "prob": 0.48303174026571744,
+          "resolved": null,
+          "url": "https://manifold.markets/AdamK/will-i-cry-emotionally-to-written-w"
+        },
+        {
+          "slug": "will-anthropic-surpass-openai-valua",
+          "question": "Will Anthropic surpass OpenAI valuation in 2026?",
+          "prob": 0.19515437133663482,
+          "resolved": null,
+          "url": "https://manifold.markets/sama/will-anthropic-surpass-openai-valua"
+        },
+        {
+          "slug": "will-kompany-coach-bayern-munich-fo",
+          "question": "Will Kompany coach Bayern Munich for at least two full seasons?",
+          "prob": 0.8457413179580058,
+          "resolved": null,
+          "url": "https://manifold.markets/Gideon37/will-kompany-coach-bayern-munich-fo"
+        },
+        {
+          "slug": "will-xi-jinping-cease-to-be-chinas",
+          "question": "Will Xi Jinping cease to be China's leader before the end of 2026?",
+          "prob": 0.06854292599259937,
+          "resolved": null,
+          "url": "https://manifold.markets/cash/will-xi-jinping-cease-to-be-chinas"
+        },
+        {
+          "slug": "will-there-by-a-major-breakthrough",
+          "question": "Will there by a major breakthrough in LLM continual learning before 2027?",
+          "prob": 0.4445358032948548,
+          "resolved": null,
+          "url": "https://manifold.markets/JaundicedBaboon/will-there-by-a-major-breakthrough"
+        },
+        {
+          "slug": "will-an-ai-generated-video-reach-1b-29128e7a10e6",
+          "question": "Will an AI generated YouTube video reach 1B views before 2027?",
+          "prob": 0.567539779728308,
+          "resolved": null,
+          "url": "https://manifold.markets/RemNi/will-an-ai-generated-video-reach-1b-29128e7a10e6"
+        },
+        {
+          "slug": "will-this-yudkowsky-tweet-hold-up",
+          "question": "Will this Yudkowsky tweet hold up?",
+          "prob": 0.9616902390320777,
+          "resolved": null,
+          "url": "https://manifold.markets/journcy/will-this-yudkowsky-tweet-hold-up"
+        },
+        {
+          "slug": "will-any-2026-fifa-world-cup-matche",
+          "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+          "prob": 0.9660664588878306,
+          "resolved": null,
+          "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
+        },
+        {
+          "slug": "will-the-unsong-musical-be-good",
+          "question": "Will the Unsong musical be good?",
+          "prob": 0.6583924399935247,
+          "resolved": null,
+          "url": "https://manifold.markets/MichaelWheatley/will-the-unsong-musical-be-good"
+        },
+        {
+          "slug": "will-ai-achieve-superintelligence-i",
+          "question": "Will AI achieve superintelligence in music composition by 2026?",
+          "prob": 0.11277121945448267,
+          "resolved": null,
+          "url": "https://manifold.markets/SteveSokolowski/will-ai-achieve-superintelligence-i"
+        },
+        {
+          "slug": "will-the-sp-500-close-above-788334",
+          "question": "Will the S&P 500 close above 7883.34 on December 31, 2026?",
+          "prob": 0.3200000000000001,
+          "resolved": null,
+          "url": "https://manifold.markets/SaviorofPlant/will-the-sp-500-close-above-788334"
+        },
+        {
+          "slug": "will-at-least-73-billion-chickens-b",
+          "question": "Will at least 73 billion chickens be killed for meat in 2025?",
+          "prob": 0.9309779693672436,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/will-at-least-73-billion-chickens-b"
+        },
+        {
+          "slug": "will-the-first-ai-model-that-satura",
+          "question": "Will the first AI model that saturates Humanity's Last Exam be employable as a software engineer?",
+          "prob": 0.44999999999999984,
+          "resolved": null,
+          "url": "https://manifold.markets/MilfordHammerschmidt/will-the-first-ai-model-that-satura"
+        },
+        {
+          "slug": "in-december-of-2026-will-wikipedia",
+          "question": "In December of 2026, will Wikipedia ascribe higher credence to the lab leak theory than it did in December of 2023?",
+          "prob": 0.40153761535792554,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/in-december-of-2026-will-wikipedia"
+        },
+        {
+          "slug": "will-george-rr-martin-die-before-de",
+          "question": "Will George R.R. Martin die before delivering the final book in the \u201cA Song of Ice and Fire\u201d series?",
+          "prob": 0.8811695309853801,
+          "resolved": null,
+          "url": "https://manifold.markets/JackMcPherson/will-george-rr-martin-die-before-de"
+        },
+        {
+          "slug": "west-coast-best-coast-in-math-olymp",
+          "question": "West coast best coast (in math olympiads)?",
+          "prob": 0.16177235311205887,
+          "resolved": null,
+          "url": "https://manifold.markets/LinusTang/west-coast-best-coast-in-math-olymp"
+        },
+        {
+          "slug": "will-scale-alone-be-enough-to-elimi",
+          "question": "Will scaling current methods be enough to eliminate LLM hallucination?",
+          "prob": 0.15340295202839888,
+          "resolved": null,
+          "url": "https://manifold.markets/LukeFrymire/will-scale-alone-be-enough-to-elimi"
+        },
+        {
+          "slug": "will-apple-announce-a-foldable-ipho",
+          "question": "Will Apple announce a foldable iPhone by the end of 2026?",
+          "prob": 0.7327772350264942,
+          "resolved": null,
+          "url": "https://manifold.markets/BrunoClawfeld/will-apple-announce-a-foldable-ipho"
+        },
+        {
+          "slug": "will-ai-customer-phone-lines-be-nor-34f45b4921a1",
+          "question": "Will AI customer phone lines be normal by 2027?",
+          "prob": 0.8546596514431541,
+          "resolved": null,
+          "url": "https://manifold.markets/Fion/will-ai-customer-phone-lines-be-nor-34f45b4921a1"
         }
       ]
     }
