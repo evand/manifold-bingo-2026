@@ -425,6 +425,17 @@ header h1 a {
     color: var(--text-primary);
 }
 
+/* Full title mode - show more text */
+.bingo-cell.full-title {
+    aspect-ratio: unset;
+    min-height: 100px;
+}
+
+.bingo-cell.full-title .question {
+    font-size: 0.65rem;
+    -webkit-line-clamp: 6;
+}
+
 .bingo-cell .prob-container {
     display: flex;
     align-items: center;
@@ -506,6 +517,27 @@ header h1 a {
 
 .prob-note .delta.down {
     color: var(--danger);
+}
+
+/* Card controls */
+.card-controls {
+    margin-top: 0.75rem;
+}
+
+.control-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.control-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
 }
 
 /* Live status indicator */

@@ -38,6 +38,9 @@ let allCardsData = null;
 // localStorage key for tracking card changes
 const STORAGE_KEY = 'manifold_bingo_last_seen';
 
+// localStorage key for display preferences
+const PREFS_KEY = 'manifold_bingo_prefs';
+
 // ============================================================================
 // INDEX PAGE FUNCTIONS
 // ============================================================================
@@ -395,6 +398,9 @@ function displayCard(card) {
         `M$${card.purchase_price?.toFixed(0) || '-'}`;
     document.getElementById('card-target').textContent =
         `${((card.target_win_prob || 0) * 100).toFixed(1)}%`;
+
+    // Set up display controls
+    setupDisplayControls();
 }
 
 /**
@@ -406,7 +412,16 @@ function createBingoCell(cell, index) {
     else if (cell.resolved === true) cellClass += ' yes';
     else if (cell.resolved === false) cellClass += ' no';
 
-    const question = truncate(cell.question || 'Unknown', 60);
+    // Check display preference
+    const prefs = getPrefs();
+    const fullText = cell.question || 'Unknown';
+    const question = prefs.fullTitles ? fullText : smartTruncate(fullText, 60);
+
+    // Add full-title class for styling when enabled
+    if (prefs.fullTitles) {
+        cellClass += ' full-title';
+    }
+
     const prob = ((cell.prob || 0.5) * 100).toFixed(0);
 
     const marketUrl = cell.url
@@ -414,7 +429,7 @@ function createBingoCell(cell, index) {
 
     return `
         <a href="${marketUrl}" target="_blank"
-           class="${cellClass}" title="${cell.question || ''}"
+           class="${cellClass}" title="${fullText}"
            data-index="${index}" data-stored-prob="${cell.prob || 0.5}">
             <div class="question">${question}</div>
             <div class="prob-container">
@@ -784,6 +799,71 @@ function approximateWinProb(probs) {
 }
 
 // ============================================================================
+// DISPLAY PREFERENCES
+// ============================================================================
+
+/**
+ * Get display preferences from localStorage
+ */
+function getPrefs() {
+    try {
+        const stored = localStorage.getItem(PREFS_KEY);
+        return stored ? JSON.parse(stored) : { fullTitles: false };
+    } catch (e) {
+        return { fullTitles: false };
+    }
+}
+
+/**
+ * Save display preference
+ */
+function setPref(key, value) {
+    try {
+        const prefs = getPrefs();
+        prefs[key] = value;
+        localStorage.setItem(PREFS_KEY, JSON.stringify(prefs));
+    } catch (e) {
+        console.warn('Failed to save preference:', e);
+    }
+}
+
+/**
+ * Toggle title display mode and re-render grid
+ */
+function toggleTitleDisplay() {
+    const prefs = getPrefs();
+    const newValue = !prefs.fullTitles;
+    setPref('fullTitles', newValue);
+
+    // Update button text
+    const btn = document.getElementById('title-toggle');
+    if (btn) {
+        btn.textContent = newValue ? 'Short Titles' : 'Full Titles';
+    }
+
+    // Re-render grid
+    if (currentCard) {
+        const gridEl = document.getElementById('bingo-grid');
+        gridEl.innerHTML = currentCard.grid.map((cell, i) => createBingoCell(cell, i)).join('');
+
+        // Re-setup sparkline handlers
+        setupSparklineHandlers();
+    }
+}
+
+/**
+ * Set up display toggle controls
+ */
+function setupDisplayControls() {
+    const btn = document.getElementById('title-toggle');
+    if (btn) {
+        const prefs = getPrefs();
+        btn.textContent = prefs.fullTitles ? 'Short Titles' : 'Full Titles';
+        btn.addEventListener('click', toggleTitleDisplay);
+    }
+}
+
+// ============================================================================
 // UTILITY FUNCTIONS
 // ============================================================================
 
@@ -827,6 +907,25 @@ function getStatusText(status) {
  */
 function truncate(text, maxLength) {
     if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength - 3) + '...';
+}
+
+/**
+ * Smart truncate - break on word boundaries when possible
+ */
+function smartTruncate(text, maxLength) {
+    if (text.length <= maxLength) return text;
+
+    // Try to break at a word boundary
+    const truncated = text.substring(0, maxLength - 1);
+    const lastSpace = truncated.lastIndexOf(' ');
+
+    // If we found a space in the second half, break there
+    if (lastSpace > maxLength * 0.4) {
+        return truncated.substring(0, lastSpace) + '...';
+    }
+
+    // Otherwise just truncate
     return text.substring(0, maxLength - 3) + '...';
 }
 
