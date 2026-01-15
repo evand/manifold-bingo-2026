@@ -455,6 +455,200 @@ function createLineStatus(line, grid) {
 }
 
 // ============================================================================
+// SPARKLINE FUNCTIONS
+// ============================================================================
+
+// Cache for sparkline data (sessionStorage)
+const SPARKLINE_CACHE_KEY = 'manifold_bingo_sparklines';
+
+/**
+ * Get cached sparkline data
+ */
+function getSparklineCache() {
+    try {
+        const stored = sessionStorage.getItem(SPARKLINE_CACHE_KEY);
+        return stored ? JSON.parse(stored) : {};
+    } catch (e) {
+        return {};
+    }
+}
+
+/**
+ * Save sparkline data to cache
+ */
+function saveSparklineCache(contractId, data) {
+    try {
+        const cache = getSparklineCache();
+        cache[contractId] = {
+            data,
+            timestamp: Date.now()
+        };
+        sessionStorage.setItem(SPARKLINE_CACHE_KEY, JSON.stringify(cache));
+    } catch (e) {
+        console.warn('Failed to cache sparkline:', e);
+    }
+}
+
+/**
+ * Fetch bet history for a market
+ */
+async function fetchBetHistory(contractId) {
+    // Check cache first (valid for 5 minutes)
+    const cache = getSparklineCache();
+    const cached = cache[contractId];
+    if (cached && (Date.now() - cached.timestamp) < 5 * 60 * 1000) {
+        return cached.data;
+    }
+
+    try {
+        const response = await fetch(
+            `${MANIFOLD_API}/bets?contractId=${contractId}&limit=200&order=asc`
+        );
+        if (!response.ok) return null;
+
+        const bets = await response.json();
+
+        // Extract probability timeline from bets
+        const timeline = bets
+            .filter(bet => bet.probAfter != null)
+            .map(bet => ({
+                time: bet.createdTime,
+                prob: bet.probAfter
+            }));
+
+        saveSparklineCache(contractId, timeline);
+        return timeline;
+    } catch (error) {
+        console.error('Failed to fetch bet history:', error);
+        return null;
+    }
+}
+
+/**
+ * Render sparkline SVG from probability timeline
+ */
+function renderSparkline(timeline, width = 60, height = 20) {
+    if (!timeline || timeline.length < 2) return '';
+
+    // Normalize to SVG coordinates
+    const probs = timeline.map(t => t.prob);
+    const minProb = Math.min(...probs);
+    const maxProb = Math.max(...probs);
+    const range = maxProb - minProb || 0.1; // Avoid division by zero
+
+    const points = timeline.map((t, i) => {
+        const x = (i / (timeline.length - 1)) * width;
+        const y = height - ((t.prob - minProb) / range) * height;
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+
+    // Determine color based on trend
+    const firstProb = probs[0];
+    const lastProb = probs[probs.length - 1];
+    const color = lastProb > firstProb ? 'var(--success)' :
+                  lastProb < firstProb ? 'var(--danger)' : 'var(--accent)';
+
+    return `
+        <svg class="sparkline" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+            <polyline points="${points}" fill="none" stroke="${color}" stroke-width="1.5" />
+        </svg>
+    `;
+}
+
+/**
+ * Show sparkline popup for a cell
+ */
+async function showSparklinePopup(cell, contractId, question, marketUrl) {
+    // Remove existing popup
+    const existingPopup = document.querySelector('.sparkline-popup');
+    if (existingPopup) existingPopup.remove();
+
+    // Create popup
+    const popup = document.createElement('div');
+    popup.className = 'sparkline-popup';
+    popup.innerHTML = `
+        <div class="sparkline-header">${truncate(question, 40)}</div>
+        <div class="sparkline-loading">Loading price history...</div>
+    `;
+
+    // Position popup near cell
+    const rect = cell.getBoundingClientRect();
+    popup.style.position = 'fixed';
+    popup.style.left = `${rect.left}px`;
+    popup.style.top = `${rect.bottom + 5}px`;
+
+    // Keep popup on screen
+    if (rect.left + 280 > window.innerWidth) {
+        popup.style.left = `${window.innerWidth - 290}px`;
+    }
+
+    document.body.appendChild(popup);
+
+    // Fetch and render sparkline
+    const timeline = await fetchBetHistory(contractId);
+
+    if (timeline && timeline.length >= 2) {
+        const probs = timeline.map(t => t.prob);
+        const firstProb = (probs[0] * 100).toFixed(0);
+        const lastProb = (probs[probs.length - 1] * 100).toFixed(0);
+        const minProb = (Math.min(...probs) * 100).toFixed(0);
+        const maxProb = (Math.max(...probs) * 100).toFixed(0);
+
+        popup.innerHTML = `
+            <div class="sparkline-header">${truncate(question, 40)}</div>
+            ${renderSparkline(timeline, 150, 40)}
+            <div class="sparkline-stats">
+                <span>Start: ${firstProb}%</span>
+                <span>Now: ${lastProb}%</span>
+                <span>Range: ${minProb}%-${maxProb}%</span>
+            </div>
+            <a href="${marketUrl}" target="_blank" class="sparkline-link">Open on Manifold →</a>
+        `;
+    } else {
+        popup.innerHTML = `
+            <div class="sparkline-header">${truncate(question, 40)}</div>
+            <div class="sparkline-error">No price history available</div>
+            <a href="${marketUrl}" target="_blank" class="sparkline-link">Open on Manifold →</a>
+        `;
+    }
+
+    // Auto-close on click outside
+    setTimeout(() => {
+        document.addEventListener('click', function closePopup(e) {
+            if (!popup.contains(e.target) && !cell.contains(e.target)) {
+                popup.remove();
+                document.removeEventListener('click', closePopup);
+            }
+        });
+    }, 100);
+}
+
+/**
+ * Set up sparkline click handlers for all cells
+ */
+function setupSparklineHandlers() {
+    document.querySelectorAll('.bingo-cell').forEach(cell => {
+        cell.addEventListener('click', async (e) => {
+            // Don't trigger on link navigation - use right-click or ctrl+click for that
+            if (e.metaKey || e.ctrlKey || e.button !== 0) return;
+
+            e.preventDefault();
+
+            const index = parseInt(cell.dataset.index);
+            if (index === FREE_SPACE_INDEX) return; // Skip free space
+
+            if (!currentCard) return;
+
+            const market = currentCard.grid[index];
+            if (!market || !market.contract_id) return;
+
+            const marketUrl = market.url || `https://manifold.markets/${market.slug}`;
+            showSparklinePopup(cell, market.contract_id, market.question, marketUrl);
+        });
+    });
+}
+
+// ============================================================================
 // LIVE PRICE FUNCTIONS
 // ============================================================================
 
@@ -478,13 +672,16 @@ async function fetchLivePrices(card) {
 
         const results = await Promise.all(promises);
 
-        // Update cells with live data
+        // Update cells with live data and store contract IDs
         const liveProbs = [];
         results.forEach((market, i) => {
             if (market) {
                 const liveProb = market.probability || market.prob || card.grid[i].prob;
                 liveProbs.push(liveProb);
                 updateCellWithLivePrice(i, card.grid[i].prob, liveProb);
+
+                // Store contract ID for sparkline use
+                card.grid[i].contract_id = market.id;
             } else {
                 liveProbs.push(card.grid[i].prob);
             }
@@ -494,10 +691,13 @@ async function fetchLivePrices(card) {
         const liveWinProb = approximateWinProb(liveProbs);
         updateWinProbability(card.win_probability, liveWinProb);
 
+        // Set up sparkline handlers now that we have contract IDs
+        setupSparklineHandlers();
+
         if (loadingEl) {
-            loadingEl.textContent = 'Live prices loaded';
+            loadingEl.textContent = 'Live prices loaded (click cells for price history)';
             loadingEl.className = 'live-status success';
-            setTimeout(() => { loadingEl.textContent = ''; }, 2000);
+            setTimeout(() => { loadingEl.textContent = ''; }, 3000);
         }
     } catch (error) {
         console.error('Failed to fetch live prices:', error);
