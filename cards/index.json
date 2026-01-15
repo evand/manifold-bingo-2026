@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768460696855,
+  "updated_at": 1768461584137,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -4134,6 +4134,194 @@
           "prob": 0.07129912600349063,
           "resolved": null,
           "url": "https://manifold.markets/SteveSokolowski/will-2025-be-referred-to-as-the-sta"
+        }
+      ]
+    },
+    {
+      "card_id": "SG-001",
+      "user_handle": "SG",
+      "answer_id": "CEnZQAPl5C",
+      "status": "active",
+      "win_probability": 0.4546866665549585,
+      "target_win_prob": 0.45,
+      "purchase_price": 250,
+      "purchase_prob": 0.5,
+      "created_time": 1768461502988,
+      "grid": [
+        {
+          "slug": "kash-patel-remains-fbi-director-on",
+          "question": "Kash Patel remains FBI Director on June 30, 2026",
+          "prob": 0.41656410537673094,
+          "resolved": null,
+          "url": "https://manifold.markets/PGdCIN9/kash-patel-remains-fbi-director-on"
+        },
+        {
+          "slug": "will-the-iphone-18-include-a-model",
+          "question": "Will the iPhone 18 include a model with no charging port?",
+          "prob": 0.08576369962645652,
+          "resolved": null,
+          "url": "https://manifold.markets/AmmonLam/will-the-iphone-18-include-a-model"
+        },
+        {
+          "slug": "did-the-idf-bury-hundreds-of-palest",
+          "question": "Did the IDF bury hundreds of Palestinian civilians in mass graves near Nasser and Al-Shifa hospitals?",
+          "prob": 0.276999911603766,
+          "resolved": null,
+          "url": "https://manifold.markets/Panfilo/did-the-idf-bury-hundreds-of-palest"
+        },
+        {
+          "slug": "will-donald-trump-spend-any-amount",
+          "question": "Will Donald Trump spend any amount of time in Jail over his most recent indictment ?",
+          "prob": 0.050690205971881154,
+          "resolved": null,
+          "url": "https://manifold.markets/ChrisCanas/will-donald-trump-spend-any-amount"
+        },
+        {
+          "slug": "will-spiderman-beyond-the-spiderver-c1f3efc7b799",
+          "question": "Will Spider-Man: Beyond the Spider-Verse get a 95% or higher on Rotten Tomatoes?",
+          "prob": 0.40100188516164514,
+          "resolved": null,
+          "url": "https://manifold.markets/SemioticRivalry/will-spiderman-beyond-the-spiderver-c1f3efc7b799"
+        },
+        {
+          "slug": "will-trump-actually-establish-a-str",
+          "question": "Will Trump actually establish a strategic Bitcoin reserve in his first year?",
+          "prob": 0.06197143405383322,
+          "resolved": null,
+          "url": "https://manifold.markets/PeterBuyukliev/will-trump-actually-establish-a-str"
+        },
+        {
+          "slug": "department-of-education-eliminated",
+          "question": "Department of Education eliminated by June 2026",
+          "prob": 0.05000487083866908,
+          "resolved": null,
+          "url": "https://manifold.markets/JFlavius1/department-of-education-eliminated"
+        },
+        {
+          "slug": "will-russia-conduct-military-operat-59672397e5c4",
+          "question": "Will Russia conduct military operations in any another country against ISIS-K before the end of 2026?",
+          "prob": 0.24680528699073206,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-russia-conduct-military-operat-59672397e5c4"
+        },
+        {
+          "slug": "-if-trump-wins-will-the-us-electora",
+          "question": "\ud83c\uddfa\ud83c\uddf8 If Trump wins, will the US electoral democracy index fall below 0.80 by 2025?",
+          "prob": 0.7968483805634546,
+          "resolved": null,
+          "url": "https://manifold.markets/probajoelistic/-if-trump-wins-will-the-us-electora"
+        },
+        {
+          "slug": "fewer-us-programming-jobs-1-year-fr",
+          "question": "Fewer US programming jobs 1 year from March 13, 2025? [Tegmark / Ng bet]",
+          "prob": 0.44558159669840947,
+          "resolved": null,
+          "url": "https://manifold.markets/HenriThunberg/fewer-us-programming-jobs-1-year-fr"
+        },
+        {
+          "slug": "california-prop-50-map-used-in-2026",
+          "question": "California Prop 50 map used in 2026 election?",
+          "prob": 0.8430248334618866,
+          "resolved": null,
+          "url": "https://manifold.markets/EricNeyman/california-prop-50-map-used-in-2026"
+        },
+        {
+          "slug": "will-people-be-wearing-the-apple-vi-f12d08bf8e25",
+          "question": "Will people be wearing the Apple Vision Pro in public in London by the end of 2026?",
+          "prob": 0.2633655287002429,
+          "resolved": null,
+          "url": "https://manifold.markets/SimonGrayson/will-people-be-wearing-the-apple-vi-f12d08bf8e25"
+        },
+        {
+          "slug": "this-market-has-a-11000-chance-of-r",
+          "question": "This market has a 1/1000 chance of resolving YES each day.",
+          "prob": 0.9843366305114342,
+          "resolved": null,
+          "url": "https://manifold.markets/jim/this-market-has-a-11000-chance-of-r"
+        },
+        {
+          "slug": "will-claude-powerusers-think-sonnet",
+          "question": "Will Claude powerusers think Sonnet 4.6 is strictly better for everyday use than Opus 4.5, analogously to s4.5 vs o4.1?",
+          "prob": 0.377251783684027,
+          "resolved": null,
+          "url": "https://manifold.markets/Bayesian/will-claude-powerusers-think-sonnet"
+        },
+        {
+          "slug": "if-trump-wins-will-he-appoint-anoth",
+          "question": "If Trump wins, will he appoint another SCOTUS Justice before 2027?",
+          "prob": 0.674420094044899,
+          "resolved": null,
+          "url": "https://manifold.markets/cantankerous/if-trump-wins-will-he-appoint-anoth"
+        },
+        {
+          "slug": "will-twitter-be-profitable-before-2",
+          "question": "Will Twitter claim to be profitable before 2027?",
+          "prob": 0.6117848111263229,
+          "resolved": null,
+          "url": "https://manifold.markets/FedorShabashev/will-twitter-be-profitable-before-2"
+        },
+        {
+          "slug": "will-gay-marriage-be-legal-in-every",
+          "question": "Will gay marriage be legal in every US state in 2026",
+          "prob": 0.9405176420504004,
+          "resolved": null,
+          "url": "https://manifold.markets/TeresaAsma/will-gay-marriage-be-legal-in-every"
+        },
+        {
+          "slug": "will-sp-500-increase-in-2026",
+          "question": "Will S&P 500 increase in 2026?",
+          "prob": 0.7298961193279724,
+          "resolved": null,
+          "url": "https://manifold.markets/bessarabov/will-sp-500-increase-in-2026"
+        },
+        {
+          "slug": "will-the-next-republican-speaker-of",
+          "question": "Will the next Republican Speaker of the House (after Mike Johnson) be a white male?",
+          "prob": 0.7503269111950143,
+          "resolved": null,
+          "url": "https://manifold.markets/mattyb/will-the-next-republican-speaker-of"
+        },
+        {
+          "slug": "acx-2026-will-openai-file-for-an-ip",
+          "question": "[ACX 2026] Will OpenAI file for an IPO during 2026?",
+          "prob": 0.2990418474766359,
+          "resolved": null,
+          "url": "https://manifold.markets/WalterMartin/acx-2026-will-openai-file-for-an-ip"
+        },
+        {
+          "slug": "if-trump-wins-will-the-us-score-low",
+          "question": "If Trump wins, will the US score lower in the 2026 World Press Freedom, Corruption Perceptions AND Democracy Indexes?",
+          "prob": 0.959563463159994,
+          "resolved": null,
+          "url": "https://manifold.markets/jBosc/if-trump-wins-will-the-us-score-low"
+        },
+        {
+          "slug": "will-you-be-able-to-use-ai-tools-to",
+          "question": "Will you be able to use AI tools to create believable adult movies by the end of 2026?",
+          "prob": 0.6844271934172568,
+          "resolved": null,
+          "url": "https://manifold.markets/SamuelRichardson/will-you-be-able-to-use-ai-tools-to"
+        },
+        {
+          "slug": "will-jack-ma-return-as-a-senior-exe",
+          "question": "Will Jack MA return as a senior executive to Alibaba by 2026 year end?",
+          "prob": 0.19992152952724104,
+          "resolved": null,
+          "url": "https://manifold.markets/MP/will-jack-ma-return-as-a-senior-exe"
+        },
+        {
+          "slug": "at-the-beginning-of-2027-will-ameri",
+          "question": "At the beginning of 2027, will Americans like Sam Altman more than they like Mark Zuckerberg?",
+          "prob": 0.579534775896921,
+          "resolved": null,
+          "url": "https://manifold.markets/EliTyre/at-the-beginning-of-2027-will-ameri"
+        },
+        {
+          "slug": "are-almost-all-women-into-women-wil",
+          "question": "Are almost all women into women? (will it replicate?)",
+          "prob": 0.6596351669127821,
+          "resolved": null,
+          "url": "https://manifold.markets/Sinclair/are-almost-all-women-into-women-wil"
         }
       ]
     }
