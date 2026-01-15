@@ -104,6 +104,129 @@ header h1 a {
     margin-bottom: 1rem;
 }
 
+/* View Tabs */
+.view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.view-tabs .tab {
+    padding: 0.5rem 1.5rem;
+    background: var(--bg-secondary);
+    border: none;
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.view-tabs .tab:hover {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+.view-tabs .tab.active {
+    background: var(--accent);
+    color: #fff;
+}
+
+/* Leaderboard */
+.leaderboard {
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.leaderboard-header {
+    display: grid;
+    grid-template-columns: 3rem 1fr 5rem 5rem;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card);
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.leaderboard-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr 5rem 5rem;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.2s;
+}
+
+.leaderboard-row:hover {
+    background: var(--bg-card);
+}
+
+.leaderboard-row:last-child {
+    border-bottom: none;
+}
+
+.leaderboard-row .rank {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.leaderboard-row .handle {
+    font-weight: 500;
+}
+
+.leaderboard-row .win-prob {
+    text-align: right;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.leaderboard-row .edge {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.leaderboard-row .edge.positive {
+    color: var(--success);
+}
+
+.leaderboard-row .edge.negative {
+    color: var(--danger);
+}
+
+/* Hot Cards Footer */
+.hot-cards-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.refresh-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.refresh-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.last-seen-info {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -236,11 +359,41 @@ header h1 a {
     color: var(--text-primary);
 }
 
+.bingo-cell .prob-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
 .bingo-cell .prob {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #fff;
+}
+
+/* Price change deltas */
+.bingo-cell .delta {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.bingo-cell .delta.up {
+    color: var(--success);
+}
+
+.bingo-cell .delta.down {
+    color: var(--danger);
+}
+
+/* Hot market indicators (large moves) */
+.bingo-cell.hot-up {
+    box-shadow: 0 0 8px var(--success), inset 0 0 4px rgba(74, 222, 128, 0.3);
+}
+
+.bingo-cell.hot-down {
+    box-shadow: 0 0 8px var(--danger), inset 0 0 4px rgba(248, 113, 113, 0.3);
 }
 
 /* Card Details */
@@ -259,6 +412,53 @@ header h1 a {
     justify-content: center;
     gap: 1rem;
     margin-top: 0.5rem;
+}
+
+/* Win probability display */
+.prob-label {
+    color: var(--text-secondary);
+}
+
+.prob-value {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.prob-note {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.prob-note .delta {
+    font-weight: 500;
+}
+
+.prob-note .delta.up {
+    color: var(--success);
+}
+
+.prob-note .delta.down {
+    color: var(--danger);
+}
+
+/* Live status indicator */
+.live-status {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    min-height: 1.2em;
+}
+
+.live-status.loading {
+    color: var(--text-secondary);
+}
+
+.live-status.success {
+    color: var(--success);
+}
+
+.live-status.error {
+    color: var(--danger);
 }
 
 .card-info {

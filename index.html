@@ -33,10 +33,29 @@
             </section>
 
             <section class="cards-list" id="cards-list">
-                <h2>All Cards</h2>
-                <div class="card-grid" id="card-grid">
-                    <!-- Cards will be loaded here -->
-                    <p class="loading">Loading cards...</p>
+                <div class="view-tabs">
+                    <button class="tab active" data-view="grid">All Cards</button>
+                    <button class="tab" data-view="leaderboard">Leaderboard</button>
+                    <button class="tab" data-view="hot">Hot Cards</button>
+                </div>
+
+                <div id="grid-view" class="view-content">
+                    <div class="card-grid" id="card-grid">
+                        <!-- Cards will be loaded here -->
+                        <p class="loading">Loading cards...</p>
+                    </div>
+                </div>
+
+                <div id="leaderboard-view" class="view-content" style="display: none;">
+                    <div class="leaderboard" id="leaderboard">
+                        <!-- Leaderboard will be loaded here -->
+                    </div>
+                </div>
+
+                <div id="hot-cards-view" class="view-content" style="display: none;">
+                    <div class="leaderboard" id="hot-cards">
+                        <!-- Hot cards will be loaded here -->
+                    </div>
                 </div>
             </section>
         </main>
