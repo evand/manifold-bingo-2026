@@ -1325,6 +1325,7 @@ function setupActivityRowHandlers(markets, container) {
 
 /**
  * Fetch live prices for all markets on the card
+ * Supports both binary markets and multi-choice market answers
  */
 async function fetchLivePrices(card) {
     const loadingEl = document.getElementById('live-status');
@@ -1335,8 +1336,10 @@ async function fetchLivePrices(card) {
 
     try {
         // Fetch all 25 markets in parallel
+        // Note: We don't use ?lite=true because multi-choice markets need the
+        // full response to get the answers array with per-answer probabilities
         const promises = card.grid.map(cell =>
-            fetch(`${MANIFOLD_API}/slug/${cell.slug}?lite=true`)
+            fetch(`${MANIFOLD_API}/slug/${cell.slug}`)
                 .then(r => r.ok ? r.json() : null)
                 .catch(() => null)
         );
@@ -1346,15 +1349,28 @@ async function fetchLivePrices(card) {
         // Update cells with live data and store contract IDs
         const liveProbs = [];
         results.forEach((market, i) => {
+            const cell = card.grid[i];
             if (market) {
-                const liveProb = market.probability || market.prob || card.grid[i].prob;
+                let liveProb;
+
+                // Check if this is a multi-choice answer (has answer_id)
+                if (cell.answer_id && market.answers) {
+                    // Multi-choice: find the specific answer's probability
+                    const answer = market.answers.find(a => a.id === cell.answer_id);
+                    // Answer uses 'prob', not 'probability'
+                    liveProb = answer?.prob ?? answer?.probability ?? cell.prob;
+                } else {
+                    // Binary market: use market-level probability
+                    liveProb = market.probability || market.prob || cell.prob;
+                }
+
                 liveProbs.push(liveProb);
-                updateCellWithLivePrice(i, card.grid[i].prob, liveProb);
+                updateCellWithLivePrice(i, cell.prob, liveProb);
 
                 // Store contract ID for sparkline use
-                card.grid[i].contract_id = market.id;
+                cell.contract_id = market.id;
             } else {
-                liveProbs.push(card.grid[i].prob);
+                liveProbs.push(cell.prob);
             }
         });
 
