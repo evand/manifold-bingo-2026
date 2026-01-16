@@ -585,13 +585,91 @@ header h1 a {
     color: #fff;
 }
 
-/* Bingo Grid */
+/* Bingo Grid with Inline Line Probs */
+.bingo-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    max-width: 700px;
+    margin: 1.5rem auto;
+}
+
 .bingo-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 4px;
-    max-width: 600px;
-    margin: 1.5rem auto;
+}
+
+.row-probs {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.col-probs {
+    display: flex;
+    gap: 4px;
+}
+
+.diag-probs {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+/* Line probability cells */
+.line-prob-cell {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.4rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.5rem;
+}
+
+.row-probs .line-prob-cell {
+    flex: 1;
+}
+
+.col-probs .line-prob-cell {
+    flex: 1;
+}
+
+.diag-probs .line-prob-cell {
+    flex: 1;
+}
+
+.line-prob-cell .line-prob-label {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin-bottom: 2px;
+}
+
+.line-prob-cell .line-prob-value {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+.line-prob-cell.blocked {
+    opacity: 0.5;
+}
+
+.line-prob-cell.blocked .line-prob-value {
+    color: var(--text-secondary);
+}
+
+.line-prob-cell.complete {
+    background: rgba(74, 222, 128, 0.15);
+    border-color: var(--success);
+}
+
+.line-prob-cell.complete .line-prob-value {
+    color: var(--success);
 }
 
 .bingo-cell {
