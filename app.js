@@ -537,7 +537,7 @@ function displayCard(card) {
 
     // Lines progress
     const linesEl = document.getElementById('lines-progress');
-    linesEl.innerHTML = LINES.map(line => createLineStatus(line, card.grid)).join('');
+    linesEl.innerHTML = LINES.map((line, i) => createLineStatus(line, card.grid, i)).join('');
 
     // Details
     document.getElementById('card-owner').textContent = `@${card.user_handle}`;
@@ -590,32 +590,70 @@ function createBingoCell(cell, index) {
 }
 
 /**
+ * Calculate line probability (product of cell probs)
+ */
+function calculateLineProb(probs) {
+    return probs.reduce((acc, p) => acc * p, 1);
+}
+
+/**
  * Create HTML for line status
  */
-function createLineStatus(line, grid) {
+function createLineStatus(line, grid, lineIndex) {
     const cells = line.indices.map(i => grid[i]);
     const yesCount = cells.filter(c => c.resolved === true).length;
     const noCount = cells.filter(c => c.resolved === false).length;
 
+    // Calculate line probability from stored probs
+    const probs = line.indices.map(i => {
+        if (i === FREE_SPACE_INDEX) return 1.0;
+        if (grid[i].resolved === true) return 1.0;
+        if (grid[i].resolved === false) return 0.0;
+        return grid[i].prob || 0.5;
+    });
+    const lineProb = calculateLineProb(probs);
+
     let statusClass = '';
     let progress = '';
+    let probDisplay = '';
 
     if (yesCount === 5) {
         statusClass = 'complete';
         progress = 'BINGO!';
+        probDisplay = '100%';
     } else if (noCount > 0) {
         statusClass = 'blocked';
-        progress = `${yesCount}/5 (blocked)`;
+        progress = `${yesCount}/5`;
+        probDisplay = '0%';
     } else {
         progress = `${yesCount}/5`;
+        probDisplay = `${(lineProb * 100).toFixed(1)}%`;
     }
 
     return `
-        <div class="line-item ${statusClass}">
+        <div class="line-item ${statusClass}" data-line="${lineIndex}">
             <div class="line-name">${line.name}</div>
             <div class="line-progress">${progress}</div>
+            <div class="line-prob">${probDisplay}</div>
         </div>
     `;
+}
+
+/**
+ * Update line probabilities with live prices
+ */
+function updateLineProbs(liveProbs) {
+    LINES.forEach((line, i) => {
+        const lineEl = document.querySelector(`.line-item[data-line="${i}"]`);
+        if (!lineEl || lineEl.classList.contains('complete') || lineEl.classList.contains('blocked')) return;
+
+        const probs = line.indices.map(idx => liveProbs[idx]);
+        const lineProb = calculateLineProb(probs);
+        const probEl = lineEl.querySelector('.line-prob');
+        if (probEl) {
+            probEl.textContent = `${(lineProb * 100).toFixed(1)}%`;
+        }
+    });
 }
 
 // ============================================================================
@@ -1293,6 +1331,9 @@ async function fetchLivePrices(card) {
         // Recalculate and display live win probability
         const liveWinProb = approximateWinProb(liveProbs);
         updateWinProbability(card.win_probability, liveWinProb);
+
+        // Update line probabilities with live prices
+        updateLineProbs(liveProbs);
 
         // Set up sparkline handlers now that we have contract IDs
         setupSparklineHandlers();

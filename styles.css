@@ -809,6 +809,10 @@ header h1 a {
     padding: 0.5rem;
     border-radius: 4px;
     font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .line-item.complete {
@@ -823,11 +827,27 @@ header h1 a {
 
 .line-item .line-name {
     font-weight: 500;
+    flex: 1;
 }
 
 .line-item .line-progress {
     font-size: 0.75rem;
     color: var(--text-secondary);
+}
+
+.line-item .line-prob {
+    font-weight: bold;
+    color: var(--accent);
+    min-width: 3rem;
+    text-align: right;
+}
+
+.line-item.blocked .line-prob {
+    color: var(--text-secondary);
+}
+
+.line-item.complete .line-prob {
+    color: var(--success);
 }
 
 /* Footer */
