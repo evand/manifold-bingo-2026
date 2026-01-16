@@ -141,8 +141,8 @@ header h1 a {
 
 .leaderboard-header {
     display: grid;
-    grid-template-columns: 3rem 1fr 5rem 5rem;
-    gap: 1rem;
+    grid-template-columns: 3rem 1fr 5rem 5rem 6rem;
+    gap: 0.75rem;
     padding: 0.75rem 1rem;
     background: var(--bg-card);
     font-weight: 500;
@@ -162,8 +162,8 @@ header h1 a {
 
 .leaderboard-row {
     display: grid;
-    grid-template-columns: 3rem 1fr 5rem 5rem;
-    gap: 1rem;
+    grid-template-columns: 3rem 1fr 5rem 5rem 6rem;
+    gap: 0.75rem;
     padding: 0.75rem 1rem;
     text-decoration: none;
     color: inherit;
@@ -205,6 +205,27 @@ header h1 a {
 
 .leaderboard-row .edge.negative {
     color: var(--danger);
+}
+
+.leaderboard-row .lb-change,
+.leaderboard-header .lb-change {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.leaderboard-row .lb-change.positive {
+    color: var(--success);
+}
+
+.leaderboard-row .lb-change.negative {
+    color: var(--danger);
+}
+
+.leaderboard-row .lb-range,
+.leaderboard-header .lb-range {
+    text-align: right;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
 }
 
 /* Hot Cards Footer */

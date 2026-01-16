@@ -288,12 +288,12 @@ let leaderboardSortState = { column: 'prob', direction: 'desc' };
  * Compute live card stats from market data
  * @param {Array} cards - Card objects
  * @param {Map} marketDataMap - Map of slug -> {currentProb, stats}
- * @returns {Array} Cards with liveWinProb and change24h
+ * @returns {Array} Cards with liveWinProb, change24h, high24h, low24h
  */
 function computeCardStats(cards, marketDataMap) {
     return cards.map(card => {
         if (!card.grid || card.status !== 'active') {
-            return { ...card, liveWinProb: card.win_probability, change24h: null };
+            return { ...card, liveWinProb: card.win_probability, change24h: null, high24h: null, low24h: null };
         }
 
         // Get live probs for all 25 cells
@@ -310,11 +310,27 @@ function computeCardStats(cards, marketDataMap) {
             return marketData?.stats?.prob24hAgo ?? cell.prob;
         });
 
+        // Get 24h high probs (best case scenario in last 24h)
+        const highProbs = card.grid.map((cell, i) => {
+            if (i === FREE_SPACE_INDEX) return 1.0;
+            const marketData = marketDataMap.get(cell.slug);
+            return marketData?.stats?.high24h ?? cell.prob;
+        });
+
+        // Get 24h low probs (worst case scenario in last 24h)
+        const lowProbs = card.grid.map((cell, i) => {
+            if (i === FREE_SPACE_INDEX) return 1.0;
+            const marketData = marketDataMap.get(cell.slug);
+            return marketData?.stats?.low24h ?? cell.prob;
+        });
+
         const liveWinProb = approximateWinProb(liveProbs);
         const winProb24hAgo = approximateWinProb(probs24hAgo);
+        const high24h = approximateWinProb(highProbs);
+        const low24h = approximateWinProb(lowProbs);
         const change24h = liveWinProb - winProb24hAgo;
 
-        return { ...card, liveWinProb, change24h };
+        return { ...card, liveWinProb, change24h, high24h, low24h };
     });
 }
 
@@ -337,8 +353,19 @@ function sortCards(cards, column, direction) {
                 valB = b.liveWinProb ?? b.win_probability ?? 0;
                 break;
             case 'change':
-                valA = Math.abs(a.change24h ?? 0);
-                valB = Math.abs(b.change24h ?? 0);
+                // Sort by actual value (winners first when desc)
+                valA = a.change24h ?? 0;
+                valB = b.change24h ?? 0;
+                break;
+            case 'upside':
+                // How far below 24h high (room to grow)
+                valA = (a.high24h ?? a.liveWinProb ?? 0) - (a.liveWinProb ?? 0);
+                valB = (b.high24h ?? b.liveWinProb ?? 0) - (b.liveWinProb ?? 0);
+                break;
+            case 'downside':
+                // How far above 24h low (room to fall)
+                valA = (a.liveWinProb ?? 0) - (a.low24h ?? a.liveWinProb ?? 0);
+                valB = (b.liveWinProb ?? 0) - (b.low24h ?? b.liveWinProb ?? 0);
                 break;
             default:
                 return 0;
@@ -375,12 +402,21 @@ function displayLiveLeaderboard(cardsWithStats, container) {
         const winProb = ((card.liveWinProb ?? card.win_probability) * 100).toFixed(1);
         const change = card.change24h;
 
-        let changeHtml = '<span class="edge">-</span>';
+        let changeHtml = '<span class="lb-change">-</span>';
         if (change !== null) {
             const changePct = (change * 100).toFixed(1);
             const sign = change >= 0 ? '+' : '';
             const changeClass = change > 0.005 ? 'positive' : change < -0.005 ? 'negative' : '';
-            changeHtml = `<span class="edge ${changeClass}">${sign}${changePct}%</span>`;
+            changeHtml = `<span class="lb-change ${changeClass}">${sign}${changePct}%</span>`;
+        }
+
+        // Range: show how far from high/low
+        let rangeHtml = '<span class="lb-range">-</span>';
+        if (card.high24h !== null && card.low24h !== null) {
+            const current = card.liveWinProb ?? card.win_probability;
+            const upside = ((card.high24h - current) * 100).toFixed(1);
+            const downside = ((current - card.low24h) * 100).toFixed(1);
+            rangeHtml = `<span class="lb-range" title="High: ${(card.high24h * 100).toFixed(1)}%, Low: ${(card.low24h * 100).toFixed(1)}%">+${upside} / -${downside}</span>`;
         }
 
         return `
@@ -389,6 +425,7 @@ function displayLiveLeaderboard(cardsWithStats, container) {
                 <span class="handle">@${card.user_handle}</span>
                 <span class="win-prob">${winProb}%</span>
                 ${changeHtml}
+                ${rangeHtml}
             </a>
         `;
     }).join('');
@@ -398,7 +435,8 @@ function displayLiveLeaderboard(cardsWithStats, container) {
             <span class="rank"></span>
             <span class="handle sortable" data-sort="handle">Player${sortIndicator('handle')}</span>
             <span class="win-prob sortable" data-sort="prob">Win %${sortIndicator('prob')}</span>
-            <span class="edge sortable" data-sort="change">24h${sortIndicator('change')}</span>
+            <span class="lb-change sortable" data-sort="change">24h${sortIndicator('change')}</span>
+            <span class="lb-range sortable" data-sort="upside">Range${sortIndicator('upside')}${sortIndicator('downside')}</span>
         </div>
         ${rows}
     `;
@@ -1022,8 +1060,9 @@ function sortMarkets(markets, column, direction) {
                 valB = b.currentProb ?? 0;
                 break;
             case 'change':
-                valA = Math.abs(a.stats?.change24h ?? 0);
-                valB = Math.abs(b.stats?.change24h ?? 0);
+                // Sort by actual value (biggest gainers first when desc)
+                valA = a.stats?.change24h ?? 0;
+                valB = b.stats?.change24h ?? 0;
                 break;
             case 'range':
                 // Sort by range width (high - low)
