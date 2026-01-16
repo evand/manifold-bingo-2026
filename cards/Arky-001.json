@@ -1,0 +1,188 @@
+{
+  "card_id": "Arky-001",
+  "user_handle": "Arky",
+  "answer_id": "sutLgyIyCS",
+  "status": "active",
+  "win_probability": 0.500345451684461,
+  "target_win_prob": 0.5,
+  "purchase_price": 120.5684673384859,
+  "purchase_prob": 0.55,
+  "created_time": 1768529521304,
+  "grid": [
+    {
+      "slug": "is-manifold-monitoring-the-situatio",
+      "question": "Is Manifold Monitoring the Situation in 2026?",
+      "prob": 0.47,
+      "resolved": null,
+      "url": "https://manifold.markets/EvanDaniel/is-manifold-monitoring-the-situatio"
+    },
+    {
+      "slug": "did-us-real-median-household-income",
+      "question": "Did US real median household income increase in 2022?",
+      "prob": 0.09942628241971153,
+      "resolved": null,
+      "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
+    },
+    {
+      "slug": "if-i-write-an-encyclopedia-of-bad-a",
+      "question": "If I write an encyclopedia of bad AI arguments, will people seem to find it useful?",
+      "prob": 0.7943053418501886,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/if-i-write-an-encyclopedia-of-bad-a"
+    },
+    {
+      "slug": "pierre-poilievre-wins-q1-2026-leade",
+      "question": "Pierre Poilievre wins Q1 2026 leadership review?",
+      "prob": 0.8704128247817259,
+      "resolved": null,
+      "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
+    },
+    {
+      "slug": "1-anthropic-will-go-public-openai-w",
+      "question": "1. Anthropic will go public. OpenAI will not.",
+      "prob": 0.36716797828069114,
+      "resolved": null,
+      "url": "https://manifold.markets/HenriThunberg/1-anthropic-will-go-public-openai-w"
+    },
+    {
+      "slug": "comey-found-guilty-by-the-end-of-20",
+      "question": "Comey found guilty by the end of 2026?",
+      "prob": 0.06281135016319536,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/comey-found-guilty-by-the-end-of-20"
+    },
+    {
+      "slug": "will-global-approval-of-russia-decl-0aa92b67467e",
+      "question": "Will global approval of Russia decline in 2024, according to Gallup?",
+      "prob": 0.4873807742550892,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-global-approval-of-russia-decl-0aa92b67467e"
+    },
+    {
+      "slug": "will-silence-be-the-first-sport-cli",
+      "question": "Will Silence be the first sport climb confirmed 9c?",
+      "prob": 0.6950166379192829,
+      "resolved": null,
+      "url": "https://manifold.markets/Fion/will-silence-be-the-first-sport-cli"
+    },
+    {
+      "slug": "will-akainu-fight-luffy",
+      "question": "Will Akainu fight Luffy?",
+      "prob": 0.828183278860796,
+      "resolved": null,
+      "url": "https://manifold.markets/MiguelGoncalves/will-akainu-fight-luffy"
+    },
+    {
+      "slug": "will-zoro-killdefeat-a-gorosei",
+      "question": "Will Zoro kill/defeat a Gorosei?",
+      "prob": 0.48443737170392964,
+      "resolved": null,
+      "url": "https://manifold.markets/Yaxalo/will-zoro-killdefeat-a-gorosei"
+    },
+    {
+      "slug": "openai-memoryusing-chatbot-causes-f-OELctIZncN",
+      "question": "OpenAI memory-using chatbot causes fatal domestic dispute by EOY2026?",
+      "prob": 0.49918767132922237,
+      "resolved": null,
+      "url": "https://manifold.markets/JoeandSeth/openai-memoryusing-chatbot-causes-f-OELctIZncN"
+    },
+    {
+      "slug": "will-gukesh-win-the-2026-world-ches",
+      "question": "Will Gukesh win the 2026 World Chess Championship?",
+      "prob": 0.44277684250193694,
+      "resolved": null,
+      "url": "https://manifold.markets/Weezing/will-gukesh-win-the-2026-world-ches"
+    },
+    {
+      "slug": "will-any-2026-fifa-world-cup-matche",
+      "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+      "prob": 0.9660664588878306,
+      "resolved": null,
+      "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
+    },
+    {
+      "slug": "presidential-election-in-venezuela",
+      "question": "Presidential Election in Venezuela by EOY 2026?",
+      "prob": 0.5055726393269223,
+      "resolved": null,
+      "url": "https://manifold.markets/SqrtMinusOne/presidential-election-in-venezuela"
+    },
+    {
+      "slug": "will-xi-jinping-be-the-leader-of-ch-6297433c3df1",
+      "question": "Will Xi Jinping be the leader of China at the end of 2026?",
+      "prob": 0.8895756837100965,
+      "resolved": null,
+      "url": "https://manifold.markets/RemNi/will-xi-jinping-be-the-leader-of-ch-6297433c3df1"
+    },
+    {
+      "slug": "will-eliezer-yudkowsky-work-for-any",
+      "question": "Will Eliezer Yudkowsky work for any major AI-related entity by 2027?",
+      "prob": 0.19794046194457515,
+      "resolved": null,
+      "url": "https://manifold.markets/YoniPeles/will-eliezer-yudkowsky-work-for-any"
+    },
+    {
+      "slug": "if-i-offer-someone-on-a-plane-fligh",
+      "question": "If I offer someone on a plane $20 to take off their mask for the remainder of the flight, will they accept?",
+      "prob": 0.17254864391937,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/if-i-offer-someone-on-a-plane-fligh"
+    },
+    {
+      "slug": "will-i-be-able-to-use-an-llm-to-bru",
+      "question": "Will I be able to use an LLM to brush my teeth before 2027?",
+      "prob": 0.4234731891853556,
+      "resolved": null,
+      "url": "https://manifold.markets/_deleted_/will-i-be-able-to-use-an-llm-to-bru"
+    },
+    {
+      "slug": "will-george-rr-martin-die-before-de",
+      "question": "Will George R.R. Martin die before delivering the final book in the \u201cA Song of Ice and Fire\u201d series?",
+      "prob": 0.8811695309853801,
+      "resolved": null,
+      "url": "https://manifold.markets/JackMcPherson/will-george-rr-martin-die-before-de"
+    },
+    {
+      "slug": "will-any-macbook-have-a-touchscreen",
+      "question": "Apple releases a touchscreen Macbook by the end of 2026?",
+      "prob": 0.4652923922952071,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/will-any-macbook-have-a-touchscreen"
+    },
+    {
+      "slug": "are-almost-all-women-into-women-wil",
+      "question": "Are almost all women into women? (will it replicate?)",
+      "prob": 0.6596351669127821,
+      "resolved": null,
+      "url": "https://manifold.markets/Sinclair/are-almost-all-women-into-women-wil"
+    },
+    {
+      "slug": "will-it-be-revealed-that-mihawk-pos",
+      "question": "Will it be revealed that Mihawk possesses Conqueror's Haki?",
+      "prob": 0.8456307310566766,
+      "resolved": null,
+      "url": "https://manifold.markets/Disaster/will-it-be-revealed-that-mihawk-pos"
+    },
+    {
+      "slug": "will-any-model-pass-an-undergrad-pr",
+      "question": "Will any model pass an \"undergrad proofs exam\" Turing test by 2027?",
+      "prob": 0.785769929618029,
+      "resolved": null,
+      "url": "https://manifold.markets/vluzko/will-any-model-pass-an-undergrad-pr"
+    },
+    {
+      "slug": "movietv-show-about-sam-altmans-firi",
+      "question": "Movie/TV show about Sam Altman's Firing from OpenAI / Battle of the Board, before 2027?",
+      "prob": 0.7600045433852157,
+      "resolved": null,
+      "url": "https://manifold.markets/Bayesian/movietv-show-about-sam-altmans-firi"
+    },
+    {
+      "slug": "will-the-iphone-18-include-a-model",
+      "question": "Will the iPhone 18 include a model with no charging port?",
+      "prob": 0.08576369962645652,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/will-the-iphone-18-include-a-model"
+    }
+  ]
+}
