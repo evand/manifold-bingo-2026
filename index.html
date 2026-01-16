@@ -34,12 +34,18 @@
 
             <section class="cards-list" id="cards-list">
                 <div class="view-tabs">
-                    <button class="tab active" data-view="grid">All Cards</button>
+                    <button class="tab active" data-view="activity">Recent Activity</button>
+                    <button class="tab" data-view="grid">All Cards</button>
                     <button class="tab" data-view="leaderboard">Leaderboard</button>
-                    <button class="tab" data-view="hot">Hot Cards</button>
                 </div>
 
-                <div id="grid-view" class="view-content">
+                <div id="activity-view" class="view-content">
+                    <div id="market-activity">
+                        <p class="loading">Loading market activity...</p>
+                    </div>
+                </div>
+
+                <div id="grid-view" class="view-content" style="display: none;">
                     <div class="card-grid" id="card-grid">
                         <!-- Cards will be loaded here -->
                         <p class="loading">Loading cards...</p>
@@ -49,12 +55,6 @@
                 <div id="leaderboard-view" class="view-content" style="display: none;">
                     <div class="leaderboard" id="leaderboard">
                         <!-- Leaderboard will be loaded here -->
-                    </div>
-                </div>
-
-                <div id="hot-cards-view" class="view-content" style="display: none;">
-                    <div class="leaderboard" id="hot-cards">
-                        <!-- Hot cards will be loaded here -->
                     </div>
                 </div>
             </section>

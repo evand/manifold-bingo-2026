@@ -60,7 +60,6 @@ async function loadCardsIndex() {
         displayStats(data);
         displayCardsList(data.cards);
         displayLeaderboard(data.cards);
-        displayHotCards(data.cards);
         setupTabs();
 
         // Auto-save baseline on first visit
@@ -68,10 +67,15 @@ async function loadCardsIndex() {
         if (Object.keys(lastSeen).length === 0) {
             saveLastSeenProbs(data.cards);
         }
+
+        // Load market activity feed (async, after initial render)
+        displayMarketActivity(data.cards);
     } catch (error) {
         console.error('Failed to load cards index:', error);
-        document.getElementById('card-grid').innerHTML =
-            '<p class="loading">Failed to load cards. Check console for details.</p>';
+        const grid = document.getElementById('card-grid');
+        const activity = document.getElementById('market-activity');
+        if (grid) grid.innerHTML = '<p class="loading">Failed to load cards. Check console for details.</p>';
+        if (activity) activity.innerHTML = '<p class="loading">Failed to load market activity.</p>';
     }
 }
 
@@ -80,6 +84,8 @@ async function loadCardsIndex() {
  */
 function setupTabs() {
     const tabs = document.querySelectorAll('.view-tabs .tab');
+    const views = ['activity', 'grid', 'leaderboard'];
+
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
             // Update active tab
@@ -88,12 +94,10 @@ function setupTabs() {
 
             // Show corresponding view
             const view = tab.dataset.view;
-            document.getElementById('grid-view').style.display =
-                view === 'grid' ? 'block' : 'none';
-            document.getElementById('leaderboard-view').style.display =
-                view === 'leaderboard' ? 'block' : 'none';
-            document.getElementById('hot-cards-view').style.display =
-                view === 'hot' ? 'block' : 'none';
+            views.forEach(v => {
+                const el = document.getElementById(`${v}-view`);
+                if (el) el.style.display = v === view ? 'block' : 'none';
+            });
         });
     });
 }
@@ -659,6 +663,343 @@ function setupSparklineHandlers() {
 
             const marketUrl = market.url || `https://manifold.markets/${market.slug}`;
             showSparklinePopup(cell, market.contract_id, market.question, marketUrl);
+        });
+    });
+}
+
+// ============================================================================
+// 24-HOUR MARKET ACTIVITY FUNCTIONS
+// ============================================================================
+
+/**
+ * Compute 24-hour statistics from a probability timeline
+ * @param {Array} timeline - Array of {time, prob} objects (ascending order)
+ * @param {number} currentProb - Current probability from live API
+ * @returns {Object} Stats object with prob24hAgo, high24h, low24h, change24h
+ */
+function computeMarket24hStats(timeline, currentProb) {
+    const now = Date.now();
+    const oneDayAgo = now - 24 * 60 * 60 * 1000;
+
+    if (!timeline || timeline.length === 0) {
+        return {
+            prob24hAgo: null,
+            high24h: null,
+            low24h: null,
+            change24h: null,
+            hasActivity: false
+        };
+    }
+
+    // Find entries in the 24h window
+    const entriesIn24h = timeline.filter(t => t.time >= oneDayAgo);
+
+    // Find prob24hAgo - the probability closest to 24h ago
+    let prob24hAgo;
+    if (entriesIn24h.length === 0) {
+        // No bets in 24h, use the most recent bet before 24h ago
+        const beforeWindow = timeline.filter(t => t.time < oneDayAgo);
+        if (beforeWindow.length > 0) {
+            prob24hAgo = beforeWindow[beforeWindow.length - 1].prob;
+        } else {
+            prob24hAgo = timeline[0].prob;
+        }
+    } else {
+        // Use the first entry in or just before the 24h window
+        const beforeWindow = timeline.filter(t => t.time < oneDayAgo);
+        if (beforeWindow.length > 0) {
+            prob24hAgo = beforeWindow[beforeWindow.length - 1].prob;
+        } else {
+            prob24hAgo = entriesIn24h[0].prob;
+        }
+    }
+
+    // Compute high/low within 24h window (include currentProb)
+    let high24h, low24h;
+    if (entriesIn24h.length > 0) {
+        const probs24h = entriesIn24h.map(t => t.prob);
+        probs24h.push(currentProb); // Include current prob in range
+        high24h = Math.max(...probs24h);
+        low24h = Math.min(...probs24h);
+    } else {
+        // No activity in 24h
+        high24h = currentProb;
+        low24h = currentProb;
+    }
+
+    const change24h = currentProb - prob24hAgo;
+
+    return {
+        prob24hAgo,
+        high24h,
+        low24h,
+        change24h,
+        hasActivity: entriesIn24h.length > 0
+    };
+}
+
+/**
+ * Fetch 24h stats for a single market
+ * @param {string} contractId - Manifold contract ID
+ * @param {number} currentProb - Current probability
+ * @returns {Object} Stats object
+ */
+async function fetchMarket24hStats(contractId, currentProb) {
+    const timeline = await fetchBetHistory(contractId);
+    return computeMarket24hStats(timeline, currentProb);
+}
+
+/**
+ * Collect all unique markets across all cards
+ * @param {Array} cards - Array of card objects
+ * @returns {Map} Map of slug -> {question, cardIds, currentProb, url}
+ */
+function collectUniqueMarkets(cards) {
+    const markets = new Map();
+
+    for (const card of cards) {
+        if (!card.grid) continue;
+
+        for (let i = 0; i < card.grid.length; i++) {
+            const cell = card.grid[i];
+            if (!cell.slug || i === FREE_SPACE_INDEX) continue;
+
+            if (!markets.has(cell.slug)) {
+                markets.set(cell.slug, {
+                    slug: cell.slug,
+                    question: cell.question,
+                    cardIds: [],
+                    cardHandles: [],
+                    currentProb: cell.prob, // Will be updated with live
+                    url: cell.url || `https://manifold.markets/${cell.slug}`,
+                    resolved: cell.resolved,
+                    contractId: null // Will be filled when fetching live
+                });
+            }
+
+            const market = markets.get(cell.slug);
+            if (!market.cardIds.includes(card.card_id)) {
+                market.cardIds.push(card.card_id);
+                market.cardHandles.push(card.user_handle);
+            }
+        }
+    }
+
+    return markets;
+}
+
+/**
+ * Display market activity feed (main index page)
+ * Shows markets sorted by: resolutions first, then biggest movers
+ */
+async function displayMarketActivity(cards) {
+    const container = document.getElementById('market-activity');
+    if (!container) return;
+
+    container.innerHTML = '<p class="loading">Fetching live market data...</p>';
+
+    // Collect unique markets
+    const marketsMap = collectUniqueMarkets(cards);
+    const markets = Array.from(marketsMap.values());
+
+    if (markets.length === 0) {
+        container.innerHTML = '<p class="loading">No markets found.</p>';
+        return;
+    }
+
+    // Fetch live prices for all markets (with rate limiting)
+    const BATCH_SIZE = 10;
+    const marketsList = [];
+
+    for (let i = 0; i < markets.length; i += BATCH_SIZE) {
+        const batch = markets.slice(i, i + BATCH_SIZE);
+        const promises = batch.map(async (market) => {
+            try {
+                const response = await fetch(`${MANIFOLD_API}/slug/${market.slug}?lite=true`);
+                if (!response.ok) return { ...market, liveData: null };
+
+                const data = await response.json();
+                return {
+                    ...market,
+                    currentProb: data.probability || data.prob || market.currentProb,
+                    contractId: data.id,
+                    isResolved: data.isResolved,
+                    resolution: data.resolution,
+                    liveData: data
+                };
+            } catch (e) {
+                return { ...market, liveData: null };
+            }
+        });
+
+        const results = await Promise.all(promises);
+        marketsList.push(...results);
+
+        // Update progress
+        const progress = Math.min(100, Math.round((i + batch.length) / markets.length * 100));
+        container.innerHTML = `<p class="loading">Fetching market data... ${progress}%</p>`;
+    }
+
+    // Now fetch 24h stats for markets with contract IDs
+    container.innerHTML = '<p class="loading">Computing 24h changes...</p>';
+
+    const marketsWithStats = [];
+    for (let i = 0; i < marketsList.length; i += BATCH_SIZE) {
+        const batch = marketsList.slice(i, i + BATCH_SIZE);
+        const promises = batch.map(async (market) => {
+            if (!market.contractId) {
+                return { ...market, stats: null };
+            }
+            const stats = await fetchMarket24hStats(market.contractId, market.currentProb);
+            return { ...market, stats };
+        });
+
+        const results = await Promise.all(promises);
+        marketsWithStats.push(...results);
+    }
+
+    // Sort markets: resolutions first, then by absolute 24h change
+    marketsWithStats.sort((a, b) => {
+        // Resolved markets first
+        if (a.isResolved && !b.isResolved) return -1;
+        if (!a.isResolved && b.isResolved) return 1;
+
+        // Then by absolute change (biggest movers first)
+        const changeA = a.stats?.change24h ?? 0;
+        const changeB = b.stats?.change24h ?? 0;
+        return Math.abs(changeB) - Math.abs(changeA);
+    });
+
+    // Render the activity feed
+    renderActivityFeed(container, marketsWithStats);
+}
+
+/**
+ * Render the market activity feed
+ */
+function renderActivityFeed(container, markets) {
+    if (markets.length === 0) {
+        container.innerHTML = '<p class="loading">No market activity.</p>';
+        return;
+    }
+
+    const rows = markets.map(market => {
+        const cardCount = market.cardIds.length;
+        const question = truncate(market.question, 50);
+
+        // Determine display based on resolution status
+        if (market.isResolved) {
+            const resIcon = market.resolution === 'YES' ? '&#x2705;' :
+                           market.resolution === 'NO' ? '&#x274C;' : '&#x2753;';
+            const resText = market.resolution || 'N/A';
+
+            return `
+                <div class="activity-row resolved" data-slug="${market.slug}">
+                    <span class="activity-icon">${resIcon}</span>
+                    <a href="${market.url}" target="_blank" class="activity-question">${question}</a>
+                    <span class="activity-prob resolved-${resText.toLowerCase()}">${resText}</span>
+                    <span class="activity-change">RESOLVED</span>
+                    <span class="activity-range"></span>
+                    <span class="activity-cards" title="${market.cardHandles.map(h => '@' + h).join(', ')}">${cardCount} card${cardCount !== 1 ? 's' : ''}</span>
+                </div>
+            `;
+        }
+
+        // Active market with 24h stats
+        const prob = (market.currentProb * 100).toFixed(0);
+        const stats = market.stats;
+
+        let changeHtml = '<span class="activity-change">-</span>';
+        let rangeHtml = '<span class="activity-range"></span>';
+        let icon = '&#x2796;'; // neutral dash
+
+        if (stats && stats.change24h !== null) {
+            const changePct = (stats.change24h * 100).toFixed(1);
+            const sign = stats.change24h >= 0 ? '+' : '';
+            const changeClass = stats.change24h > 0 ? 'positive' : stats.change24h < 0 ? 'negative' : '';
+
+            if (Math.abs(stats.change24h) >= 0.01) {
+                icon = stats.change24h > 0 ? '&#x1F4C8;' : '&#x1F4C9;'; // chart up/down
+            }
+
+            changeHtml = `<span class="activity-change ${changeClass}">${sign}${changePct}%</span>`;
+
+            if (stats.high24h !== null && stats.low24h !== null) {
+                const low = (stats.low24h * 100).toFixed(0);
+                const high = (stats.high24h * 100).toFixed(0);
+                if (low !== high) {
+                    rangeHtml = `<span class="activity-range">${low}-${high}%</span>`;
+                }
+            }
+        }
+
+        return `
+            <div class="activity-row" data-slug="${market.slug}">
+                <span class="activity-icon">${icon}</span>
+                <a href="${market.url}" target="_blank" class="activity-question">${question}</a>
+                <span class="activity-prob">${prob}%</span>
+                ${changeHtml}
+                ${rangeHtml}
+                <span class="activity-cards" title="${market.cardHandles.map(h => '@' + h).join(', ')}">${cardCount} card${cardCount !== 1 ? 's' : ''}</span>
+            </div>
+        `;
+    }).join('');
+
+    container.innerHTML = `
+        <div class="activity-header">
+            <span class="activity-icon"></span>
+            <span class="activity-question">Market</span>
+            <span class="activity-prob">Prob</span>
+            <span class="activity-change">24h</span>
+            <span class="activity-range">Range</span>
+            <span class="activity-cards">Cards</span>
+        </div>
+        ${rows}
+        <div class="activity-footer">
+            <span class="activity-info">Showing ${markets.length} markets across all bingo cards</span>
+        </div>
+    `;
+
+    // Set up click handlers for expandable per-card details
+    setupActivityRowHandlers(markets);
+}
+
+/**
+ * Set up click handlers for activity rows to show per-card breakdown
+ */
+function setupActivityRowHandlers(markets) {
+    const rows = document.querySelectorAll('.activity-row');
+    rows.forEach(row => {
+        row.addEventListener('click', (e) => {
+            // Don't trigger on link clicks
+            if (e.target.tagName === 'A') return;
+
+            const slug = row.dataset.slug;
+            const market = markets.find(m => m.slug === slug);
+            if (!market) return;
+
+            // Toggle expanded state
+            const existing = row.querySelector('.activity-expansion');
+            if (existing) {
+                existing.remove();
+                row.classList.remove('expanded');
+                return;
+            }
+
+            // Create expansion panel
+            const expansion = document.createElement('div');
+            expansion.className = 'activity-expansion';
+            expansion.innerHTML = `
+                <div class="expansion-header">Cards containing this market:</div>
+                ${market.cardIds.map((cardId, i) => `
+                    <a href="card.html?id=${cardId}" class="expansion-card">
+                        @${market.cardHandles[i]}
+                    </a>
+                `).join('')}
+            `;
+
+            row.appendChild(expansion);
+            row.classList.add('expanded');
         });
     });
 }
