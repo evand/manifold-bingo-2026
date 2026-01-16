@@ -733,20 +733,24 @@ async function fetchBetHistory(contractId) {
     }
 
     try {
+        // Use order=desc to get the MOST RECENT 200 bets (not oldest)
+        // This is critical for markets with >200 total bets
         const response = await fetch(
-            `${MANIFOLD_API}/bets?contractId=${contractId}&limit=200&order=asc`
+            `${MANIFOLD_API}/bets?contractId=${contractId}&limit=200&order=desc`
         );
         if (!response.ok) return null;
 
         const bets = await response.json();
 
-        // Extract probability timeline from bets
+        // Extract probability timeline from bets, then reverse to chronological order
+        // (API returns newest first with order=desc, but we need oldest first for sparklines)
         const timeline = bets
             .filter(bet => bet.probAfter != null)
             .map(bet => ({
                 time: bet.createdTime,
                 prob: bet.probAfter
-            }));
+            }))
+            .reverse();
 
         saveSparklineCache(contractId, timeline);
         return timeline;
