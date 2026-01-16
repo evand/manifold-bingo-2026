@@ -150,6 +150,16 @@ header h1 a {
     font-size: 0.85rem;
 }
 
+.leaderboard-header .sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.leaderboard-header .sortable:hover {
+    color: var(--accent);
+}
+
 .leaderboard-row {
     display: grid;
     grid-template-columns: 3rem 1fr 5rem 5rem;

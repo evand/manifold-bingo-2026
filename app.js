@@ -267,7 +267,7 @@ function updateLastSeenInfo() {
 }
 
 /**
- * Display leaderboard sorted by win probability
+ * Display leaderboard sorted by win probability (static, initial load)
  */
 function displayLeaderboard(cards) {
     const leaderboard = document.getElementById('leaderboard');
@@ -278,37 +278,144 @@ function displayLeaderboard(cards) {
         return;
     }
 
-    // Filter to active cards and sort by win probability
-    const activeCards = cards
-        .filter(c => c.status === 'active')
-        .sort((a, b) => b.win_probability - a.win_probability);
+    leaderboard.innerHTML = '<p class="loading">Loading live probabilities...</p>';
+}
 
-    const rows = activeCards.map((card, i) => {
-        const winProb = (card.win_probability * 100).toFixed(1);
-        const purchaseProb = (card.purchase_prob * 100).toFixed(0);
-        const edge = ((card.win_probability - card.purchase_prob) * 100).toFixed(1);
-        const edgeClass = edge >= 0 ? 'positive' : 'negative';
-        const edgeSign = edge >= 0 ? '+' : '';
+// Current sort state for leaderboard
+let leaderboardSortState = { column: 'prob', direction: 'desc' };
+
+/**
+ * Compute live card stats from market data
+ * @param {Array} cards - Card objects
+ * @param {Map} marketDataMap - Map of slug -> {currentProb, stats}
+ * @returns {Array} Cards with liveWinProb and change24h
+ */
+function computeCardStats(cards, marketDataMap) {
+    return cards.map(card => {
+        if (!card.grid || card.status !== 'active') {
+            return { ...card, liveWinProb: card.win_probability, change24h: null };
+        }
+
+        // Get live probs for all 25 cells
+        const liveProbs = card.grid.map((cell, i) => {
+            if (i === FREE_SPACE_INDEX) return 1.0; // Free space
+            const marketData = marketDataMap.get(cell.slug);
+            return marketData?.currentProb ?? cell.prob;
+        });
+
+        // Get 24h-ago probs for all 25 cells
+        const probs24hAgo = card.grid.map((cell, i) => {
+            if (i === FREE_SPACE_INDEX) return 1.0;
+            const marketData = marketDataMap.get(cell.slug);
+            return marketData?.stats?.prob24hAgo ?? cell.prob;
+        });
+
+        const liveWinProb = approximateWinProb(liveProbs);
+        const winProb24hAgo = approximateWinProb(probs24hAgo);
+        const change24h = liveWinProb - winProb24hAgo;
+
+        return { ...card, liveWinProb, change24h };
+    });
+}
+
+/**
+ * Sort cards by column (stable sort)
+ */
+function sortCards(cards, column, direction) {
+    const multiplier = direction === 'desc' ? -1 : 1;
+
+    return [...cards].sort((a, b) => {
+        let valA, valB;
+
+        switch (column) {
+            case 'handle':
+                valA = (a.user_handle || '').toLowerCase();
+                valB = (b.user_handle || '').toLowerCase();
+                return multiplier * valA.localeCompare(valB);
+            case 'prob':
+                valA = a.liveWinProb ?? a.win_probability ?? 0;
+                valB = b.liveWinProb ?? b.win_probability ?? 0;
+                break;
+            case 'change':
+                valA = Math.abs(a.change24h ?? 0);
+                valB = Math.abs(b.change24h ?? 0);
+                break;
+            default:
+                return 0;
+        }
+
+        if (valA === valB) return 0;
+        return multiplier * (valA > valB ? 1 : -1);
+    });
+}
+
+/**
+ * Display live leaderboard with sortable columns
+ */
+function displayLiveLeaderboard(cardsWithStats, container) {
+    if (!container) return;
+
+    const activeCards = cardsWithStats.filter(c => c.status === 'active');
+
+    if (activeCards.length === 0) {
+        container.innerHTML = '<p class="loading">No active cards.</p>';
+        return;
+    }
+
+    // Sort indicator helper
+    const sortIndicator = (col) => {
+        if (leaderboardSortState.column !== col) return '';
+        return leaderboardSortState.direction === 'desc' ? ' &#x25BC;' : ' &#x25B2;';
+    };
+
+    // Sort cards
+    const sorted = sortCards(activeCards, leaderboardSortState.column, leaderboardSortState.direction);
+
+    const rows = sorted.map((card, i) => {
+        const winProb = ((card.liveWinProb ?? card.win_probability) * 100).toFixed(1);
+        const change = card.change24h;
+
+        let changeHtml = '<span class="edge">-</span>';
+        if (change !== null) {
+            const changePct = (change * 100).toFixed(1);
+            const sign = change >= 0 ? '+' : '';
+            const changeClass = change > 0.005 ? 'positive' : change < -0.005 ? 'negative' : '';
+            changeHtml = `<span class="edge ${changeClass}">${sign}${changePct}%</span>`;
+        }
 
         return `
             <a href="card.html?id=${card.card_id}" class="leaderboard-row">
                 <span class="rank">#${i + 1}</span>
                 <span class="handle">@${card.user_handle}</span>
                 <span class="win-prob">${winProb}%</span>
-                <span class="edge ${edgeClass}">${edgeSign}${edge}%</span>
+                ${changeHtml}
             </a>
         `;
     }).join('');
 
-    leaderboard.innerHTML = `
+    container.innerHTML = `
         <div class="leaderboard-header">
             <span class="rank"></span>
-            <span class="handle">Player</span>
-            <span class="win-prob">Win %</span>
-            <span class="edge">Edge</span>
+            <span class="handle sortable" data-sort="handle">Player${sortIndicator('handle')}</span>
+            <span class="win-prob sortable" data-sort="prob">Win %${sortIndicator('prob')}</span>
+            <span class="edge sortable" data-sort="change">24h${sortIndicator('change')}</span>
         </div>
         ${rows}
     `;
+
+    // Set up sort handlers
+    container.querySelectorAll('.sortable').forEach(header => {
+        header.addEventListener('click', () => {
+            const column = header.dataset.sort;
+            if (leaderboardSortState.column === column) {
+                leaderboardSortState.direction = leaderboardSortState.direction === 'desc' ? 'asc' : 'desc';
+            } else {
+                leaderboardSortState.column = column;
+                leaderboardSortState.direction = column === 'handle' ? 'asc' : 'desc';
+            }
+            displayLiveLeaderboard(cardsWithStats, container);
+        });
+    });
 }
 
 /**
@@ -872,6 +979,20 @@ async function displayMarketActivity(cards) {
 
     // Render the activity feed
     renderActivityFeed(container, marketsWithStats);
+
+    // Build market data map for card stats
+    const marketDataMap = new Map();
+    marketsWithStats.forEach(m => {
+        marketDataMap.set(m.slug, {
+            currentProb: m.currentProb,
+            stats: m.stats
+        });
+    });
+
+    // Compute and display card stats in leaderboard
+    const cardsWithStats = computeCardStats(cards, marketDataMap);
+    const leaderboard = document.getElementById('leaderboard');
+    displayLiveLeaderboard(cardsWithStats, leaderboard);
 }
 
 // Current sort state for activity feed
