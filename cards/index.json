@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768531901021,
+  "updated_at": 1768532260449,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -5270,7 +5270,7 @@
       "user_handle": "archvenison",
       "answer_id": "LgcqCcE5c9",
       "status": "active",
-      "win_probability": 0.5496881311477511,
+      "win_probability": 0.5502130317734113,
       "target_win_prob": 0.5499999999999999,
       "purchase_price": 120.58752034664798,
       "purchase_prob": 0.6,
@@ -5319,32 +5319,32 @@
           "url": "https://manifold.markets/strutheo/will-there-be-a-transgender-fide-ch-zfs42fqgls"
         },
         {
-          "slug": "biden-ranked-below-w-bush-in-next-c",
-          "question": "Biden ranked below W Bush in next C-SPAN Presidential Historians Survey",
-          "prob": 0.2,
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.08953206241748977,
           "resolved": null,
-          "url": "https://manifold.markets/MartinRandall/biden-ranked-below-w-bush-in-next-c"
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
         },
         {
-          "slug": "ai-2027-reports-predictions-borne-o",
-          "question": "\"AI 2027\" report's predictions borne out by 2027?",
-          "prob": 0.08661789640657801,
+          "slug": "will-openais-gpt6-release-before-ro",
+          "question": "Will GPT6 release before GTA6?",
+          "prob": 0.566856880358092,
           "resolved": null,
-          "url": "https://manifold.markets/IsaacKing/ai-2027-reports-predictions-borne-o"
+          "url": "https://manifold.markets/strutheo/will-openais-gpt6-release-before-ro"
         },
         {
-          "slug": "will-at-least-73-billion-chickens-b",
-          "question": "Will at least 73 billion chickens be killed for meat in 2025?",
-          "prob": 0.9309779693672436,
+          "slug": "will-irans-regime-fall-in-2026",
+          "question": "Will Iran's regime fall in 2026?",
+          "prob": 0.39848815405816873,
           "resolved": null,
-          "url": "https://manifold.markets/IsaacKing/will-at-least-73-billion-chickens-b"
+          "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
         {
-          "slug": "will-redwood-research-still-exist-i-61212f9cdb2f",
-          "question": "Will Redwood Research still exist in 3 years?",
-          "prob": 0.8977655325051989,
+          "slug": "israel-attacks-iran-by-january-31st",
+          "question": "Israel attacks Iran by January 31st, 2026",
+          "prob": 0.4178688790205623,
           "resolved": null,
-          "url": "https://manifold.markets/RyanGreenblatt/will-redwood-research-still-exist-i-61212f9cdb2f"
+          "url": "https://manifold.markets/adhamsoliman/israel-attacks-iran-by-january-31st"
         },
         {
           "slug": "will-paul-christiano-shake-the-us-p",
@@ -5354,11 +5354,11 @@
           "url": "https://manifold.markets/theshortbread/will-paul-christiano-shake-the-us-p"
         },
         {
-          "slug": "tesla-serves-more-fully-autonomous",
-          "question": "Tesla has more fully autonomous rides than Waymo in 2026?",
-          "prob": 0.32999999999999996,
+          "slug": "will-a-glp1-agonist-diabetes-weight-1a38792fd7bb",
+          "question": "Will a GLP-1 agonist diabetes / weight loss drug be the top bestselling drug in 2025?",
+          "prob": 0.29999999999999993,
           "resolved": null,
-          "url": "https://manifold.markets/JamesGrugett/tesla-serves-more-fully-autonomous"
+          "url": "https://manifold.markets/samb/will-a-glp1-agonist-diabetes-weight-1a38792fd7bb"
         },
         {
           "slug": "will-ftx-creditors-get-back-more-th",
@@ -5375,11 +5375,11 @@
           "url": "https://manifold.markets/AlanTuring/will-the-arc-agi-grand-prize-be-cla-svtrhb42tx"
         },
         {
-          "slug": "will-maria-corina-machado-enter-ven",
-          "question": "Will Maria Corina Machado enter Venezuela by January 31st?",
-          "prob": 0.25000000000000006,
+          "slug": "will-any-restaurant-serves-hybridri",
+          "question": "Will any restaurant serve hybrid-rice (rice grains integrated with animal cells) regularly by the end of 2026?",
+          "prob": 0.10912321242172993,
           "resolved": null,
-          "url": "https://manifold.markets/bens/will-maria-corina-machado-enter-ven"
+          "url": "https://manifold.markets/long/will-any-restaurant-serves-hybridri"
         },
         {
           "slug": "will-chatgpt-call-itself-a-chatbot",
@@ -5417,18 +5417,18 @@
           "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
         },
         {
-          "slug": "will-kizaru-betraydefect-the-marine",
-          "question": "Will Kizaru betray/defect the Marines?",
-          "prob": 0.6032968372649243,
+          "slug": "will-trump-wins-the-nobel-peace-pri",
+          "question": "Will Trump wins the Nobel Peace Prize in 2026? [High Liquidity]",
+          "prob": 0.0695243359080653,
           "resolved": null,
-          "url": "https://manifold.markets/BoxFangWP/will-kizaru-betraydefect-the-marine"
+          "url": "https://manifold.markets/AmmonLam/will-trump-wins-the-nobel-peace-pri"
         },
         {
-          "slug": "eliezer-yudkowsky-calls-me-promisin",
-          "question": "Eliezer Yudkowsky calls me \u201cpromising\u201d before the end of 2026",
-          "prob": 0.12218101570092488,
+          "slug": "will-bibi-still-be-the-prime-minist",
+          "question": "Will Bibi still be the prime minister of Israel in 2027?",
+          "prob": 0.40573673044909053,
           "resolved": null,
-          "url": "https://manifold.markets/Alana/eliezer-yudkowsky-calls-me-promisin"
+          "url": "https://manifold.markets/97ec/will-bibi-still-be-the-prime-minist"
         },
         {
           "slug": "will-this-yudkowsky-tweet-hold-up",
@@ -5438,18 +5438,18 @@
           "url": "https://manifold.markets/journcy/will-this-yudkowsky-tweet-hold-up"
         },
         {
-          "slug": "will-scale-alone-be-enough-to-elimi",
-          "question": "Will scaling current methods be enough to eliminate LLM hallucination?",
-          "prob": 0.15340295202839888,
+          "slug": "will-trump-pardon-luigi-mangione-pr",
+          "question": "Will Trump pardon Luigi Mangione prior to Jan 20, 2029?",
+          "prob": 0.010054290248910115,
           "resolved": null,
-          "url": "https://manifold.markets/LukeFrymire/will-scale-alone-be-enough-to-elimi"
+          "url": "https://manifold.markets/GregRoberts/will-trump-pardon-luigi-mangione-pr"
         },
         {
-          "slug": "will-i-consider-sam-altman-a-grifte",
-          "question": "Will I consider Sam Altman a grifter by the end of 2026?",
-          "prob": 0.5892439444548625,
+          "slug": "will-tailcalled-think-that-the-natu",
+          "question": "Will tailcalled think that the Natural Abstractions alignment research program has achieved something important by October 20th, 2026?",
+          "prob": 0.17426240957240918,
           "resolved": null,
-          "url": "https://manifold.markets/MP/will-i-consider-sam-altman-a-grifte"
+          "url": "https://manifold.markets/tailcalled/will-tailcalled-think-that-the-natu"
         }
       ]
     },
