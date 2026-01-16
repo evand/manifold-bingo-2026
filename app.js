@@ -874,14 +874,85 @@ async function displayMarketActivity(cards) {
     renderActivityFeed(container, marketsWithStats);
 }
 
+// Current sort state for activity feed
+let activitySortState = { column: 'change', direction: 'desc' };
+
+/**
+ * Sort markets by a column (stable sort - preserves previous order for ties)
+ */
+function sortMarkets(markets, column, direction) {
+    const multiplier = direction === 'desc' ? -1 : 1;
+
+    return [...markets].sort((a, b) => {
+        let valA, valB;
+
+        switch (column) {
+            case 'resolved':
+                // Resolved first (desc) or last (asc)
+                valA = a.isResolved ? 1 : 0;
+                valB = b.isResolved ? 1 : 0;
+                break;
+            case 'question':
+                valA = (a.question || '').toLowerCase();
+                valB = (b.question || '').toLowerCase();
+                return multiplier * valA.localeCompare(valB);
+            case 'prob':
+                valA = a.currentProb ?? 0;
+                valB = b.currentProb ?? 0;
+                break;
+            case 'change':
+                valA = Math.abs(a.stats?.change24h ?? 0);
+                valB = Math.abs(b.stats?.change24h ?? 0);
+                break;
+            case 'range':
+                // Sort by range width (high - low)
+                valA = (a.stats?.high24h ?? 0) - (a.stats?.low24h ?? 0);
+                valB = (b.stats?.high24h ?? 0) - (b.stats?.low24h ?? 0);
+                break;
+            case 'cards':
+                valA = a.cardIds?.length ?? 0;
+                valB = b.cardIds?.length ?? 0;
+                break;
+            default:
+                return 0;
+        }
+
+        if (valA === valB) return 0;
+        return multiplier * (valA > valB ? 1 : -1);
+    });
+}
+
+/**
+ * Handle sort header click
+ */
+function handleSortClick(markets, column, container) {
+    // Toggle direction if same column, otherwise keep current order (stable sort)
+    if (activitySortState.column === column) {
+        activitySortState.direction = activitySortState.direction === 'desc' ? 'asc' : 'desc';
+    } else {
+        // New column - default to desc for most, asc for question
+        activitySortState.column = column;
+        activitySortState.direction = column === 'question' ? 'asc' : 'desc';
+    }
+
+    const sorted = sortMarkets(markets, column, activitySortState.direction);
+    renderActivityFeed(container, sorted, markets);
+}
+
 /**
  * Render the market activity feed
+ * @param {Element} container - DOM container
+ * @param {Array} markets - Markets to display (possibly sorted)
+ * @param {Array} originalMarkets - Original unsorted markets (for re-sorting)
  */
-function renderActivityFeed(container, markets) {
+function renderActivityFeed(container, markets, originalMarkets = null) {
     if (markets.length === 0) {
         container.innerHTML = '<p class="loading">No market activity.</p>';
         return;
     }
+
+    // Keep reference to original for re-sorting
+    const marketsRef = originalMarkets || markets;
 
     const rows = markets.map(market => {
         const cardCount = market.cardIds.length;
@@ -945,14 +1016,20 @@ function renderActivityFeed(container, markets) {
         `;
     }).join('');
 
+    // Helper to render sort indicator
+    const sortIndicator = (col) => {
+        if (activitySortState.column !== col) return '';
+        return activitySortState.direction === 'desc' ? ' &#x25BC;' : ' &#x25B2;';
+    };
+
     container.innerHTML = `
         <div class="activity-header">
             <span class="activity-icon"></span>
-            <span class="activity-question">Market</span>
-            <span class="activity-prob">Prob</span>
-            <span class="activity-change">24h</span>
-            <span class="activity-range">Range</span>
-            <span class="activity-cards">Cards</span>
+            <span class="activity-question sortable" data-sort="question">Market${sortIndicator('question')}</span>
+            <span class="activity-prob sortable" data-sort="prob">Prob${sortIndicator('prob')}</span>
+            <span class="activity-change sortable" data-sort="change">24h${sortIndicator('change')}</span>
+            <span class="activity-range sortable" data-sort="range">Range${sortIndicator('range')}</span>
+            <span class="activity-cards sortable" data-sort="cards">Cards${sortIndicator('cards')}</span>
         </div>
         ${rows}
         <div class="activity-footer">
@@ -960,15 +1037,25 @@ function renderActivityFeed(container, markets) {
         </div>
     `;
 
-    // Set up click handlers for expandable per-card details
-    setupActivityRowHandlers(markets);
+    // Set up click handlers for expandable per-card details and sorting
+    setupActivityRowHandlers(marketsRef, container);
 }
 
 /**
- * Set up click handlers for activity rows to show per-card breakdown
+ * Set up click handlers for activity rows and sort headers
  */
-function setupActivityRowHandlers(markets) {
-    const rows = document.querySelectorAll('.activity-row');
+function setupActivityRowHandlers(markets, container) {
+    // Sort header click handlers
+    const sortables = container.querySelectorAll('.sortable');
+    sortables.forEach(header => {
+        header.addEventListener('click', () => {
+            const column = header.dataset.sort;
+            handleSortClick(markets, column, container);
+        });
+    });
+
+    // Row expansion click handlers
+    const rows = container.querySelectorAll('.activity-row');
     rows.forEach(row => {
         row.addEventListener('click', (e) => {
             // Don't trigger on link clicks
