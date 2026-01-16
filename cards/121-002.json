@@ -3,7 +3,7 @@
   "user_handle": "121",
   "answer_id": "8OUNdsPhhC",
   "status": "active",
-  "win_probability": 0.5498683834612517,
+  "win_probability": 0.5502450811508199,
   "target_win_prob": 0.5499999999999999,
   "purchase_price": 329.58757178682066,
   "purchase_prob": 0.6,
@@ -73,11 +73,11 @@
       "url": "https://manifold.markets/Bayesian/movietv-show-about-sam-altmans-firi"
     },
     {
-      "slug": "will-the-first-ai-model-that-satura",
-      "question": "Will the first AI model that saturates Humanity's Last Exam be employable as a software engineer?",
-      "prob": 0.44999999999999984,
+      "slug": "aella-finds-husband-via-her-100k-bo",
+      "question": "Aella finds husband via her $100k bounty?",
+      "prob": 0.3382510831859547,
       "resolved": null,
-      "url": "https://manifold.markets/MilfordHammerschmidt/will-the-first-ai-model-that-satura"
+      "url": "https://manifold.markets/shankypanky/aella-finds-husband-via-her-100k-bo"
     },
     {
       "slug": "will-minecraft-still-be-the-bestsel",
@@ -87,11 +87,11 @@
       "url": "https://manifold.markets/vberlier/will-minecraft-still-be-the-bestsel"
     },
     {
-      "slug": "will-hugh-jackman-appear-in-avenger",
-      "question": "Will Hugh Jackman appear in \"Avengers: Secret Wars\"?",
-      "prob": 0.5543376916375284,
+      "slug": "will-the-justice-department-win-its",
+      "question": "Will the Justice Department win its antitrust suit against Google?",
+      "prob": 0.15671024534607209,
       "resolved": null,
-      "url": "https://manifold.markets/NcyRocks/will-hugh-jackman-appear-in-avenger"
+      "url": "https://manifold.markets/Gabrielle/will-the-justice-department-win-its"
     },
     {
       "slug": "will-daniel-litt-win-his-25000-bet",
@@ -108,11 +108,11 @@
       "url": "https://manifold.markets/AndyMartin/will-governor-kathy-hochul-complete"
     },
     {
-      "slug": "will-the-us-government-declare-a-ne-dPpsg0lgER",
-      "question": "Will the US government declare a new holiday in memory of Charlie Kirk?",
-      "prob": 0.025117097940677693,
+      "slug": "will-ww3-happen-before-gta6",
+      "question": "Will WW3 happen before GTA6?",
+      "prob": 0.08953206241748977,
       "resolved": null,
-      "url": "https://manifold.markets/Panfilo/will-the-us-government-declare-a-ne-dPpsg0lgER"
+      "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
     },
     {
       "slug": "will-costcos-in-us-raise-the-price-19039ae96bcc",
@@ -178,11 +178,11 @@
       "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-ai-model-reach-a-3"
     },
     {
-      "slug": "will-lula-win-the-2026-brazilian-pr",
-      "question": "Will Lula win the 2026 Brazilian presidential election?",
-      "prob": 0.4534955437478526,
+      "slug": "by-the-end-of-2028-will-ai-be-able",
+      "question": "By the end of 2028 will AI be able to write an original article and get it accepted in a prestigious Philosophy journal?",
+      "prob": 0.4499999999999999,
       "resolved": null,
-      "url": "https://manifold.markets/GustavoMafra/will-lula-win-the-2026-brazilian-pr"
+      "url": "https://manifold.markets/PhilosophyBear/by-the-end-of-2028-will-ai-be-able"
     }
   ]
 }

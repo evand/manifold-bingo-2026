@@ -1,0 +1,188 @@
+{
+  "card_id": "ovals-001",
+  "user_handle": "ovals",
+  "answer_id": "A968gPQldZ",
+  "status": "active",
+  "win_probability": 0.2699749229682531,
+  "target_win_prob": 0.27,
+  "purchase_price": 323.9434493427831,
+  "purchase_prob": 0.3908473984463021,
+  "created_time": 1768523278374,
+  "grid": [
+    {
+      "slug": "if-trump-wins-will-marijuana-be-fed",
+      "question": "If Trump wins, will marijuana be federally rescheduled before the 2026 midterms?",
+      "prob": 0.705502526907396,
+      "resolved": null,
+      "url": "https://manifold.markets/BlueDragon/if-trump-wins-will-marijuana-be-fed"
+    },
+    {
+      "slug": "thunder-win-74-games-nba-record",
+      "question": "Thunder win 74+ games (NBA record)? \ud83c\udfc0",
+      "prob": 0.011435152085255817,
+      "resolved": null,
+      "url": "https://manifold.markets/PaperBoy/thunder-win-74-games-nba-record"
+    },
+    {
+      "slug": "jane-street-guilty-of-indian-market",
+      "question": "Jane Street guilty of Indian market manipulation or settles for $100M+?",
+      "prob": 0.38700911718808084,
+      "resolved": null,
+      "url": "https://manifold.markets/palcu/jane-street-guilty-of-indian-market"
+    },
+    {
+      "slug": "will-the-supreme-court-rule-on-pred",
+      "question": "Will the Supreme Court rule on PredictIt vs. CFTC before 2026?",
+      "prob": 0.05382327386661152,
+      "resolved": null,
+      "url": "https://manifold.markets/SG/will-the-supreme-court-rule-on-pred"
+    },
+    {
+      "slug": "will-there-be-a-manifest-in-june-of",
+      "question": "Will there be a manifest in june of 2026?",
+      "prob": 0.885044907246423,
+      "resolved": null,
+      "url": "https://manifold.markets/Elspeth/will-there-be-a-manifest-in-june-of"
+    },
+    {
+      "slug": "are-libertarianism-and-autistic-tra",
+      "question": "Are libertarianism and autistic traits correlated?",
+      "prob": 0.8427432142115132,
+      "resolved": null,
+      "url": "https://manifold.markets/RobinGreen/are-libertarianism-and-autistic-tra"
+    },
+    {
+      "slug": "will-police-in-the-usa-kill-more-pe-2EUlSPdd6U",
+      "question": "Will police in the usa kill more people in 2026 than in 2025?",
+      "prob": 0.5077197913423872,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/will-police-in-the-usa-kill-more-pe-2EUlSPdd6U"
+    },
+    {
+      "slug": "by-2026-will-gene-haas-sell-haas-fo",
+      "question": "By 2026, will Gene Haas sell Haas Formula 1 Team?",
+      "prob": 0.4123605862458442,
+      "resolved": null,
+      "url": "https://manifold.markets/MP/by-2026-will-gene-haas-sell-haas-fo"
+    },
+    {
+      "slug": "will-donald-trump-attend-the-mens-2",
+      "question": "Will Donald Trump attend the Men's 2026 soccer World Cup final in person?",
+      "prob": 0.8803789952082846,
+      "resolved": null,
+      "url": "https://manifold.markets/Ciuccio/will-donald-trump-attend-the-mens-2"
+    },
+    {
+      "slug": "presidential-election-in-venezuela",
+      "question": "Presidential Election in Venezuela by EOY 2026?",
+      "prob": 0.5055726393269223,
+      "resolved": null,
+      "url": "https://manifold.markets/SqrtMinusOne/presidential-election-in-venezuela"
+    },
+    {
+      "slug": "will-it-be-common-for-nonprogrammer-dfc979ea7fec",
+      "question": "Will it be common for non-programmers to create small scripts using AI in their everyday work or life? By 2027",
+      "prob": 0.3147457295185696,
+      "resolved": null,
+      "url": "https://manifold.markets/jskf/will-it-be-common-for-nonprogrammer-dfc979ea7fec"
+    },
+    {
+      "slug": "acx-2026-will-keir-starmer-cease-to",
+      "question": "[ACX 2026] Will Keir Starmer cease to be Prime Minister of the UK during 2026?",
+      "prob": 0.4421260736190001,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-keir-starmer-cease-to"
+    },
+    {
+      "slug": "will-ftx-creditors-get-back-more-th",
+      "question": "Will FTX creditors get back more than 100%?",
+      "prob": 0.9714573281101427,
+      "resolved": null,
+      "url": "https://manifold.markets/Simon74fe/will-ftx-creditors-get-back-more-th"
+    },
+    {
+      "slug": "will-ai-porn-videos-be-better-than",
+      "question": "Will AI porn videos be better than real porn by the end of 2026?",
+      "prob": 0.6000000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/JonathanRay/will-ai-porn-videos-be-better-than"
+    },
+    {
+      "slug": "by-eoy-2026-will-it-seem-as-if-deep",
+      "question": "By EOY 2026, will it seem as if deep learning hit a wall by EOY 2025?",
+      "prob": 0.1454052643959638,
+      "resolved": null,
+      "url": "https://manifold.markets/ZviMowshowitz/by-eoy-2026-will-it-seem-as-if-deep"
+    },
+    {
+      "slug": "bitcoin-below-55k-in-2026",
+      "question": "Bitcoin below $55K in 2026?",
+      "prob": 0.20578472100774764,
+      "resolved": null,
+      "url": "https://manifold.markets/predyx_markets/bitcoin-below-55k-in-2026"
+    },
+    {
+      "slug": "will-epic-vs-google-hold-up-on-appe",
+      "question": "Will Epic vs Google hold up on appeal?",
+      "prob": 0.8600359209676459,
+      "resolved": null,
+      "url": "https://manifold.markets/aashiq/will-epic-vs-google-hold-up-on-appe"
+    },
+    {
+      "slug": "will-the-classaction-lawsuit-by-art",
+      "question": "Will the class-action lawsuit by artists against several AI art generators be successful?",
+      "prob": 0.19756084546813274,
+      "resolved": null,
+      "url": "https://manifold.markets/anne/will-the-classaction-lawsuit-by-art"
+    },
+    {
+      "slug": "will-2025-be-referred-to-as-the-sta",
+      "question": "Will 2025 be referred to as the start of the second Great Depression?",
+      "prob": 0.07129912600349063,
+      "resolved": null,
+      "url": "https://manifold.markets/SteveSokolowski/will-2025-be-referred-to-as-the-sta"
+    },
+    {
+      "slug": "if-the-leftright-culture-war-comes-1cc8384e933c",
+      "question": "If the left/right culture war comes for AI before US elections, will the right be the pro-AI side?",
+      "prob": 0.6813788804036636,
+      "resolved": null,
+      "url": "https://manifold.markets/MGG/if-the-leftright-culture-war-comes-1cc8384e933c"
+    },
+    {
+      "slug": "will-trump-venezuela-in-2026",
+      "question": "Will Trump visit Venezuela in 2026?",
+      "prob": 0.24085376077408774,
+      "resolved": null,
+      "url": "https://manifold.markets/Jack1/will-trump-venezuela-in-2026"
+    },
+    {
+      "slug": "will-gregg-berhalter-be-coach-of-th",
+      "question": "Will Gregg Berhalter be coach of the US Men's National Soccer Team for the 2026 World Cup?",
+      "prob": 0.010632268909893113,
+      "resolved": null,
+      "url": "https://manifold.markets/Charlie/will-gregg-berhalter-be-coach-of-th"
+    },
+    {
+      "slug": "will-a-big-mac-cost-more-than-10-in-f520144387f9",
+      "question": "Will a Big Mac cost more than $10 in 2026?",
+      "prob": 0.3948774370633889,
+      "resolved": null,
+      "url": "https://manifold.markets/case/will-a-big-mac-cost-more-than-10-in-f520144387f9"
+    },
+    {
+      "slug": "trump-to-hand-the-world-cup-trophy",
+      "question": "Trump to hand the World Cup trophy to Harry Kane",
+      "prob": 0.07942886820238954,
+      "resolved": null,
+      "url": "https://manifold.markets/Ethoin/trump-to-hand-the-world-cup-trophy"
+    },
+    {
+      "slug": "anthropic-flips-openai-before-2027",
+      "question": "Anthropic flips OpenAI before 2027?",
+      "prob": 0.38666494119304473,
+      "resolved": null,
+      "url": "https://manifold.markets/duck_master/anthropic-flips-openai-before-2027"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "card_id": "archvenison-001",
+  "user_handle": "archvenison",
+  "answer_id": "LgcqCcE5c9",
+  "status": "active",
+  "win_probability": 0.5496881311477511,
+  "target_win_prob": 0.5499999999999999,
+  "purchase_price": 120.58752034664798,
+  "purchase_prob": 0.6,
+  "created_time": 1768501541767,
+  "grid": [
+    {
+      "slug": "will-there-be-an-ai-smartphone-brou",
+      "question": "Will there be an AI smartphone brought to market by 2027?",
+      "prob": 0.7892652721302528,
+      "resolved": null,
+      "url": "https://manifold.markets/SimranRahman/will-there-be-an-ai-smartphone-brou"
+    },
+    {
+      "slug": "will-pritzker-newsome-or-any-other",
+      "question": "Will Pritzker, Newsome, or any other state governor attempt to have the state police arrest ICE agents by July 2026?",
+      "prob": 0.23469076988138812,
+      "resolved": null,
+      "url": "https://manifold.markets/JohnDavidPressman/will-pritzker-newsome-or-any-other"
+    },
+    {
+      "slug": "california-prop-50-map-used-in-2026",
+      "question": "California Prop 50 map used in 2026 election?",
+      "prob": 0.8430248334618866,
+      "resolved": null,
+      "url": "https://manifold.markets/EricNeyman/california-prop-50-map-used-in-2026"
+    },
+    {
+      "slug": "will-rootclaim-win-their-1000000-co",
+      "question": "Will Rootclaim win their $1,000,000 Covid vaccine debate with Steve Kirsch?",
+      "prob": 0.9269967768961729,
+      "resolved": null,
+      "url": "https://manifold.markets/Alfie/will-rootclaim-win-their-1000000-co"
+    },
+    {
+      "slug": "will-villeneuves-dune-part-2-receiv",
+      "question": "Will Villeneuve's DUNE part 2 receive a higher IMDB rating than DUNE part 1 by end of 2026?",
+      "prob": 0.915976646307987,
+      "resolved": null,
+      "url": "https://manifold.markets/GarrethByrne/will-villeneuves-dune-part-2-receiv"
+    },
+    {
+      "slug": "will-there-be-a-transgender-fide-ch-zfs42fqgls",
+      "question": "Will there be a transgender FIDE chess grandmaster by the end of 2026?",
+      "prob": 0.15281042166341657,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/will-there-be-a-transgender-fide-ch-zfs42fqgls"
+    },
+    {
+      "slug": "biden-ranked-below-w-bush-in-next-c",
+      "question": "Biden ranked below W Bush in next C-SPAN Presidential Historians Survey",
+      "prob": 0.2,
+      "resolved": null,
+      "url": "https://manifold.markets/MartinRandall/biden-ranked-below-w-bush-in-next-c"
+    },
+    {
+      "slug": "ai-2027-reports-predictions-borne-o",
+      "question": "\"AI 2027\" report's predictions borne out by 2027?",
+      "prob": 0.08661789640657801,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/ai-2027-reports-predictions-borne-o"
+    },
+    {
+      "slug": "will-at-least-73-billion-chickens-b",
+      "question": "Will at least 73 billion chickens be killed for meat in 2025?",
+      "prob": 0.9309779693672436,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/will-at-least-73-billion-chickens-b"
+    },
+    {
+      "slug": "will-redwood-research-still-exist-i-61212f9cdb2f",
+      "question": "Will Redwood Research still exist in 3 years?",
+      "prob": 0.8977655325051989,
+      "resolved": null,
+      "url": "https://manifold.markets/RyanGreenblatt/will-redwood-research-still-exist-i-61212f9cdb2f"
+    },
+    {
+      "slug": "will-paul-christiano-shake-the-us-p",
+      "question": "Will Paul Christiano shake the US president's hand by 2027",
+      "prob": 0.2600781140391181,
+      "resolved": null,
+      "url": "https://manifold.markets/theshortbread/will-paul-christiano-shake-the-us-p"
+    },
+    {
+      "slug": "tesla-serves-more-fully-autonomous",
+      "question": "Tesla has more fully autonomous rides than Waymo in 2026?",
+      "prob": 0.32999999999999996,
+      "resolved": null,
+      "url": "https://manifold.markets/JamesGrugett/tesla-serves-more-fully-autonomous"
+    },
+    {
+      "slug": "will-ftx-creditors-get-back-more-th",
+      "question": "Will FTX creditors get back more than 100%?",
+      "prob": 0.9714573281101427,
+      "resolved": null,
+      "url": "https://manifold.markets/Simon74fe/will-ftx-creditors-get-back-more-th"
+    },
+    {
+      "slug": "will-the-arc-agi-grand-prize-be-cla-svtrhb42tx",
+      "question": "Will the ARC AGI Grand Prize be claimed before January 2027?",
+      "prob": 0.5220611397966222,
+      "resolved": null,
+      "url": "https://manifold.markets/AlanTuring/will-the-arc-agi-grand-prize-be-cla-svtrhb42tx"
+    },
+    {
+      "slug": "will-maria-corina-machado-enter-ven",
+      "question": "Will Maria Corina Machado enter Venezuela by January 31st?",
+      "prob": 0.25000000000000006,
+      "resolved": null,
+      "url": "https://manifold.markets/bens/will-maria-corina-machado-enter-ven"
+    },
+    {
+      "slug": "will-chatgpt-call-itself-a-chatbot",
+      "question": "Will chatgpt stop calling itself a \"chatbot\" by 2027?",
+      "prob": 0.4008361108441926,
+      "resolved": null,
+      "url": "https://manifold.markets/singer/will-chatgpt-call-itself-a-chatbot"
+    },
+    {
+      "slug": "will-the-current-israeli-government",
+      "question": "Will the current Israeli government last ~a full term?",
+      "prob": 0.595010591804195,
+      "resolved": null,
+      "url": "https://manifold.markets/ShakedKoplewitz/will-the-current-israeli-government"
+    },
+    {
+      "slug": "will-any-2026-fifa-world-cup-matche",
+      "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+      "prob": 0.9660664588878306,
+      "resolved": null,
+      "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
+    },
+    {
+      "slug": "will-an-ai-achieve-85-performance-o-hyPtIE98qZ",
+      "question": "Will an AI achieve >85% performance on the FrontierMath benchmark before 2027?",
+      "prob": 0.3548919061969748,
+      "resolved": null,
+      "url": "https://manifold.markets/Bayesian/will-an-ai-achieve-85-performance-o-hyPtIE98qZ"
+    },
+    {
+      "slug": "bitcoin-below-80k-in-2026",
+      "question": "Bitcoin below $80K in 2026?",
+      "prob": 0.7052706107506633,
+      "resolved": null,
+      "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
+    },
+    {
+      "slug": "will-kizaru-betraydefect-the-marine",
+      "question": "Will Kizaru betray/defect the Marines?",
+      "prob": 0.6032968372649243,
+      "resolved": null,
+      "url": "https://manifold.markets/BoxFangWP/will-kizaru-betraydefect-the-marine"
+    },
+    {
+      "slug": "eliezer-yudkowsky-calls-me-promisin",
+      "question": "Eliezer Yudkowsky calls me \u201cpromising\u201d before the end of 2026",
+      "prob": 0.12218101570092488,
+      "resolved": null,
+      "url": "https://manifold.markets/Alana/eliezer-yudkowsky-calls-me-promisin"
+    },
+    {
+      "slug": "will-this-yudkowsky-tweet-hold-up",
+      "question": "Will this Yudkowsky tweet hold up?",
+      "prob": 0.9616902390320777,
+      "resolved": null,
+      "url": "https://manifold.markets/journcy/will-this-yudkowsky-tweet-hold-up"
+    },
+    {
+      "slug": "will-scale-alone-be-enough-to-elimi",
+      "question": "Will scaling current methods be enough to eliminate LLM hallucination?",
+      "prob": 0.15340295202839888,
+      "resolved": null,
+      "url": "https://manifold.markets/LukeFrymire/will-scale-alone-be-enough-to-elimi"
+    },
+    {
+      "slug": "will-i-consider-sam-altman-a-grifte",
+      "question": "Will I consider Sam Altman a grifter by the end of 2026?",
+      "prob": 0.5892439444548625,
+      "resolved": null,
+      "url": "https://manifold.markets/MP/will-i-consider-sam-altman-a-grifte"
+    }
+  ]
+}

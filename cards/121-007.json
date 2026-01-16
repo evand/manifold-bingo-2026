@@ -3,7 +3,7 @@
   "user_handle": "121",
   "answer_id": "uU20l9hC0Q",
   "status": "active",
-  "win_probability": 0.550880094720712,
+  "win_probability": 0.550321490580886,
   "target_win_prob": 0.5499999999999999,
   "purchase_price": 62.920918809777916,
   "purchase_prob": 0.6,
@@ -31,11 +31,11 @@
       "url": "https://manifold.markets/CivilizedGuy/will-the-us-government-conduct-mili"
     },
     {
-      "slug": "will-the-average-global-temperature-8ec95601c0fd",
-      "question": "Will the average global temperature in 2025 exceed 2024?",
-      "prob": 0.0324020458465404,
+      "slug": "is-nicotine-good-for-you",
+      "question": "Is Nicotine Good for You?",
+      "prob": 0.24652831162831373,
       "resolved": null,
-      "url": "https://manifold.markets/AmmonLam/will-the-average-global-temperature-8ec95601c0fd"
+      "url": "https://manifold.markets/cc1/is-nicotine-good-for-you"
     },
     {
       "slug": "will-gwern-publish-a-standalone-boo",
@@ -66,11 +66,11 @@
       "url": "https://manifold.markets/UniversalFC/will-any-player-score-more-than-6-g-f43d7460350b"
     },
     {
-      "slug": "soai9-datacenter-nimbyism-takes-the",
-      "question": "SOAI#9: Datacenter NIMBYism takes the US by storm and sways certain midterm/gubernatorial elections in 2026",
-      "prob": 0.3067154194229556,
+      "slug": "will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh",
+      "question": "Will X.com be accessible in the UK on 30th June?",
+      "prob": 0.9103993082583925,
       "resolved": null,
-      "url": "https://manifold.markets/ZviMowshowitz/soai9-datacenter-nimbyism-takes-the"
+      "url": "https://manifold.markets/Noit/will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh"
     },
     {
       "slug": "will-elon-muskx-prevail-in-a-lawsui",
@@ -101,11 +101,11 @@
       "url": "https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet"
     },
     {
-      "slug": "will-putin-die-in-office",
-      "question": "Will Putin die in office?",
-      "prob": 0.7534410802892348,
+      "slug": "will-ww3-happen-before-gta6",
+      "question": "Will WW3 happen before GTA6?",
+      "prob": 0.08953206241748977,
       "resolved": null,
-      "url": "https://manifold.markets/ElmerFudd/will-putin-die-in-office"
+      "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
     },
     {
       "slug": "will-an-ai-be-able-to-generate-indu",
@@ -157,11 +157,11 @@
       "url": "https://manifold.markets/SemioticRivalry/if-jd-vances-senate-seat-opens-up-w"
     },
     {
-      "slug": "did-israel-execute-unarmed-gaza-civ",
-      "question": "Did Israel execute unarmed Gazans on December 19th for no good reason?",
-      "prob": 0.47911180879941573,
+      "slug": "will-there-be-more-mana-purchased-i",
+      "question": "Will there be more mana purchased in March 2026 than in December 2025?",
+      "prob": 0.49848314920347186,
       "resolved": null,
-      "url": "https://manifold.markets/IsaacKing/did-israel-execute-unarmed-gaza-civ"
+      "url": "https://manifold.markets/EvanDaniel/will-there-be-more-mana-purchased-i"
     },
     {
       "slug": "in-december-of-2026-will-wikipedia",
