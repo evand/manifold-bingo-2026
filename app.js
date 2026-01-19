@@ -1128,8 +1128,9 @@ function sortMarkets(markets, column, direction) {
                 valB = (b.question || '').toLowerCase();
                 return multiplier * valA.localeCompare(valB);
             case 'prob':
-                valA = a.currentProb ?? 0;
-                valB = b.currentProb ?? 0;
+                // Resolved markets sort at 100% (YES) or 0% (NO)
+                valA = a.isResolved ? (a.resolution === 'YES' ? 1.0 : 0.0) : (a.currentProb ?? 0);
+                valB = b.isResolved ? (b.resolution === 'YES' ? 1.0 : 0.0) : (b.currentProb ?? 0);
                 break;
             case 'change':
                 // Sort by actual value (biggest gainers first when desc)
