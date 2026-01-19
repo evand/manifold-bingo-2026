@@ -1,0 +1,188 @@
+{
+  "card_id": "121-012",
+  "user_handle": "121",
+  "answer_id": "P8PU0In59n",
+  "status": "active",
+  "win_probability": 0.5499693907815619,
+  "target_win_prob": 0.5499999999999999,
+  "purchase_price": 66.66666666666667,
+  "purchase_prob": 0.6000000000000001,
+  "created_time": 1768800319473,
+  "grid": [
+    {
+      "slug": "ai-2027-reports-predictions-borne-o",
+      "question": "\"AI 2027\" report's predictions borne out by 2027?",
+      "prob": 0.09428025262945992,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/ai-2027-reports-predictions-borne-o"
+    },
+    {
+      "slug": "will-maduro-remain-president-of-ven",
+      "question": "Will Maduro remain president of Venezuela through 2026?",
+      "prob": 0.010617724324295271,
+      "resolved": null,
+      "url": "https://manifold.markets/EvanDaniel/will-maduro-remain-president-of-ven"
+    },
+    {
+      "slug": "if-tiktok-is-sold-will-the-algorith",
+      "question": "If TikTok is sold, will the algorithm be included in the sale?",
+      "prob": 0.6889321844997333,
+      "resolved": null,
+      "url": "https://manifold.markets/mint/if-tiktok-is-sold-will-the-algorith"
+    },
+    {
+      "slug": "will-openai-inference-costs-fall-by",
+      "question": "Will OpenAI inference costs fall by 100x over the next 18 months? (End: march 2026)",
+      "prob": 0.08149871618107822,
+      "resolved": null,
+      "url": "https://manifold.markets/jgyou/will-openai-inference-costs-fall-by"
+    },
+    {
+      "slug": "will-putin-visit-the-usa-in-2026",
+      "question": "Will Putin visit the USA in 2026",
+      "prob": 0.41017764024037917,
+      "resolved": null,
+      "url": "https://manifold.markets/bessarabov/will-putin-visit-the-usa-in-2026"
+    },
+    {
+      "slug": "will-xi-jinping-be-the-leader-of-ch-6297433c3df1",
+      "question": "Will Xi Jinping be the leader of China at the end of 2026?",
+      "prob": 0.8895756837100965,
+      "resolved": null,
+      "url": "https://manifold.markets/RemNi/will-xi-jinping-be-the-leader-of-ch-6297433c3df1"
+    },
+    {
+      "slug": "will-crowdstrike-pay-more-than-10m",
+      "question": "Will CrowdStrike pay more than $10m of civil or criminal liability for today's incident before 2027?",
+      "prob": 0.7576562160330813,
+      "resolved": null,
+      "url": "https://manifold.markets/FranekZak/will-crowdstrike-pay-more-than-10m"
+    },
+    {
+      "slug": "will-joe-biden-live-to-see-grand-th",
+      "question": "Will Joe Biden live to see Grand Theft Auto 6?",
+      "prob": 0.9445798029035262,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/will-joe-biden-live-to-see-grand-th"
+    },
+    {
+      "slug": "will-volodomyr-zelenskyy-be-in-powe",
+      "question": "Will Volodomyr Zelenskyy be in power at the conclusion of the Russia-Ukraine war?",
+      "prob": 0.7176114650535556,
+      "resolved": null,
+      "url": "https://manifold.markets/njmkw/will-volodomyr-zelenskyy-be-in-powe"
+    },
+    {
+      "slug": "will-i-drop-out-from-minerva-univer",
+      "question": "Will I drop out of Minerva University by 2027?",
+      "prob": 0.593967366337527,
+      "resolved": null,
+      "url": "https://manifold.markets/iatskar/will-i-drop-out-from-minerva-univer"
+    },
+    {
+      "slug": "at-least-one-of-the-most-powerful-n-07fd4c20e75f",
+      "question": "At least one of the most powerful neural nets at end of 2026 will be trained using 10^27 FLOPs",
+      "prob": 0.8352465195767573,
+      "resolved": null,
+      "url": "https://manifold.markets/Amaryllis/at-least-one-of-the-most-powerful-n-07fd4c20e75f"
+    },
+    {
+      "slug": "will-i-conclude-my-life-is-better-1",
+      "question": "Will I conclude my life is better 1 year from now than it was at time of market creation?",
+      "prob": 0.6872590657490153,
+      "resolved": null,
+      "url": "https://manifold.markets/No_uh/will-i-conclude-my-life-is-better-1"
+    },
+    {
+      "slug": "will-trump-interfere-with-greenland",
+      "question": "Will Trump Interfere With Greenland",
+      "prob": 0.8200653789884141,
+      "resolved": null,
+      "url": "https://manifold.markets/will-trump-interfere-with-greenland"
+    },
+    {
+      "slug": "will-ai-porn-videos-be-better-than",
+      "question": "Will AI porn videos be better than real porn by the end of 2026?",
+      "prob": 0.6000000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/JonathanRay/will-ai-porn-videos-be-better-than"
+    },
+    {
+      "slug": "are-we-about-to-hit-another-ai-wint-c3c0790ef413",
+      "question": "Are we about to hit another AI winter in 2026?",
+      "prob": 0.15000000000000002,
+      "resolved": null,
+      "url": "https://manifold.markets/MaximeRiche/are-we-about-to-hit-another-ai-wint-c3c0790ef413"
+    },
+    {
+      "slug": "will-trump-pardon-luigi-mangione-pr",
+      "question": "Will Trump pardon Luigi Mangione prior to Jan 20, 2029?",
+      "prob": 0.010054290248910115,
+      "resolved": null,
+      "url": "https://manifold.markets/GregRoberts/will-trump-pardon-luigi-mangione-pr"
+    },
+    {
+      "slug": "will-the-cop-who-shot-nahel-m-be-fo",
+      "question": "Will the cop who shot Nahel M. be found guilty of homicide?",
+      "prob": 0.6500046167989472,
+      "resolved": null,
+      "url": "https://manifold.markets/FlanAuxQuetsches/will-the-cop-who-shot-nahel-m-be-fo"
+    },
+    {
+      "slug": "will-apple-announce-a-foldable-ipho",
+      "question": "Will Apple announce a foldable iPhone by the end of 2026?",
+      "prob": 0.738384168328258,
+      "resolved": null,
+      "url": "https://manifold.markets/BrunoClawfeld/will-apple-announce-a-foldable-ipho"
+    },
+    {
+      "slug": "will-tumblr-still-exist-by-end-of-2-823071c2a380",
+      "question": "Will Tumblr still exist by end of 2026?",
+      "prob": 0.9463784917794296,
+      "resolved": null,
+      "url": "https://manifold.markets/SGQ/will-tumblr-still-exist-by-end-of-2-823071c2a380"
+    },
+    {
+      "slug": "will-openai-pay-scientific-publishe",
+      "question": "Will OpenAI pay scientific publishers for content by EOY 2025?",
+      "prob": 0.12240422320501963,
+      "resolved": null,
+      "url": "https://manifold.markets/EliezerYudkowsky/will-openai-pay-scientific-publishe"
+    },
+    {
+      "slug": "will-orban-viktors-party-win-a-supe",
+      "question": "Will Orb\u00e1n Viktor's party win a supermajority of seats in the 2026 parliamentary election?",
+      "prob": 0.15000000000000008,
+      "resolved": null,
+      "url": "https://manifold.markets/kgello/will-orban-viktors-party-win-a-supe"
+    },
+    {
+      "slug": "acx-2026-will-an-aicreated-song-cha",
+      "question": "[ACX 2026] Will an AI-created song chart in the top 20 of the Billboard Hot 100 before 2027?",
+      "prob": 0.40142372719774644,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-aicreated-song-cha"
+    },
+    {
+      "slug": "will-republicans-win-the-senate-in-738388924521",
+      "question": "Will Republicans win the Senate in the 2026 elections?",
+      "prob": 0.6307889020145995,
+      "resolved": null,
+      "url": "https://manifold.markets/AndrewG/will-republicans-win-the-senate-in-738388924521"
+    },
+    {
+      "slug": "will-ukraine-win-the-russoukrainian",
+      "question": "Will Ukraine win the Russo-Ukrainian War?",
+      "prob": 0.19999999999999976,
+      "resolved": null,
+      "url": "https://manifold.markets/chrisjbillington/will-ukraine-win-the-russoukrainian"
+    },
+    {
+      "slug": "is-a-state-actor-beind-the-xz-backd",
+      "question": "Is a state actor behind the XZ backdoor?",
+      "prob": 0.369924747134099,
+      "resolved": null,
+      "url": "https://manifold.markets/CodeandSolder/is-a-state-actor-beind-the-xz-backd"
+    }
+  ]
+}
