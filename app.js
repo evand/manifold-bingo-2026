@@ -84,7 +84,7 @@ async function loadCardsIndex() {
  */
 function setupTabs() {
     const tabs = document.querySelectorAll('.view-tabs .tab');
-    const views = ['activity', 'grid', 'leaderboard'];
+    const views = ['activity', 'grid', 'featured', 'leaderboard'];
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
@@ -98,6 +98,11 @@ function setupTabs() {
                 const el = document.getElementById(`${v}-view`);
                 if (el) el.style.display = v === view ? 'block' : 'none';
             });
+
+            // Load featured cards if switching to featured view
+            if (view === 'featured') {
+                loadFeaturedCards();
+            }
         });
     });
 }
@@ -128,6 +133,75 @@ function displayCardsList(cards) {
     }
 
     grid.innerHTML = cards.map(card => createCardPreview(card)).join('');
+}
+
+/**
+ * Load and display featured (YouTuber) cards
+ */
+async function loadFeaturedCards() {
+    const grid = document.getElementById('featured-grid');
+    if (!grid) return;
+
+    // Featured card IDs (manually curated)
+    const featuredCardIds = [
+        'hank-green-2026',
+        'mr-beat-2026',
+        'jj-mccullough-2026'
+    ];
+
+    grid.innerHTML = '<p class="loading">Loading featured cards...</p>';
+
+    const cards = [];
+    for (const cardId of featuredCardIds) {
+        try {
+            const response = await fetch(`${DATA_PATH}${cardId}.json`);
+            if (response.ok) {
+                const card = await response.json();
+                cards.push(card);
+            }
+        } catch (e) {
+            console.error(`Failed to load featured card ${cardId}:`, e);
+        }
+    }
+
+    if (cards.length === 0) {
+        grid.innerHTML = '<p class="loading">No featured cards available.</p>';
+        return;
+    }
+
+    grid.innerHTML = cards.map(card => createFeaturedCardPreview(card)).join('');
+}
+
+/**
+ * Create HTML preview for a featured card (with external link)
+ */
+function createFeaturedCardPreview(card) {
+    const prob = ((card.win_probability || 0.5) * 100).toFixed(0);
+    const statusClass = getStatusClass(card.status);
+    const externalLink = card.external_link
+        ? `<a href="${card.external_link}" target="_blank" class="external-link">${card.external_link_label || 'View Source'}</a>`
+        : '';
+
+    return `
+        <div class="card-preview ${statusClass}">
+            <a href="card.html?id=${card.card_id}" class="card-preview-link">
+                <div class="card-preview-header">
+                    <span class="card-owner">@${card.user_handle}</span>
+                    <span class="card-prob">${prob}%</span>
+                </div>
+                <div class="mini-grid">
+                    ${card.grid.slice(0, 9).map((cell, i) => {
+                        let cls = 'mini-cell';
+                        if (i === 4) cls += ' free';
+                        else if (cell.resolved === true) cls += ' yes';
+                        else if (cell.resolved === false) cls += ' no';
+                        return `<div class="${cls}"></div>`;
+                    }).join('')}
+                </div>
+            </a>
+            ${externalLink}
+        </div>
+    `;
 }
 
 /**
@@ -546,6 +620,17 @@ function displayCard(card) {
         `M$${card.purchase_price?.toFixed(0) || '-'}`;
     document.getElementById('card-target').textContent =
         `${((card.target_win_prob || 0) * 100).toFixed(1)}%`;
+
+    // External link (for featured/YouTuber cards)
+    const externalLinkRow = document.getElementById('external-link-row');
+    const externalLink = document.getElementById('external-link');
+    if (externalLinkRow && externalLink && card.external_link) {
+        externalLink.href = card.external_link;
+        externalLink.textContent = card.external_link_label || 'View Source';
+        externalLinkRow.style.display = '';
+    } else if (externalLinkRow) {
+        externalLinkRow.style.display = 'none';
+    }
 
     // Set up display controls
     setupDisplayControls();

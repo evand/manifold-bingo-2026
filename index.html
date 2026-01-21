@@ -36,6 +36,7 @@
                 <div class="view-tabs">
                     <button class="tab active" data-view="activity">Recent Activity</button>
                     <button class="tab" data-view="grid">All Cards</button>
+                    <button class="tab" data-view="featured">YouTuber Cards</button>
                     <button class="tab" data-view="leaderboard">Leaderboard</button>
                 </div>
 
@@ -49,6 +50,13 @@
                     <div class="card-grid" id="card-grid">
                         <!-- Cards will be loaded here -->
                         <p class="loading">Loading cards...</p>
+                    </div>
+                </div>
+
+                <div id="featured-view" class="view-content" style="display: none;">
+                    <p class="featured-intro">Bingo cards from YouTubers and content creators</p>
+                    <div class="card-grid" id="featured-grid">
+                        <!-- Featured cards will be loaded here -->
                     </div>
                 </div>
 
