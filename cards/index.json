@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769023191709,
+  "updated_at": 1769023573676,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2440,7 +2440,7 @@
           "slug": "will-60-minutes-run-the-postponed-i",
           "question": "Will 60 Minutes run the postponed \"Inside CECOT\" report by June 2026?",
           "prob": 0.5100319512766858,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/bens/will-60-minutes-run-the-postponed-i"
         }
       ]
@@ -3310,7 +3310,7 @@
           "slug": "will-60-minutes-run-the-postponed-i",
           "question": "Will 60 Minutes run the postponed \"Inside CECOT\" report by June 2026?",
           "prob": 0.5100319512766858,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/bens/will-60-minutes-run-the-postponed-i"
         },
         {
