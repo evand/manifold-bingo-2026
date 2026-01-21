@@ -1,0 +1,238 @@
+{
+  "card_id": "mr-beat-2026",
+  "user_handle": "MrBeat",
+  "answer_id": "stEdsC2hty",
+  "status": "active",
+  "win_probability": 0.5,
+  "target_win_prob": 0.5,
+  "purchase_price": 1,
+  "purchase_prob": 0.5,
+  "created_time": 1768964370819,
+  "grid": [
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Stagflation",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "96LyEIygOO",
+      "answer_text": "Stagflation"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "War with Venezuela",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "ANpqOnqAcL",
+      "answer_text": "War with Venezuela"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "AI bubble pops (but it's not that bad)",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "LSL8luzQQR",
+      "answer_text": "AI bubble pops (but it's not that bad)"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Blue wave midterms",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "dz8tIcnAz5",
+      "answer_text": "Blue wave midterms"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "AI slop completely takes over platforms",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "Sy8dqLCS2l",
+      "answer_text": "AI slop completely takes over platforms"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Everyone becomes a hipster",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "Og9AP092up",
+      "answer_text": "Everyone becomes a hipster"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "A major merger of streaming services",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "LzdlzclRR0",
+      "answer_text": "A major merger of streaming services"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Solar power doubles",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "U8cpdNyuds",
+      "answer_text": "Solar power doubles"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Chain movie theaters close across the country",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "s2PQAsqLyS",
+      "answer_text": "Chain movie theaters close across the country"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Americans become more united",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "LytLnZZS9h",
+      "answer_text": "Americans become more united"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "More governments embrace Bitcoin",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "u9ICqz8pEZ",
+      "answer_text": "More governments embrace Bitcoin"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Trump has (another?) stroke",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "E0pQEIS95l",
+      "answer_text": "Trump has (another?) stroke"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "FREE SPACE",
+      "prob": 1.0,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": null,
+      "answer_text": "FREE SPACE"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Gen Alpha rebels against digital media",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "ZPSlQhgyLU",
+      "answer_text": "Gen Alpha rebels against digital media"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Really bad hurricane season",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "zyIZ2tLOhE",
+      "answer_text": "Really bad hurricane season"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Measles cases triple",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "nE6lg8IIAA",
+      "answer_text": "Measles cases triple"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Emo makes a comeback",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "tpLz5tISc5",
+      "answer_text": "Emo makes a comeback"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "EV sales skyrocket",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "zQNlQh2Ztn",
+      "answer_text": "EV sales skyrocket"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "A new nonpartisan political movement starts",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "q25UZEPsds",
+      "answer_text": "A new nonpartisan political movement starts"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "YouTube surpasses Netflix in paid subscribers",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "R8lCctICSp",
+      "answer_text": "YouTube surpasses Netflix in paid subscribers"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Twitter shuts down",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "gL5Q2hOh5n",
+      "answer_text": "Twitter shuts down"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "More assassinations",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "LzUpd5nygE",
+      "answer_text": "More assassinations"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Obesity rates dramatically decline",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "0n0PtgRgh9",
+      "answer_text": "Obesity rates dramatically decline"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Cyber terrorism incident",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "PQQlN6s90t",
+      "answer_text": "Cyber terrorism incident"
+    },
+    {
+      "slug": "mr-beats-2026-bingo-card",
+      "question": "Robot restaurant trend",
+      "prob": 0.5,
+      "resolved": null,
+      "url": "https://manifold.markets/Evansbot/mr-beats-2026-bingo-card",
+      "answer_id": "98ptquIpAp",
+      "answer_text": "Robot restaurant trend"
+    }
+  ]
+}
