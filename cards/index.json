@@ -1,5 +1,5 @@
 {
-  "updated_at": 1768831426026,
+  "updated_at": 1768958622971,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2537,7 +2537,7 @@
           "slug": "if-trump-wins-will-his-approval-rat-1j9mh20fwd",
           "question": "If Trump wins, will his approval rating be above 40% after one year in office?",
           "prob": 0.5,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Balasar/if-trump-wins-will-his-approval-rat-1j9mh20fwd"
         },
         {
