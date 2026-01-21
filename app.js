@@ -176,27 +176,28 @@ async function loadFeaturedCards() {
  * Create HTML preview for a featured card (with external link)
  */
 function createFeaturedCardPreview(card) {
-    const prob = ((card.win_probability || 0.5) * 100).toFixed(0);
     const statusClass = getStatusClass(card.status);
     const externalLink = card.external_link
         ? `<a href="${card.external_link}" target="_blank" class="external-link">${card.external_link_label || 'View Source'}</a>`
         : '';
 
+    // Create mini grid (same as regular cards)
+    const miniCells = card.grid.map((cell, i) => {
+        let cellClass = 'mini-cell';
+        if (i === FREE_SPACE_INDEX) cellClass += ' free';
+        else if (cell.resolved === true) cellClass += ' yes';
+        else if (cell.resolved === false) cellClass += ' no';
+        return `<div class="${cellClass}"></div>`;
+    }).join('');
+
     return `
         <div class="card-preview ${statusClass}">
             <a href="card.html?id=${card.card_id}" class="card-preview-link">
-                <div class="card-preview-header">
-                    <span class="card-owner">@${card.user_handle}</span>
-                    <span class="card-prob">${prob}%</span>
-                </div>
-                <div class="mini-grid">
-                    ${card.grid.slice(0, 9).map((cell, i) => {
-                        let cls = 'mini-cell';
-                        if (i === 4) cls += ' free';
-                        else if (cell.resolved === true) cls += ' yes';
-                        else if (cell.resolved === false) cls += ' no';
-                        return `<div class="${cls}"></div>`;
-                    }).join('')}
+                <h3>@${card.user_handle}</h3>
+                <div class="mini-grid">${miniCells}</div>
+                <div class="status-line">
+                    <span class="status-badge ${statusClass}">${getStatusText(card.status)}</span>
+                    <span>${((card.win_probability || 0.5) * 100).toFixed(0)}% win</span>
                 </div>
             </a>
             ${externalLink}
