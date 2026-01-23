@@ -146,7 +146,7 @@
       "slug": "will-barack-obama-be-nominated-for",
       "question": "Will Barack Obama be nominated for a Golden Globe or Oscar in the next three years [2024, 2025, and 2026]?",
       "prob": 0.05071524302004328,
-      "resolved": null,
+      "resolved": false,
       "url": "https://manifold.markets/mattyb/will-barack-obama-be-nominated-for"
     },
     {

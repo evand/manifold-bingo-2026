@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769024736061,
+  "updated_at": 1769146869695,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -337,7 +337,7 @@
           "slug": "will-barack-obama-be-nominated-for",
           "question": "Will Barack Obama be nominated for a Golden Globe or Oscar in the next three years [2024, 2025, and 2026]?",
           "prob": 0.05071524302004328,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/mattyb/will-barack-obama-be-nominated-for"
         },
         {
@@ -796,7 +796,7 @@
           "slug": "will-ross-ulbricht-be-on-the-joe-ro",
           "question": "Will Ross Ulbricht Be On The Joe Rogan Podcast Within 1 Year Of Release From Prison?",
           "prob": 0.05836145182767968,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/Lunar/will-ross-ulbricht-be-on-the-joe-ro"
         },
         {
@@ -3108,7 +3108,7 @@
           "slug": "sinners-nominated-for-best-picture",
           "question": "Sinners Nominated For Best Picture",
           "prob": 0.98,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/sinners-nominated-for-best-picture"
         },
         {
