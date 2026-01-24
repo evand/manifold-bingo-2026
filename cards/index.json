@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769267813048,
+  "updated_at": 1769268123926,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1486,7 +1486,7 @@
           "slug": "thunder-win-74-games-nba-record",
           "question": "Thunder win 74+ games (NBA record)? \ud83c\udfc0",
           "prob": 0.011435152085255817,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/PaperBoy/thunder-win-74-games-nba-record"
         },
         {
@@ -5475,7 +5475,7 @@
           "slug": "thunder-win-74-games-nba-record",
           "question": "Thunder win 74+ games (NBA record)? \ud83c\udfc0",
           "prob": 0.011435152085255817,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/PaperBoy/thunder-win-74-games-nba-record"
         },
         {
