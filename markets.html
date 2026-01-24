@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligible Markets - Manifold Bingo 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .markets-info {
+            background: var(--bg-card);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .markets-info h2 {
+            margin-top: 0;
+        }
+        .criteria-list {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+        .criteria-list li {
+            margin: 0.5rem 0;
+        }
+        .markets-meta {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+        .markets-meta strong {
+            color: var(--text-primary);
+        }
+        .raw-link {
+            margin-top: 1rem;
+        }
+        .markets-table-container {
+            overflow-x: auto;
+        }
+        .markets-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .markets-table th,
+        .markets-table td {
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .markets-table th {
+            background: var(--bg-card);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .markets-table th:hover {
+            background: var(--bg-secondary);
+        }
+        .markets-table th.sorted-asc::after {
+            content: " \u25B2";
+        }
+        .markets-table th.sorted-desc::after {
+            content: " \u25BC";
+        }
+        .markets-table td.question {
+            max-width: 400px;
+        }
+        .markets-table td.number {
+            text-align: right;
+            font-family: monospace;
+        }
+        .markets-table a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .markets-table a:hover {
+            text-decoration: underline;
+        }
+        .markets-table tr:hover {
+            background: var(--bg-secondary);
+        }
+        .back-link {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">Manifold Bingo 2026</a></h1>
+            <p class="subtitle">Eligible Markets</p>
+        </header>
+
+        <main>
+            <p class="back-link"><a href="index.html">&larr; Back to Cards</a></p>
+
+            <section class="markets-info">
+                <h2>Eligibility Criteria</h2>
+                <p>Markets must meet all of these criteria to be eligible for bingo cards:</p>
+                <ul class="criteria-list">
+                    <li><strong>Binary outcome</strong> - YES/NO resolution only</li>
+                    <li><strong>Listed</strong> - Not unlisted/private</li>
+                    <li><strong>Ranked</strong> - Passes Manifold's quality filter</li>
+                    <li><strong>Minimum <span id="min-traders">20</span> unique traders</strong></li>
+                    <li><strong>Close date</strong> - Between 1 week from card creation and <span id="max-close-date">Jan 7, 2027</span></li>
+                </ul>
+                <p>Markets are also excluded if their title suggests non-binary resolution (lottery markets, conditional markets, "resolves to probability", etc.) or if they're manually excluded for quality reasons.</p>
+
+                <div class="markets-meta">
+                    <div><strong>Total eligible:</strong> <span id="market-count">-</span> markets</div>
+                    <div><strong>Last updated:</strong> <span id="last-updated">-</span></div>
+                </div>
+
+                <p class="raw-link">
+                    <a href="cards/markets.txt" download>Download raw slug list (markets.txt)</a>
+                </p>
+            </section>
+
+            <section class="markets-table-container">
+                <table class="markets-table" id="markets-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="question">Question</th>
+                            <th data-sort="probability">Prob</th>
+                            <th data-sort="trader_count">Traders</th>
+                            <th data-sort="close_time">Closes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="markets-tbody">
+                        <tr><td colspan="4">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                <a href="https://manifold.markets/Evansbot/manifold-bingo-2026-alpha" target="_blank">Buy a Card</a>
+                |
+                <a href="https://manifold.markets" target="_blank">Manifold Markets</a>
+                |
+                <a href="https://github.com/evand/manifold-bingo-2026" target="_blank">Source Code</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        let marketsData = null;
+        let currentSort = { key: 'trader_count', asc: false };
+
+        async function loadMarkets() {
+            try {
+                const response = await fetch('cards/markets.json');
+                marketsData = await response.json();
+
+                // Update metadata
+                document.getElementById('market-count').textContent = marketsData.count;
+
+                // Format last updated time
+                const updatedDate = new Date(marketsData.fetched_at);
+                const hoursAgo = Math.round((Date.now() - marketsData.fetched_at) / (1000 * 60 * 60));
+                document.getElementById('last-updated').textContent =
+                    `${updatedDate.toLocaleDateString()} ${updatedDate.toLocaleTimeString()} (${hoursAgo}h ago)`;
+
+                // Update criteria from data
+                if (marketsData.criteria) {
+                    if (marketsData.criteria.min_traders) {
+                        document.getElementById('min-traders').textContent = marketsData.criteria.min_traders;
+                    }
+                    if (marketsData.criteria.max_close_ms) {
+                        const maxClose = new Date(marketsData.criteria.max_close_ms);
+                        document.getElementById('max-close-date').textContent = maxClose.toLocaleDateString('en-US', {
+                            year: 'numeric', month: 'short', day: 'numeric'
+                        });
+                    }
+                }
+
+                renderTable();
+            } catch (error) {
+                document.getElementById('markets-tbody').innerHTML =
+                    '<tr><td colspan="4">Failed to load markets data</td></tr>';
+                console.error('Failed to load markets:', error);
+            }
+        }
+
+        function renderTable() {
+            if (!marketsData) return;
+
+            // Sort markets
+            const sorted = [...marketsData.markets].sort((a, b) => {
+                let aVal = a[currentSort.key];
+                let bVal = b[currentSort.key];
+
+                // Handle string comparison for question
+                if (currentSort.key === 'question') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+
+                if (aVal < bVal) return currentSort.asc ? -1 : 1;
+                if (aVal > bVal) return currentSort.asc ? 1 : -1;
+                return 0;
+            });
+
+            // Build table rows
+            const tbody = document.getElementById('markets-tbody');
+            tbody.innerHTML = sorted.map(m => {
+                const closeDate = new Date(m.close_time);
+                const closeDateStr = closeDate.toLocaleDateString('en-US', {
+                    year: 'numeric', month: 'short', day: 'numeric'
+                });
+                const probPct = (m.probability * 100).toFixed(0);
+
+                return `<tr>
+                    <td class="question"><a href="${m.url}" target="_blank">${escapeHtml(m.question)}</a></td>
+                    <td class="number">${probPct}%</td>
+                    <td class="number">${m.trader_count}</td>
+                    <td>${closeDateStr}</td>
+                </tr>`;
+            }).join('');
+
+            // Update sort indicators
+            document.querySelectorAll('.markets-table th').forEach(th => {
+                th.classList.remove('sorted-asc', 'sorted-desc');
+                if (th.dataset.sort === currentSort.key) {
+                    th.classList.add(currentSort.asc ? 'sorted-asc' : 'sorted-desc');
+                }
+            });
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Set up sort handlers
+        document.querySelectorAll('.markets-table th[data-sort]').forEach(th => {
+            th.addEventListener('click', () => {
+                const key = th.dataset.sort;
+                if (currentSort.key === key) {
+                    currentSort.asc = !currentSort.asc;
+                } else {
+                    currentSort.key = key;
+                    // Default sort direction based on column type
+                    currentSort.asc = key === 'question';
+                }
+                renderTable();
+            });
+        });
+
+        // Load data on page load
+        loadMarkets();
+    </script>
+</body>
+</html>
