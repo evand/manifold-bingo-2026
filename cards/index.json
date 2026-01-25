@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769372105617,
+  "updated_at": 1769372419499,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2210,7 +2210,7 @@
           "slug": "if-ben-makes-a-third-puzzle-before",
           "question": "If Ben makes a third puzzle before 2027, will Manifold solve it?",
           "prob": 0.4491810806510753,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Eliza/if-ben-makes-a-third-puzzle-before"
         },
         {
