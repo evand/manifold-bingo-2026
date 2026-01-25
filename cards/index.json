@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769371121706,
+  "updated_at": 1769371485299,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1688,7 +1688,7 @@
           "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
           "question": "Will Manifold solve my puzzle? (Round 3)",
           "prob": 0.4600000000000001,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
         }
       ]
@@ -2600,7 +2600,7 @@
           "slug": "will-manifold-solve-my-puzzle-round-0sZn5unZc8",
           "question": "Will Manifold solve my puzzle? (Round 3)",
           "prob": 0.4600000000000001,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/bens/will-manifold-solve-my-puzzle-round-0sZn5unZc8"
         },
         {
