@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769568280244,
+  "updated_at": 1769572524253,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -6398,7 +6398,7 @@
       "user_handle": "121",
       "answer_id": "2nC99Z9ORq",
       "status": "active",
-      "win_probability": 0.5503013527293805,
+      "win_probability": 0.44973229376815704,
       "target_win_prob": 0.45,
       "purchase_price": 76.9209188101402,
       "purchase_prob": 0.6,
@@ -6412,11 +6412,11 @@
           "url": "https://manifold.markets/Gabrielle/will-venezuelans-be-better-off-at-t"
         },
         {
-          "slug": "will-sbf-be-physically-in-jail-at-t-71a54b744961",
-          "question": "Will SBF be physically in prison/jail at the end of 2026?",
-          "prob": 0.8875366587526325,
+          "slug": "will-i-get-banned-for-using-my-newl",
+          "question": "Will I get banned for using my newly created  $100 Claude Max subscription on ClawdBot by February 15th?",
+          "prob": 0.2501080471189269,
           "resolved": null,
-          "url": "https://manifold.markets/AmmonLam/will-sbf-be-physically-in-jail-at-t-71a54b744961"
+          "url": "https://manifold.markets/MP/will-i-get-banned-for-using-my-newl"
         },
         {
           "slug": "will-there-be-self-driving-taxis-in-5f5ad7fbb169",
@@ -6426,11 +6426,11 @@
           "url": "https://manifold.markets/DanEllis/will-there-be-self-driving-taxis-in-5f5ad7fbb169"
         },
         {
-          "slug": "doge-cuts-1t-federal-deficit-by-fy",
-          "question": "DOGE cuts $1T federal deficit by FY 2026?",
-          "prob": 0.04230181231608889,
+          "slug": "bitcoin-below-52k-by-march-2026",
+          "question": "Bitcoin below $52K before March 31, 2026?",
+          "prob": 0.03498970403130198,
           "resolved": null,
-          "url": "https://manifold.markets/predyx_markets/doge-cuts-1t-federal-deficit-by-fy"
+          "url": "https://manifold.markets/predyx_markets/bitcoin-below-52k-by-march-2026"
         },
         {
           "slug": "will-there-be-another-assassination-StRlcEuPUp",
@@ -6503,11 +6503,11 @@
           "url": "https://manifold.markets/Fion/will-silence-be-the-first-sport-cli"
         },
         {
-          "slug": "will-i-make-imo-ever",
-          "question": "Will I make IMO ever",
-          "prob": 0.3746867436225609,
+          "slug": "will-irans-regime-fall-in-2026",
+          "question": "Will Iran's regime fall in 2026?",
+          "prob": 0.3038030163036194,
           "resolved": null,
-          "url": "https://manifold.markets/JiaheLiu/will-i-make-imo-ever"
+          "url": "https://manifold.markets/SaviorofPlant/will-irans-regime-fall-in-2026"
         },
         {
           "slug": "will-i-think-that-the-belief-state",
@@ -6538,11 +6538,11 @@
           "url": "https://manifold.markets/MattF/will-gwern-publish-a-standalone-boo"
         },
         {
-          "slug": "if-trump-won-the-election-will-the",
-          "question": "If Trump won the election, Will the U.S. be more democratic in 2025 than it was in 2022?",
-          "prob": 0.05211899668899502,
+          "slug": "given-i-have-been-with-my-partner-f-0dde6bfd1962",
+          "question": "Given I have been with my partner for a year, will we be together for 5?",
+          "prob": 0.6379223868542018,
           "resolved": null,
-          "url": "https://manifold.markets/AmmonLam/if-trump-won-the-election-will-the"
+          "url": "https://manifold.markets/LivInTheLookingGlass/given-i-have-been-with-my-partner-f-0dde6bfd1962"
         },
         {
           "slug": "ai-beats-human-baseline-on-posttrai",
@@ -6573,11 +6573,11 @@
           "url": "https://manifold.markets/jonny/will-bethesda-publicly-release-the"
         },
         {
-          "slug": "will-there-be-a-terrorist-attack-ag",
-          "question": "Will there be a terrorist attack against OpenAI before 2027?",
-          "prob": 0.1568406489153383,
+          "slug": "3x3x3-rubiks-cube-solved-by-video-g",
+          "question": "3x3x3 Rubik's Cube solved by video generation model by EOY 2026?",
+          "prob": 0.14537049124279625,
           "resolved": null,
-          "url": "https://manifold.markets/Bandors/will-there-be-a-terrorist-attack-ag"
+          "url": "https://manifold.markets/jim/3x3x3-rubiks-cube-solved-by-video-g"
         }
       ]
     },
