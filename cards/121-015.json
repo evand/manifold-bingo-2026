@@ -1,0 +1,188 @@
+{
+  "card_id": "121-015",
+  "user_handle": "121",
+  "answer_id": "98AulC6u65",
+  "status": "active",
+  "win_probability": 0.5494527888045591,
+  "target_win_prob": 0.45,
+  "purchase_price": 76.9209188101402,
+  "purchase_prob": 0.6,
+  "created_time": 1769567281809,
+  "grid": [
+    {
+      "slug": "will-donald-trump-die-before-joe-bi",
+      "question": "Will Donald Trump die before Joe Biden?",
+      "prob": 0.33442989096809395,
+      "resolved": null,
+      "url": "https://manifold.markets/Bruce54df/will-donald-trump-die-before-joe-bi"
+    },
+    {
+      "slug": "will-starship-make-orbit-on-first-a",
+      "question": "Will Starship make orbit on first attempt?",
+      "prob": 0.8937405382519353,
+      "resolved": null,
+      "url": "https://manifold.markets/BrianOlson/will-starship-make-orbit-on-first-a"
+    },
+    {
+      "slug": "will-trump-interfere-with-greenland",
+      "question": "Will Trump interfere with Greenland?",
+      "prob": 0.48260000171608985,
+      "resolved": null,
+      "url": "https://manifold.markets/Gemc/will-trump-interfere-with-greenland"
+    },
+    {
+      "slug": "is-hamas-using-alshifa-hospital-as",
+      "question": "Was Hamas using Al-Shifa as a shield for a command centre?",
+      "prob": 0.8606197407873135,
+      "resolved": null,
+      "url": "https://manifold.markets/Daniel_MC/is-hamas-using-alshifa-hospital-as"
+    },
+    {
+      "slug": "will-eliezer-and-gretta-still-be-re",
+      "question": "Will Eliezer and Gretta still be really into each other on October 4th, 2026?",
+      "prob": 0.8675482020400357,
+      "resolved": null,
+      "url": "https://manifold.markets/GrettaDuleba/will-eliezer-and-gretta-still-be-re"
+    },
+    {
+      "slug": "will-givewell-fund-hpv-vaccination",
+      "question": "Will GiveWell fund HPV vaccination to prevent cervical cancer by 1st January 2027?",
+      "prob": 0.24255479571182367,
+      "resolved": null,
+      "url": "https://manifold.markets/NathanpmYoung/will-givewell-fund-hpv-vaccination"
+    },
+    {
+      "slug": "will-xi-jinping-cease-to-be-chinas",
+      "question": "Will Xi Jinping cease to be China's leader before the end of 2026?",
+      "prob": 0.07999999999999992,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-xi-jinping-cease-to-be-chinas"
+    },
+    {
+      "slug": "will-this-yudkowsky-tweet-hold-up",
+      "question": "Will this Yudkowsky tweet hold up?",
+      "prob": 0.9616902390320777,
+      "resolved": null,
+      "url": "https://manifold.markets/journcy/will-this-yudkowsky-tweet-hold-up"
+    },
+    {
+      "slug": "ai-to-pass-sparse-adversarial-pertu",
+      "question": "AI  to solve \"Sparse Adversarial Perturbations\" from HCAST-Public by 2027?",
+      "prob": 0.6270638515037146,
+      "resolved": null,
+      "url": "https://manifold.markets/jim/ai-to-pass-sparse-adversarial-pertu"
+    },
+    {
+      "slug": "will-the-gaza-death-toll-be-over-15",
+      "question": "Will the Gaza death toll be over 150,000 at the end of the Israel-Hamas war",
+      "prob": 0.3873012620995279,
+      "resolved": null,
+      "url": "https://manifold.markets/JamesF/will-the-gaza-death-toll-be-over-15"
+    },
+    {
+      "slug": "across-2025-a-majority-of-ea-fundin",
+      "question": "Across, 2025 a majority of EA funding rounds will have public forecasting questions/prediction markets to bet on whether grants will be given or whether grant goals will be met.",
+      "prob": 0.1474473827183554,
+      "resolved": null,
+      "url": "https://manifold.markets/NathanpmYoung/across-2025-a-majority-of-ea-fundin"
+    },
+    {
+      "slug": "will-ice-use-85-of-its-30-billion-b",
+      "question": "ICE spends at least $25.5 billion in 2025? (budget estimate: $30 billion)",
+      "prob": 0.8649190656391774,
+      "resolved": null,
+      "url": "https://manifold.markets/PGdCIN9/will-ice-use-85-of-its-30-billion-b"
+    },
+    {
+      "slug": "will-any-2026-fifa-world-cup-matche",
+      "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+      "prob": 0.9727290166619523,
+      "resolved": null,
+      "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
+    },
+    {
+      "slug": "will-lukashenko-still-be-the-presid-f8b990c08892",
+      "question": "Will Lukashenko still be the President of Belarus by the end of 2026?",
+      "prob": 0.8290062338338043,
+      "resolved": null,
+      "url": "https://manifold.markets/asmith/will-lukashenko-still-be-the-presid-f8b990c08892"
+    },
+    {
+      "slug": "acx-2026-will-donald-trump-cease-to",
+      "question": "[ACX 2026] Will Donald Trump cease to exercise presidential powers for 48 hours during 2026?",
+      "prob": 0.1299454160035759,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-donald-trump-cease-to"
+    },
+    {
+      "slug": "will-chatgpt-call-itself-a-chatbot",
+      "question": "Will chatgpt stop calling itself a \"chatbot\" by 2027?",
+      "prob": 0.4008361108441926,
+      "resolved": null,
+      "url": "https://manifold.markets/singer/will-chatgpt-call-itself-a-chatbot"
+    },
+    {
+      "slug": "by-2026-john-wentworth-still-believ",
+      "question": "By the end of 2026, John Wentworth still believes that \"The Plan\" has a better than 50/50 chance of working before the singularity.",
+      "prob": 0.24910129196901593,
+      "resolved": null,
+      "url": "https://manifold.markets/Alana/by-2026-john-wentworth-still-believ"
+    },
+    {
+      "slug": "will-gta6-release-on-pc-on-the-same",
+      "question": "Will GTA6 release on PC on the same day as it releases on Console?",
+      "prob": 0.1016116376536317,
+      "resolved": null,
+      "url": "https://manifold.markets/O/will-gta6-release-on-pc-on-the-same"
+    },
+    {
+      "slug": "will-sam-altman-still-be-ceo-of-ope",
+      "question": "Will Sam Altman still be CEO of OpenAI at the end of 2026?",
+      "prob": 0.9456714139351176,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/will-sam-altman-still-be-ceo-of-ope"
+    },
+    {
+      "slug": "will-putin-die-within-the-cinese-ye",
+      "question": "Will Putin die within the chinese year of the snake?",
+      "prob": 0.02245489378462076,
+      "resolved": null,
+      "url": "https://manifold.markets/EnricoCaminiti/will-putin-die-within-the-cinese-ye"
+    },
+    {
+      "slug": "is-kaido-dead",
+      "question": "Is kaido dead",
+      "prob": 0.45683277820676277,
+      "resolved": null,
+      "url": "https://manifold.markets/JacksonLee/is-kaido-dead"
+    },
+    {
+      "slug": "will-italy-qualify-for-the-2026-fif",
+      "question": "Will Italy qualify for the 2026 FIFA World Cup?",
+      "prob": 0.783905530597733,
+      "resolved": null,
+      "url": "https://manifold.markets/Predictor/will-italy-qualify-for-the-2026-fif"
+    },
+    {
+      "slug": "will-5-of-an-ftx-grant-be-clawed-ba",
+      "question": "Will >5% of an FTX grant be clawed back, from >2 individual workers, by end of 2026?",
+      "prob": 0.5485103042299696,
+      "resolved": null,
+      "url": "https://manifold.markets/EliezerYudkowsky/will-5-of-an-ftx-grant-be-clawed-ba"
+    },
+    {
+      "slug": "will-there-be-an-ai-smartphone-brou",
+      "question": "Will there be an AI smartphone brought to market by 2027?",
+      "prob": 0.7892652721302528,
+      "resolved": null,
+      "url": "https://manifold.markets/SimranRahman/will-there-be-an-ai-smartphone-brou"
+    },
+    {
+      "slug": "will-valve-release-halflife-3-befor",
+      "question": "Half-Life 3 before AGI?",
+      "prob": 0.8184799211867058,
+      "resolved": null,
+      "url": "https://manifold.markets/jim/will-valve-release-halflife-3-befor"
+    }
+  ]
+}

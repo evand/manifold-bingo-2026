@@ -1,0 +1,188 @@
+{
+  "card_id": "121-014",
+  "user_handle": "121",
+  "answer_id": "gUuCRuz8IA",
+  "status": "active",
+  "win_probability": 0.5498730206372231,
+  "target_win_prob": 0.45,
+  "purchase_price": 76.9209188101402,
+  "purchase_prob": 0.6,
+  "created_time": 1769567281799,
+  "grid": [
+    {
+      "slug": "will-i-think-that-the-belief-state",
+      "question": "Will I think that the Belief State Geometry research program has achieved something important by October 20th, 2026?",
+      "prob": 0.23329339098810126,
+      "resolved": null,
+      "url": "https://manifold.markets/tailcalled/will-i-think-that-the-belief-state"
+    },
+    {
+      "slug": "will-gpt5-make-manifold-think-very",
+      "question": "Will GPT-5 make Manifold think very near-term AGI is more likely?",
+      "prob": 0.11287916225257894,
+      "resolved": null,
+      "url": "https://manifold.markets/VerySeriousPoster/will-gpt5-make-manifold-think-very"
+    },
+    {
+      "slug": "will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh",
+      "question": "Will X.com be accessible in the UK on 30th June?",
+      "prob": 0.9343471472166424,
+      "resolved": null,
+      "url": "https://manifold.markets/Noit/will-xcom-be-accessible-in-the-uk-o-LClQpPgNnh"
+    },
+    {
+      "slug": "will-github-implement-a-blanket-ban",
+      "question": "Will GitHub implement a blanket ban on voice cloning projects before 2026?",
+      "prob": 0.015772449131005003,
+      "resolved": null,
+      "url": "https://manifold.markets/RemNi/will-github-implement-a-blanket-ban"
+    },
+    {
+      "slug": "given-i-have-been-with-my-partner-f-0dde6bfd1962",
+      "question": "Given I have been with my partner for a year, will we be together for 5?",
+      "prob": 0.6379223868542018,
+      "resolved": null,
+      "url": "https://manifold.markets/LivInTheLookingGlass/given-i-have-been-with-my-partner-f-0dde6bfd1962"
+    },
+    {
+      "slug": "is-a-state-actor-beind-the-xz-backd",
+      "question": "Is a state actor behind the XZ backdoor?",
+      "prob": 0.369924747134099,
+      "resolved": null,
+      "url": "https://manifold.markets/CodeandSolder/is-a-state-actor-beind-the-xz-backd"
+    },
+    {
+      "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
+      "question": "Will there be a US government shutdown in 2026?",
+      "prob": 0.8234172721475661,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
+    },
+    {
+      "slug": "new-england-patriots-in-superbowl-f",
+      "question": "New England Patriots in Superbowl February 2026?",
+      "prob": 0.9933816633628411,
+      "resolved": null,
+      "url": "https://manifold.markets/JFlavius1/new-england-patriots-in-superbowl-f"
+    },
+    {
+      "slug": "afd-win-absolute-majority-in-2026-s",
+      "question": "AfD wins absolute majority in 2026 Saxony-Anhalt state election?",
+      "prob": 0.2779753003828847,
+      "resolved": null,
+      "url": "https://manifold.markets/Simon74fe/afd-win-absolute-majority-in-2026-s"
+    },
+    {
+      "slug": "opensource-ai-model-gets-perfect-im",
+      "question": "Open-Source AI model gets perfect IMO 2026 score? [International Math Olympiad 2026]",
+      "prob": 0.45079261081197824,
+      "resolved": null,
+      "url": "https://manifold.markets/Bayesian/opensource-ai-model-gets-perfect-im"
+    },
+    {
+      "slug": "will-spinlaunch-have-a-successful-l-a18a2bd6b7c2",
+      "question": "Will SpinLaunch have a successful launch by EoY 2026?",
+      "prob": 0.05880552775953912,
+      "resolved": null,
+      "url": "https://manifold.markets/LivInTheLookingGlass/will-spinlaunch-have-a-successful-l-a18a2bd6b7c2"
+    },
+    {
+      "slug": "if-i-write-an-encyclopedia-of-bad-a",
+      "question": "If I write an encyclopedia of bad AI arguments, will people seem to find it useful?",
+      "prob": 0.7943053418501886,
+      "resolved": null,
+      "url": "https://manifold.markets/IsaacKing/if-i-write-an-encyclopedia-of-bad-a"
+    },
+    {
+      "slug": "will-any-2026-fifa-world-cup-matche",
+      "question": "Will any 2026 FIFA World Cup matches be played in the US?",
+      "prob": 0.9727290166619523,
+      "resolved": null,
+      "url": "https://manifold.markets/Pestiesti/will-any-2026-fifa-world-cup-matche"
+    },
+    {
+      "slug": "will-chatgpt-call-itself-a-chatbot",
+      "question": "Will chatgpt stop calling itself a \"chatbot\" by 2027?",
+      "prob": 0.4008361108441926,
+      "resolved": null,
+      "url": "https://manifold.markets/singer/will-chatgpt-call-itself-a-chatbot"
+    },
+    {
+      "slug": "will-lukashenko-still-be-the-presid-f8b990c08892",
+      "question": "Will Lukashenko still be the President of Belarus by the end of 2026?",
+      "prob": 0.8290062338338043,
+      "resolved": null,
+      "url": "https://manifold.markets/asmith/will-lukashenko-still-be-the-presid-f8b990c08892"
+    },
+    {
+      "slug": "will-global-greenhouse-gas-emission-q40c6le2qi",
+      "question": "Will global greenhouse gas emissions in 2026 be lower than global greenhouse gas emissions in 2025?",
+      "prob": 0.5284355585930922,
+      "resolved": null,
+      "url": "https://manifold.markets/Jarom/will-global-greenhouse-gas-emission-q40c6le2qi"
+    },
+    {
+      "slug": "acx-2026-will-openai-file-for-an-ip",
+      "question": "[ACX 2026] Will OpenAI file for an IPO during 2026?",
+      "prob": 0.3213397507285245,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-openai-file-for-an-ip"
+    },
+    {
+      "slug": "acx-2026-will-an-aicreated-song-cha",
+      "question": "[ACX 2026] Will an AI-created song chart in the top 20 of the Billboard Hot 100 before 2027?",
+      "prob": 0.4220475291724969,
+      "resolved": null,
+      "url": "https://manifold.markets/WalterMartin/acx-2026-will-an-aicreated-song-cha"
+    },
+    {
+      "slug": "will-there-be-an-ai-smartphone-brou",
+      "question": "Will there be an AI smartphone brought to market by 2027?",
+      "prob": 0.7892652721302528,
+      "resolved": null,
+      "url": "https://manifold.markets/SimranRahman/will-there-be-an-ai-smartphone-brou"
+    },
+    {
+      "slug": "australia-reverses-under16-social-m",
+      "question": "Australia reverses under-16 social media ban in 2026?",
+      "prob": 0.08371277166391193,
+      "resolved": null,
+      "url": "https://manifold.markets/brod/australia-reverses-under16-social-m"
+    },
+    {
+      "slug": "will-givewell-recommend-a-grant-to-6b5451676575",
+      "question": "Will GiveWell recommend a grant to support unconditional cash transfers before 2027?",
+      "prob": 0.36,
+      "resolved": null,
+      "url": "https://manifold.markets/NathanpmYoung/will-givewell-recommend-a-grant-to-6b5451676575"
+    },
+    {
+      "slug": "will-sbf-be-physically-in-jail-at-t-71a54b744961",
+      "question": "Will SBF be physically in prison/jail at the end of 2026?",
+      "prob": 0.8875366587526325,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/will-sbf-be-physically-in-jail-at-t-71a54b744961"
+    },
+    {
+      "slug": "will-valve-release-halflife-3-befor",
+      "question": "Half-Life 3 before AGI?",
+      "prob": 0.8184799211867058,
+      "resolved": null,
+      "url": "https://manifold.markets/jim/will-valve-release-halflife-3-befor"
+    },
+    {
+      "slug": "will-gta-6-take-up-more-than-200gb",
+      "question": "Will GTA 6 require more than 200gb of space on PC.",
+      "prob": 0.7113053205137767,
+      "resolved": null,
+      "url": "https://manifold.markets/AndrewCrosse/will-gta-6-take-up-more-than-200gb"
+    },
+    {
+      "slug": "will-any-player-score-more-than-6-g-f43d7460350b",
+      "question": "Will any player score 6 or more goals in the 2026 FIFA World Cup?",
+      "prob": 0.8476134210144665,
+      "resolved": null,
+      "url": "https://manifold.markets/UniversalFC/will-any-player-score-more-than-6-g-f43d7460350b"
+    }
+  ]
+}

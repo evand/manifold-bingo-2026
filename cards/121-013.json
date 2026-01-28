@@ -1,0 +1,188 @@
+{
+  "card_id": "121-013",
+  "user_handle": "121",
+  "answer_id": "2nC99Z9ORq",
+  "status": "active",
+  "win_probability": 0.5503013527293805,
+  "target_win_prob": 0.45,
+  "purchase_price": 76.9209188101402,
+  "purchase_prob": 0.6,
+  "created_time": 1769567281794,
+  "grid": [
+    {
+      "slug": "will-venezuelans-be-better-off-at-t",
+      "question": "Will Venezuelans be better off at the end of 2026?",
+      "prob": 0.6100000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/Gabrielle/will-venezuelans-be-better-off-at-t"
+    },
+    {
+      "slug": "will-sbf-be-physically-in-jail-at-t-71a54b744961",
+      "question": "Will SBF be physically in prison/jail at the end of 2026?",
+      "prob": 0.8875366587526325,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/will-sbf-be-physically-in-jail-at-t-71a54b744961"
+    },
+    {
+      "slug": "will-there-be-self-driving-taxis-in-5f5ad7fbb169",
+      "question": "Will there be self driving taxis in London, UK by the end of 2026?",
+      "prob": 0.7060173451406787,
+      "resolved": null,
+      "url": "https://manifold.markets/DanEllis/will-there-be-self-driving-taxis-in-5f5ad7fbb169"
+    },
+    {
+      "slug": "doge-cuts-1t-federal-deficit-by-fy",
+      "question": "DOGE cuts $1T federal deficit by FY 2026?",
+      "prob": 0.04230181231608889,
+      "resolved": null,
+      "url": "https://manifold.markets/predyx_markets/doge-cuts-1t-federal-deficit-by-fy"
+    },
+    {
+      "slug": "will-there-be-another-assassination-StRlcEuPUp",
+      "question": "Will there be another assassination of a US politician before the 2026 midterms?",
+      "prob": 0.26147475891675376,
+      "resolved": null,
+      "url": "https://manifold.markets/EvanDaniel/will-there-be-another-assassination-StRlcEuPUp"
+    },
+    {
+      "slug": "will-jesus-christ-return-before-gta",
+      "question": "Will Jesus Christ return before GTA VI? [Polymarket]",
+      "prob": 0.4900000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/vdb/will-jesus-christ-return-before-gta"
+    },
+    {
+      "slug": "is-there-secret-treasure-at-the-gia",
+      "question": "Is there secret treasure at the giant X of Reverse Mountain in One Piece?",
+      "prob": 0.6288044349897292,
+      "resolved": null,
+      "url": "https://manifold.markets/Joshua/is-there-secret-treasure-at-the-gia"
+    },
+    {
+      "slug": "will-humans-return-to-the-moon-in-2",
+      "question": "Will humans return to the Moon in 2026?",
+      "prob": 0.888661971177113,
+      "resolved": null,
+      "url": "https://manifold.markets/NicpSUCg/will-humans-return-to-the-moon-in-2"
+    },
+    {
+      "slug": "will-the-justice-department-win-its",
+      "question": "Will the Justice Department win its antitrust suit against Google?",
+      "prob": 0.15671024534607209,
+      "resolved": null,
+      "url": "https://manifold.markets/Gabrielle/will-the-justice-department-win-its"
+    },
+    {
+      "slug": "will-the-robotaxi-come-out-below-30",
+      "question": "Will the Robotaxi come out below $30,000?",
+      "prob": 0.11000000000000003,
+      "resolved": null,
+      "url": "https://manifold.markets/Bayesian/will-the-robotaxi-come-out-below-30"
+    },
+    {
+      "slug": "will-minecraft-still-be-the-bestsel",
+      "question": "Will Minecraft still be the best-selling video game by the end of 2026?",
+      "prob": 0.8872538417842107,
+      "resolved": null,
+      "url": "https://manifold.markets/vberlier/will-minecraft-still-be-the-bestsel"
+    },
+    {
+      "slug": "will-us-inflation-go-above-3-before",
+      "question": "Will US inflation go above 3% before unemployment goes below 4%?",
+      "prob": 0.8624328938165405,
+      "resolved": null,
+      "url": "https://manifold.markets/BlueDragon/will-us-inflation-go-above-3-before"
+    },
+    {
+      "slug": "will-tumblr-still-exist-by-end-of-2-823071c2a380",
+      "question": "Will Tumblr still exist by end of 2026?",
+      "prob": 0.9672541674953157,
+      "resolved": null,
+      "url": "https://manifold.markets/SGQ/will-tumblr-still-exist-by-end-of-2-823071c2a380"
+    },
+    {
+      "slug": "will-silence-be-the-first-sport-cli",
+      "question": "Will Silence be the first sport climb confirmed 9c?",
+      "prob": 0.6950166379192829,
+      "resolved": null,
+      "url": "https://manifold.markets/Fion/will-silence-be-the-first-sport-cli"
+    },
+    {
+      "slug": "will-i-make-imo-ever",
+      "question": "Will I make IMO ever",
+      "prob": 0.3746867436225609,
+      "resolved": null,
+      "url": "https://manifold.markets/JiaheLiu/will-i-make-imo-ever"
+    },
+    {
+      "slug": "will-i-think-that-the-belief-state",
+      "question": "Will I think that the Belief State Geometry research program has achieved something important by October 20th, 2026?",
+      "prob": 0.23329339098810126,
+      "resolved": null,
+      "url": "https://manifold.markets/tailcalled/will-i-think-that-the-belief-state"
+    },
+    {
+      "slug": "will-donald-trump-attend-the-mens-2",
+      "question": "Will Donald Trump attend the Men's 2026 soccer World Cup final in person?",
+      "prob": 0.8803789952082846,
+      "resolved": null,
+      "url": "https://manifold.markets/Ciuccio/will-donald-trump-attend-the-mens-2"
+    },
+    {
+      "slug": "will-any-one-of-the-ice-members-inv",
+      "question": "Will any one of the ICE members involved in the shooting of Alex Pretti face any consequences at all?",
+      "prob": 0.46358059491065534,
+      "resolved": null,
+      "url": "https://manifold.markets/CommanderKeen/will-any-one-of-the-ice-members-inv"
+    },
+    {
+      "slug": "will-gwern-publish-a-standalone-boo",
+      "question": "Will Gwern publish a standalone book in print form by December 31, 2026?",
+      "prob": 0.18915653969632554,
+      "resolved": null,
+      "url": "https://manifold.markets/MattF/will-gwern-publish-a-standalone-boo"
+    },
+    {
+      "slug": "if-trump-won-the-election-will-the",
+      "question": "If Trump won the election, Will the U.S. be more democratic in 2025 than it was in 2022?",
+      "prob": 0.05211899668899502,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/if-trump-won-the-election-will-the"
+    },
+    {
+      "slug": "ai-beats-human-baseline-on-posttrai",
+      "question": "AI beats human baseline on PostTrainBench by 1 Oct 2026?",
+      "prob": 0.6896368925222711,
+      "resolved": null,
+      "url": "https://manifold.markets/ZviMowshowitz/ai-beats-human-baseline-on-posttrai"
+    },
+    {
+      "slug": "will-dan-sullivan-win-reelection-to",
+      "question": "Will Dan Sullivan win re-election to Alaska's Senate seat in 2026?",
+      "prob": 0.47024409293417324,
+      "resolved": null,
+      "url": "https://manifold.markets/SaviorofPlant/will-dan-sullivan-win-reelection-to"
+    },
+    {
+      "slug": "will-openai-employ-more-people-on-8",
+      "question": "Will OpenAI employ more people on 8/1/26 than it does on 8/1/24?",
+      "prob": 0.8336587524800192,
+      "resolved": null,
+      "url": "https://manifold.markets/ZviMowshowitz/will-openai-employ-more-people-on-8"
+    },
+    {
+      "slug": "will-bethesda-publicly-release-the",
+      "question": "Will Bethesda publicly release The Elder Scrolls VI before 2027?",
+      "prob": 0.15088755011832075,
+      "resolved": null,
+      "url": "https://manifold.markets/jonny/will-bethesda-publicly-release-the"
+    },
+    {
+      "slug": "will-there-be-a-terrorist-attack-ag",
+      "question": "Will there be a terrorist attack against OpenAI before 2027?",
+      "prob": 0.1568406489153383,
+      "resolved": null,
+      "url": "https://manifold.markets/Bandors/will-there-be-a-terrorist-attack-ag"
+    }
+  ]
+}
