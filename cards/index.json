@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769738162656,
+  "updated_at": 1769739524633,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -5677,7 +5677,7 @@
           "slug": "will-github-implement-a-blanket-ban",
           "question": "Will GitHub implement a blanket ban on voice cloning projects before 2026?",
           "prob": 0.015772449131005003,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/RemNi/will-github-implement-a-blanket-ban"
         },
         {
@@ -6617,7 +6617,7 @@
           "slug": "will-github-implement-a-blanket-ban",
           "question": "Will GitHub implement a blanket ban on voice cloning projects before 2026?",
           "prob": 0.015772449131005003,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/RemNi/will-github-implement-a-blanket-ban"
         },
         {
