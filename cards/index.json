@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769740942570,
+  "updated_at": 1769745995598,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -6954,6 +6954,194 @@
           "prob": 0.8184799211867058,
           "resolved": null,
           "url": "https://manifold.markets/jim/will-valve-release-halflife-3-befor"
+        }
+      ]
+    },
+    {
+      "card_id": "EvanDaniel-002",
+      "user_handle": "EvanDaniel",
+      "answer_id": "ASStCuud2s",
+      "status": "active",
+      "win_probability": 0.5499994421267171,
+      "target_win_prob": 0.5499999999999999,
+      "purchase_price": 96.25425214347354,
+      "purchase_prob": 0.6,
+      "created_time": 1769745875403,
+      "grid": [
+        {
+          "slug": "will-kompany-coach-bayern-munich-fo",
+          "question": "Will Kompany coach Bayern Munich for at least two full seasons?",
+          "prob": 0.9361754925661837,
+          "resolved": null,
+          "url": "https://manifold.markets/Gideon37/will-kompany-coach-bayern-munich-fo"
+        },
+        {
+          "slug": "majority-of-scientists-believe-ther",
+          "question": "Majority of scientists believe there's life on K2-18 b before 2027?",
+          "prob": 0.046267865170555554,
+          "resolved": null,
+          "url": "https://manifold.markets/SG/majority-of-scientists-believe-ther"
+        },
+        {
+          "slug": "will-the-winner-of-the-2026-fifa-wo",
+          "question": "Will the winner of the 2026 FIFA World Cup come from Europe?",
+          "prob": 0.722371789002834,
+          "resolved": null,
+          "url": "https://manifold.markets/UniversalFC/will-the-winner-of-the-2026-fifa-wo"
+        },
+        {
+          "slug": "will-ww3-happen-before-gta6",
+          "question": "Will WW3 happen before GTA6?",
+          "prob": 0.10528178137084666,
+          "resolved": null,
+          "url": "https://manifold.markets/EnricoCaminiti/will-ww3-happen-before-gta6"
+        },
+        {
+          "slug": "will-twitter-x-shut-down-before-202",
+          "question": "Will Twitter (X) shut down before 2027",
+          "prob": 0.08316721611612081,
+          "resolved": null,
+          "url": "https://manifold.markets/zaperrer/will-twitter-x-shut-down-before-202"
+        },
+        {
+          "slug": "will-ai-porn-videos-be-better-than",
+          "question": "Will AI porn videos be better than real porn by the end of 2026?",
+          "prob": 0.6000000000000001,
+          "resolved": null,
+          "url": "https://manifold.markets/JonathanRay/will-ai-porn-videos-be-better-than"
+        },
+        {
+          "slug": "will-the-official-claudeplayspokemo",
+          "question": "Will the official ClaudePlaysPokemon stream complete Pok\u00e9mon Red?",
+          "prob": 0.8902269156266549,
+          "resolved": null,
+          "url": "https://manifold.markets/MingCat/will-the-official-claudeplayspokemo"
+        },
+        {
+          "slug": "will-apple-vp-of-finance-alex-roman",
+          "question": "Will Apple VP of Finance Alex Roman receive any legal penalty for \u201clying under oath\"?",
+          "prob": 0.2315600861252373,
+          "resolved": null,
+          "url": "https://manifold.markets/tb/will-apple-vp-of-finance-alex-roman"
+        },
+        {
+          "slug": "will-afc-team-beat-the-nfc-team-sup",
+          "question": "Will the New England Patriots beat the Seattle Seahawks? \ud83c\udfc8 Super Bowl LX",
+          "prob": 0.33121577938296715,
+          "resolved": null,
+          "url": "https://manifold.markets/10thOfficial/will-afc-team-beat-the-nfc-team-sup"
+        },
+        {
+          "slug": "will-ai-write-75-of-social-media-vi",
+          "question": "Will AI write 75%+ of social media view-generating posts (default to Twitter)  by EOY 2026?",
+          "prob": 0.11999999999999987,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/will-ai-write-75-of-social-media-vi"
+        },
+        {
+          "slug": "if-i-livestream-a-game-of-chess-wit",
+          "question": "If I livestream a game of chess with my partner and run a market on the outcome, will that market get at least 15 traders?",
+          "prob": 0.703305468576157,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/if-i-livestream-a-game-of-chess-wit"
+        },
+        {
+          "slug": "ai-2027-reports-predictions-borne-o",
+          "question": "\"AI 2027\" report's predictions borne out by 2027?",
+          "prob": 0.09417026758783659,
+          "resolved": null,
+          "url": "https://manifold.markets/IsaacKing/ai-2027-reports-predictions-borne-o"
+        },
+        {
+          "slug": "will-us-tariffs-be-higher-in-2025-t",
+          "question": "Will US tariffs be higher in 2025 than 2024?",
+          "prob": 0.99,
+          "resolved": null,
+          "url": "https://manifold.markets/EvanDaniel/will-us-tariffs-be-higher-in-2025-t"
+        },
+        {
+          "slug": "will-tyler-robinson-be-alive-on-dec",
+          "question": "Will Tyler Robinson be alive on December 31st, 2026?",
+          "prob": 0.8569066256828796,
+          "resolved": null,
+          "url": "https://manifold.markets/Panfilo/will-tyler-robinson-be-alive-on-dec"
+        },
+        {
+          "slug": "will-a-critically-acclaimed-video-g-9a7eb9a3597a",
+          "question": "Will a critically acclaimed video game feature AI-generated dialogue in 2026?",
+          "prob": 0.4,
+          "resolved": null,
+          "url": "https://manifold.markets/cash/will-a-critically-acclaimed-video-g-9a7eb9a3597a"
+        },
+        {
+          "slug": "will-llms-become-a-ubiquitous-part",
+          "question": "Will LLMs become a ubiquitous part of everyday life by June 2026?",
+          "prob": 0.9,
+          "resolved": null,
+          "url": "https://manifold.markets/DylanSlagh/will-llms-become-a-ubiquitous-part"
+        },
+        {
+          "slug": "will-there-be-a-large-volcanic-expl",
+          "question": "Will there be a large volcanic explosion before 2027?",
+          "prob": 0.4542800983101866,
+          "resolved": null,
+          "url": "https://manifold.markets/NoitUK/will-there-be-a-large-volcanic-expl"
+        },
+        {
+          "slug": "will-gta-6-take-up-more-than-200gb",
+          "question": "Will GTA 6 require more than 200gb of space on PC.",
+          "prob": 0.7113053205137767,
+          "resolved": null,
+          "url": "https://manifold.markets/AndrewCrosse/will-gta-6-take-up-more-than-200gb"
+        },
+        {
+          "slug": "grok-adds-terminate-conversation-bu",
+          "question": "Grok adds terminate conversation button by 3/1/26?",
+          "prob": 0.2603908216928283,
+          "resolved": null,
+          "url": "https://manifold.markets/ZviMowshowitz/grok-adds-terminate-conversation-bu"
+        },
+        {
+          "slug": "will-the-nintendo-switch-2-be-hacke",
+          "question": "Will the Nintendo Switch 2 be hacked within 12 months of its release date?",
+          "prob": 0.06770923966216637,
+          "resolved": null,
+          "url": "https://manifold.markets/retr0id/will-the-nintendo-switch-2-be-hacke"
+        },
+        {
+          "slug": "will-charles-iii-remain-the-king-fo-22QqlIgU2q",
+          "question": "Will Charles III remain the king for all of 2026?",
+          "prob": 0.8894600159146138,
+          "resolved": null,
+          "url": "https://manifold.markets/AaronSimansky/will-charles-iii-remain-the-king-fo-22QqlIgU2q"
+        },
+        {
+          "slug": "will-chat-gpt-6-release-before-the",
+          "question": "Will Chat GPT 6 release before the end of 2026?",
+          "prob": 0.6852101045761121,
+          "resolved": null,
+          "url": "https://manifold.markets/strutheo/will-chat-gpt-6-release-before-the"
+        },
+        {
+          "slug": "in-be-as-good-as-your-word-is-iomed",
+          "question": "In \"be as good as your word,\" is Iomedae from Golarion?",
+          "prob": 0.77,
+          "resolved": null,
+          "url": "https://manifold.markets/Arete/in-be-as-good-as-your-word-is-iomed"
+        },
+        {
+          "slug": "will-the-russoukrainian-war-end-wit",
+          "question": "Will the Russo-Ukrainian war end within a month if Putin dies",
+          "prob": 0.4471957734276802,
+          "resolved": null,
+          "url": "https://manifold.markets/AndriiShportko/will-the-russoukrainian-war-end-wit"
+        },
+        {
+          "slug": "will-a-major-ai-lab-announce-that-t",
+          "question": "Will a major AI lab announce that the weights of one of its models were compromised in a cyberattack before 2027?",
+          "prob": 0.6034430661097033,
+          "resolved": null,
+          "url": "https://manifold.markets/AdamK/will-a-major-ai-lab-announce-that-t"
         }
       ]
     }
