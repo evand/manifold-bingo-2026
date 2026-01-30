@@ -656,7 +656,15 @@ function createBingoCell(cell, index) {
         cellClass += ' full-title';
     }
 
-    const prob = ((cell.prob || 0.5) * 100).toFixed(0);
+    // Show 100%/0% for resolved markets, original prob otherwise
+    let prob;
+    if (cell.resolved === true) {
+        prob = 100;
+    } else if (cell.resolved === false) {
+        prob = 0;
+    } else {
+        prob = ((cell.prob || 0.5) * 100).toFixed(0);
+    }
 
     const marketUrl = cell.url
         || (cell.slug ? `https://manifold.markets/${cell.slug}` : '#');
