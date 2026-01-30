@@ -1504,6 +1504,11 @@ function updateCellWithLivePrice(index, storedProb, liveProb) {
     const cell = document.querySelector(`.bingo-cell[data-index="${index}"]`);
     if (!cell) return;
 
+    // Don't update resolved cells - they should stay at 100%/0%
+    if (cell.classList.contains('yes') || cell.classList.contains('no')) {
+        return;
+    }
+
     const probEl = cell.querySelector('.prob');
     const deltaEl = cell.querySelector('.delta');
 
