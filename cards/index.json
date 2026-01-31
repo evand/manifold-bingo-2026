@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769875244163,
+  "updated_at": 1769902532166,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2607,7 +2607,7 @@
           "slug": "bitcoin-below-80k-in-2026",
           "question": "Bitcoin below $80K in 2026?",
           "prob": 0.7899999999999999,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
         },
         {
@@ -4758,7 +4758,7 @@
           "slug": "bitcoin-below-80k-in-2026",
           "question": "Bitcoin below $80K in 2026?",
           "prob": 0.7052706107506633,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
         },
         {
@@ -5413,7 +5413,7 @@
           "slug": "bitcoin-below-80k-in-2026",
           "question": "Bitcoin below $80K in 2026?",
           "prob": 0.7052706107506633,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/predyx_markets/bitcoin-below-80k-in-2026"
         },
         {
