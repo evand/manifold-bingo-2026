@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769843902646,
+  "updated_at": 1769875244163,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -998,7 +998,7 @@
           "slug": "government-shutdown-in-2026",
           "question": "Government shutdown in 2026?",
           "prob": 0.6090444979208902,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/satchlj/government-shutdown-in-2026"
         },
         {
