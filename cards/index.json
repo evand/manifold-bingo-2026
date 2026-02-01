@@ -1,5 +1,5 @@
 {
-  "updated_at": 1769902532166,
+  "updated_at": 1769926892544,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2182,7 +2182,7 @@
           "slug": "will-the-united-states-conduct-addi",
           "question": "Will the United States conduct additional military action against Venezuela before February 2026?",
           "prob": 0.28681066846773057,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/BenAybar/will-the-united-states-conduct-addi"
         },
         {
