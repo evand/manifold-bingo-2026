@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770058008987,
+  "updated_at": 1770059490071,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2816,7 +2816,7 @@
           "slug": "bitcoin-falls-below-75000-in-next-6",
           "question": "Bitcoin falls below $75,000 by 26th April 2026?",
           "prob": 0.4,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/PoliticalEconomyPK/bitcoin-falls-below-75000-in-next-6"
         }
       ]
