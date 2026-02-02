@@ -90,7 +90,7 @@
       "slug": "did-donald-trump-have-sex-with-bill-nqZEQANudn",
       "question": "Did Donald Trump have sex with Bill Clinton? [Resolves based on poll]",
       "prob": 0.5,
-      "resolved": null,
+      "resolved": false,
       "url": "https://manifold.markets/HillaryClinton/did-donald-trump-have-sex-with-bill-nqZEQANudn"
     },
     {
