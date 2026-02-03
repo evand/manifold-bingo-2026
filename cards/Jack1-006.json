@@ -1,0 +1,188 @@
+{
+  "card_id": "Jack1-006",
+  "user_handle": "Jack1",
+  "answer_id": "UzOdL2cpgQ",
+  "status": "active",
+  "win_probability": 0.5530917956355336,
+  "target_win_prob": 0.55,
+  "purchase_price": 66.66666666666667,
+  "purchase_prob": 0.6000000000000001,
+  "created_time": 1769738071659,
+  "grid": [
+    {
+      "slug": "will-elon-unveil-a-flying-car-by-th",
+      "question": "Will Elon officially announce a flying car by the end of 2026?",
+      "prob": 0.24046778768536195,
+      "resolved": null,
+      "url": "https://manifold.markets/strutheo/will-elon-unveil-a-flying-car-by-th"
+    },
+    {
+      "slug": "will-vivek-ramaswamy-be-the-next-go",
+      "question": "Will Vivek Ramaswamy be the next Governor of Ohio?",
+      "prob": 0.41841882360530575,
+      "resolved": null,
+      "url": "https://manifold.markets/10thOfficial/will-vivek-ramaswamy-be-the-next-go"
+    },
+    {
+      "slug": "will-luigi-mangione-be-convicted-of-CQRuROP528",
+      "question": "Will Luigi Mangione be convicted of murder, before 2027?",
+      "prob": 0.23546280631236244,
+      "resolved": null,
+      "url": "https://manifold.markets/Arcmage7000/will-luigi-mangione-be-convicted-of-CQRuROP528"
+    },
+    {
+      "slug": "will-2025-be-referred-to-as-the-sta",
+      "question": "Will 2025 be referred to as the start of the second Great Depression?",
+      "prob": 0.07273851527769483,
+      "resolved": null,
+      "url": "https://manifold.markets/SteveSokolowski/will-2025-be-referred-to-as-the-sta"
+    },
+    {
+      "slug": "trumps-reciprocal-tariffs-found-unl-L6AI0yn5Ns",
+      "question": "Trump's \"reciprocal tariffs\" found unlawful by courts and effectively ceased by EOY 2026?",
+      "prob": 0.5493461360802808,
+      "resolved": null,
+      "url": "https://manifold.markets/B/trumps-reciprocal-tariffs-found-unl-L6AI0yn5Ns"
+    },
+    {
+      "slug": "did-us-real-median-household-income",
+      "question": "Did US real median household income increase in 2022?",
+      "prob": 0.09832005323699755,
+      "resolved": null,
+      "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
+    },
+    {
+      "slug": "new-england-patriots-in-superbowl-f",
+      "question": "New England Patriots in Superbowl February 2026?",
+      "prob": 0.9929651473877513,
+      "resolved": null,
+      "url": "https://manifold.markets/JFlavius1/new-england-patriots-in-superbowl-f"
+    },
+    {
+      "slug": "will-two-starships-dock-in-orbit-be-5c7f9f1f2a7f",
+      "question": "Will two Starships dock together in orbit before 2027?",
+      "prob": 0.2599999999999998,
+      "resolved": null,
+      "url": "https://manifold.markets/Mqrius/will-two-starships-dock-in-orbit-be-5c7f9f1f2a7f"
+    },
+    {
+      "slug": "will-sp-500-increase-in-2026",
+      "question": "Will S&P 500 increase in 2026?",
+      "prob": 0.7047933066909187,
+      "resolved": null,
+      "url": "https://manifold.markets/bessarabov/will-sp-500-increase-in-2026"
+    },
+    {
+      "slug": "will-people-be-wearing-the-apple-vi-f12d08bf8e25",
+      "question": "Will people be wearing the Apple Vision Pro in public in London by the end of 2026?",
+      "prob": 0.2633655287002429,
+      "resolved": null,
+      "url": "https://manifold.markets/SimonGrayson/will-people-be-wearing-the-apple-vi-f12d08bf8e25"
+    },
+    {
+      "slug": "will-donald-trump-be-pardoned-befor",
+      "question": "Will Donald Trump be pardoned before 2027?",
+      "prob": 0.24000000000000002,
+      "resolved": null,
+      "url": "https://manifold.markets/Dustin/will-donald-trump-be-pardoned-befor"
+    },
+    {
+      "slug": "will-there-be-a-manifest-in-june-of",
+      "question": "Will there be a manifest in june of 2026?",
+      "prob": 0.8702717489015809,
+      "resolved": null,
+      "url": "https://manifold.markets/Elspeth/will-there-be-a-manifest-in-june-of"
+    },
+    {
+      "slug": "will-the-united-states-become-more-2A0ZyndqAd",
+      "question": "Will the United States become more authoritarian in 2025?",
+      "prob": 0.9718477170453503,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-the-united-states-become-more-2A0ZyndqAd"
+    },
+    {
+      "slug": "will-the-supreme-court-overrule-hum",
+      "question": "Will the Supreme Court overrule Humphrey's Executor by August 1, 2026?",
+      "prob": 0.8799620686782446,
+      "resolved": null,
+      "url": "https://manifold.markets/KaylaG/will-the-supreme-court-overrule-hum"
+    },
+    {
+      "slug": "claude-5-released-before-march-31",
+      "question": "Claude 5 released before March 31?",
+      "prob": 0.91,
+      "resolved": null,
+      "url": "https://manifold.markets/predyx_markets/claude-5-released-before-march-31"
+    },
+    {
+      "slug": "will-ukraine-win-the-russoukrainian",
+      "question": "Will Ukraine win the Russo-Ukrainian War?",
+      "prob": 0.19724787555114048,
+      "resolved": null,
+      "url": "https://manifold.markets/chrisjbillington/will-ukraine-win-the-russoukrainian"
+    },
+    {
+      "slug": "will-valve-release-halflife-3-befor",
+      "question": "Half-Life 3 before AGI?",
+      "prob": 0.8184799211867058,
+      "resolved": null,
+      "url": "https://manifold.markets/jim/will-valve-release-halflife-3-befor"
+    },
+    {
+      "slug": "is-manifold-monitoring-the-situatio",
+      "question": "Is Manifold Monitoring the Situation in 2026?",
+      "prob": 0.47,
+      "resolved": null,
+      "url": "https://manifold.markets/EvanDaniel/is-manifold-monitoring-the-situatio"
+    },
+    {
+      "slug": "will-chatgpt-call-itself-a-chatbot",
+      "question": "Will chatgpt stop calling itself a \"chatbot\" by 2027?",
+      "prob": 0.4008361108441926,
+      "resolved": null,
+      "url": "https://manifold.markets/singer/will-chatgpt-call-itself-a-chatbot"
+    },
+    {
+      "slug": "will-sbf-be-physically-in-jail-at-t-71a54b744961",
+      "question": "Will SBF be physically in prison/jail at the end of 2026?",
+      "prob": 0.8875366587526325,
+      "resolved": null,
+      "url": "https://manifold.markets/AmmonLam/will-sbf-be-physically-in-jail-at-t-71a54b744961"
+    },
+    {
+      "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
+      "question": "Will there be a US government shutdown in 2026?",
+      "prob": 0.9900000000000001,
+      "resolved": null,
+      "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
+    },
+    {
+      "slug": "will-an-ai-generated-video-reach-1b-29128e7a10e6",
+      "question": "Will an AI generated YouTube video reach 1B views before 2027?",
+      "prob": 0.567539779728308,
+      "resolved": null,
+      "url": "https://manifold.markets/RemNi/will-an-ai-generated-video-reach-1b-29128e7a10e6"
+    },
+    {
+      "slug": "will-kalshi-win-its-lawsuit-against-R6gh0q0Oyc",
+      "question": "Will Kalshi win its lawsuit against Maryland?",
+      "prob": 0.4130247677231973,
+      "resolved": null,
+      "url": "https://manifold.markets/nikki/will-kalshi-win-its-lawsuit-against-R6gh0q0Oyc"
+    },
+    {
+      "slug": "will-nigel-farage-become-leader-of",
+      "question": "Will Nigel Farage become leader of the Conservative Party by 2027?",
+      "prob": 0.08612740518208128,
+      "resolved": null,
+      "url": "https://manifold.markets/JoshuaWilkes/will-nigel-farage-become-leader-of"
+    },
+    {
+      "slug": "has-israel-used-recordings-of-cryin",
+      "question": "Has Israel used recordings of crying children or distressed women to lure Palestinians out of hiding?",
+      "prob": 0.14311895282976006,
+      "resolved": null,
+      "url": "https://manifold.markets/Panfilo/has-israel-used-recordings-of-cryin"
+    }
+  ]
+}
