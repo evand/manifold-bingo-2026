@@ -69,7 +69,7 @@
       "slug": "gemini-30-pro-outperforms-gpt5-on-m",
       "question": "Gemini 3.0 Pro outperforms GPT-5 on METR 50% time horizon?",
       "prob": 0.8152513954154351,
-      "resolved": null,
+      "resolved": true,
       "url": "https://manifold.markets/Bayesian/gemini-30-pro-outperforms-gpt5-on-m"
     },
     {
