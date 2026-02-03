@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770098040235,
+  "updated_at": 1770151241776,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -1423,7 +1423,7 @@
           "slug": "pierre-poilievre-wins-q1-2026-leade",
           "question": "Pierre Poilievre wins Q1 2026 leadership review?",
           "prob": 0.8704128247817259,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
@@ -3073,7 +3073,7 @@
           "slug": "pierre-poilievre-wins-q1-2026-leade",
           "question": "Pierre Poilievre wins Q1 2026 leadership review?",
           "prob": 0.8704128247817259,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
@@ -3240,7 +3240,7 @@
           "slug": "pierre-poilievre-wins-q1-2026-leade",
           "question": "Pierre Poilievre wins Q1 2026 leadership review?",
           "prob": 0.8704128247817259,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
@@ -5865,7 +5865,7 @@
           "slug": "pierre-poilievre-wins-q1-2026-leade",
           "question": "Pierre Poilievre wins Q1 2026 leadership review?",
           "prob": 0.8704128247817259,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/Jubs/pierre-poilievre-wins-q1-2026-leade"
         },
         {
