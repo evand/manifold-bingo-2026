@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770151241776,
+  "updated_at": 1770152351858,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2175,7 +2175,7 @@
           "slug": "opus-45s-metr-time-horizon-beats-ge",
           "question": "Opus 4.5's METR time horizon beats Gemini 3.0 Pro's?",
           "prob": 0.8577210214171831,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/BenAybar/opus-45s-metr-time-horizon-beats-ge"
         },
         {
@@ -2976,7 +2976,7 @@
           "slug": "opus-45s-metr-time-horizon-beats-ge",
           "question": "Opus 4.5's METR time horizon beats Gemini 3.0 Pro's?",
           "prob": 0.8577210214171831,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/BenAybar/opus-45s-metr-time-horizon-beats-ge"
         },
         {
