@@ -48,7 +48,7 @@
       "slug": "did-us-real-median-household-income",
       "question": "Did US real median household income increase in 2022?",
       "prob": 0.09832005323699755,
-      "resolved": null,
+      "resolved": false,
       "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
     },
     {

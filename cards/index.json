@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770153356709,
+  "updated_at": 1770198077486,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2983,7 +2983,7 @@
           "slug": "did-us-real-median-household-income",
           "question": "Did US real median household income increase in 2022?",
           "prob": 0.09942628241971153,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
         },
         {
@@ -5851,7 +5851,7 @@
           "slug": "did-us-real-median-household-income",
           "question": "Did US real median household income increase in 2022?",
           "prob": 0.09942628241971153,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
         },
         {
@@ -7195,7 +7195,7 @@
           "slug": "did-us-real-median-household-income",
           "question": "Did US real median household income increase in 2022?",
           "prob": 0.09832005323699755,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/SoniaAlbrecht/did-us-real-median-household-income"
         },
         {
