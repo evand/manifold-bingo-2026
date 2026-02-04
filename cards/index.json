@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770198077486,
+  "updated_at": 1770232329581,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -4083,7 +4083,7 @@
           "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
           "question": "Will there be a US government shutdown in 2026?",
           "prob": 0.5778957908717173,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
         },
         {
@@ -6638,7 +6638,7 @@
           "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
           "question": "Will there be a US government shutdown in 2026?",
           "prob": 0.8234172721475661,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
         },
         {
@@ -7300,7 +7300,7 @@
           "slug": "will-there-be-a-us-government-shutd-IluhsuC50P",
           "question": "Will there be a US government shutdown in 2026?",
           "prob": 0.9900000000000001,
-          "resolved": null,
+          "resolved": true,
           "url": "https://manifold.markets/cash/will-there-be-a-us-government-shutd-IluhsuC50P"
         },
         {
