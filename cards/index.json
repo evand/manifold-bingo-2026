@@ -1,5 +1,5 @@
 {
-  "updated_at": 1770321496240,
+  "updated_at": 1770338331808,
   "cards": [
     {
       "card_id": "evandaniel-001",
@@ -2057,7 +2057,7 @@
           "slug": "will-anthropics-next-model-release",
           "question": "Will Anthropic\u2019s next model release be Claude 5?",
           "prob": 0.17638220039705357,
-          "resolved": null,
+          "resolved": false,
           "url": "https://manifold.markets/Bayesian/will-anthropics-next-model-release"
         },
         {
